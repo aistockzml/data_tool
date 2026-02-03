@@ -1,0 +1,59 @@
+# -*- coding: utf-8 -*-
+# 基础配置文件
+
+# 数据库配置
+database:
+  host: gz-cdb-136xesjr.sql.tencentcdb.com
+  port: 21249
+  user: stock_app
+  password: As123456789__
+  database: dev_aistockzml
+  charset: utf8mb4
+  pool_size: 5
+  pool_recycle: 3600
+
+# 日志配置
+logger:
+  level: INFO
+  output: both
+  file_path: logs/data_collector.log
+  format: '[%(asctime)s] [%(levelname)s] [%(name)s] [%(task_id)s] %(message)s'
+  datefmt: '%Y-%m-%d %H:%M:%S'
+  encoding: utf-8
+  max_bytes: 10485760
+  backup_count: 5
+  console_level: INFO
+  file_level: DEBUG
+
+# 数据采集器配置
+collectors:
+  - collect_name: stock_daily
+    description: 股票日线数据采集
+    data_source: tushare
+    api_name: daily
+    target_table: stock_daily
+    schedule:
+      interval: 3600
+      cron: ''
+      enabled: true
+    retry:
+      max_retries: 3
+      retry_interval: 60
+  - collect_name: index_daily
+    description: 指数日线数据采集
+    data_source: akshare
+    api_name: index_daily
+    target_table: index_daily
+    schedule:
+      interval: 3600
+      cron: ''
+      enabled: true
+    retry:
+      max_retries: 3
+      retry_interval: 60
+
+# 数据源配置
+data_sources:
+  tushare:
+    token: c26e3f2b758e67f46d3af7cb8273f20c178dc2919ee46318e837fc536f98
+  akshare: {}

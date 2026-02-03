@@ -1,0 +1,15 @@
+# data_tools 依赖列表
+
+# 核心依赖
+pymysql>=1.0.0
+pyyaml>=6.0
+pandas>=1.5.0
+DBUtils>=3.0.0
+
+# 可选依赖（根据使用的数据源安装）
+# tushare>=1.2.0
+# akshare>=1.0.0
+
+# 开发依赖
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
