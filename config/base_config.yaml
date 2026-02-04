@@ -17,40 +17,13 @@ logger:
   level: INFO
   output: both
   file_path: logs/data_collector.log
-  format: '[%(asctime)s] [%(levelname)s] [%(name)s] [%(task_id)s] %(message)s'
+  format: '[%(asctime)s] [%(levelname)s] [%(name)s] %(message)s'
   datefmt: '%Y-%m-%d %H:%M:%S'
   encoding: utf-8
   max_bytes: 10485760
-  backup_count: 5
+  backup_days: 7
   console_level: INFO
   file_level: DEBUG
-
-# 数据采集器配置
-collectors:
-  - collect_name: stock_daily
-    description: 股票日线数据采集
-    data_source: tushare
-    api_name: daily
-    target_table: stock_daily
-    schedule:
-      interval: 3600
-      cron: ''
-      enabled: true
-    retry:
-      max_retries: 3
-      retry_interval: 60
-  - collect_name: index_daily
-    description: 指数日线数据采集
-    data_source: akshare
-    api_name: index_daily
-    target_table: index_daily
-    schedule:
-      interval: 3600
-      cron: ''
-      enabled: true
-    retry:
-      max_retries: 3
-      retry_interval: 60
 
 # 数据源配置
 data_sources:

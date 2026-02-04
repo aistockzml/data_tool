@@ -19,7 +19,7 @@ Akshare数据采集器
         collect_name='stock_daily_ak',
         description='股票日线数据采集',
         db_conn=db_operator,
-        target_table='stock_daily'
+        logger=your_logger
     )
     
     # 采集A股日线数据 - 直接调用akshare的任意方法
@@ -46,7 +46,7 @@ class AkshareDataCollector(DataCollector):
     
     def __init__(self, connector: Any, collect_name: str,
                  description: str = '', db_conn: Any = None,
-                 target_table: str = None):
+                 logger: Any = None):
         """
         初始化Akshare数据采集器
         
@@ -55,9 +55,9 @@ class AkshareDataCollector(DataCollector):
             collect_name: 数据采集器的唯一标识符
             description: 数据采集器的功能描述
             db_conn: 数据库连接对象
-            target_table: 目标数据库表名
+            logger: 日志记录器对象
         """
-        super().__init__(connector, collect_name, description, db_conn, target_table)
+        super().__init__(connector, collect_name, description, db_conn, logger)
     
     def collect(self, method: str, **kwargs) -> Optional[pd.DataFrame]:
         """

@@ -22,8 +22,8 @@ Tushare数据采集器
         collect_name='stock_daily',
         description='股票日线数据采集',
         db_conn=db_operator,
-        target_table='stock_daily',
-        token=token
+        token=token,
+        logger=your_logger
     )
     
     # 采集股票列表 - 直接调用Tushare的任意接口
@@ -56,7 +56,7 @@ class TushareDataCollector(DataCollector):
     
     def __init__(self, connector: Any, collect_name: str,
                  description: str = '', db_conn: Any = None,
-                 target_table: str = None, token: str = None):
+                 token: str = None, logger: Any = None):
         """
         初始化Tushare数据采集器
         
@@ -65,10 +65,10 @@ class TushareDataCollector(DataCollector):
             collect_name: 数据采集器的唯一标识符
             description: 数据采集器的功能描述
             db_conn: 数据库连接对象
-            target_table: 目标数据库表名
             token: Tushare API Token
+            logger: 日志记录器对象
         """
-        super().__init__(connector, collect_name, description, db_conn, target_table)
+        super().__init__(connector, collect_name, description, db_conn, logger)
         self.token = token
     
     def collect(self, method: str, **kwargs) -> Optional[pd.DataFrame]:
@@ -104,19 +104,6 @@ class TushareDataCollector(DataCollector):
         except Exception as e:
             self.logger.error(f"采集{method}数据失败: {e}")
             return None
-    
-    def get_available_methods(self) -> List[str]:
-        """
-        获取connector所有可用的接口方法名
-        
-        Returns:
-            List[str]: 方法名列表
-        """
-        if self.connector is None:
-            return []
-        
-        return [method for method in dir(self.connector) 
-                if not method.startswith('_') and callable(getattr(self.connector, method))]
     
     def __repr__(self) -> str:
         return f"<TushareDataCollector(name={self.collect_name}, token={'*' * 8 if self.token else 'None'})>"

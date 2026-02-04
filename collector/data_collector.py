@@ -14,14 +14,14 @@
 
 使用示例：
     class StockDailyCollector(DataCollector):
-        def __init__(self, connector, collect_name, description, db_conn=None, target_table=None):
-            super().__init__(connector, collect_name, description, db_conn, target_table)
+        def __init__(self, connector, collect_name, description, db_conn=None):
+            super().__init__(connector, collect_name, description, db_conn)
         
         def collect(self, **kwargs):
             # 实现具体采集逻辑
             pass
         
-        def save(self, data):
+        def save(self, data, target_table=None):
             # 实现保存逻辑
             pass
     
@@ -53,33 +53,29 @@ class DataCollector(ABC):
         collect_name: 数据采集器的唯一标识符
         description: 数据采集器的功能描述
         db_conn: 数据库连接对象
-        target_table: 目标数据库表名
         logger: 日志记录器
         _retry_config: 重试配置
         _cache: 缓存字典
     """
     
     def __init__(self, connector: Any, collect_name: str, 
-                 description: str = '', db_conn: Any = None, 
-                 target_table: str = None):
+                 description: str = '', db_conn: Any = None,
+                 logger: Any = None):
         """
         初始化数据采集器
         
         Args:
-            connector: DataConnector.connectors属性，数据源连接对象
+            connector: 数据源连接对象
             collect_name: 数据采集器的唯一标识符
             description: 数据采集器的功能描述
             db_conn: 数据库连接对象，可选
-            target_table: 目标数据库表名，可选
+            logger: 日志记录器对象，可选
         """
         self.connector = connector
         self.collect_name = collect_name
         self.description = description
         self.db_conn = db_conn
-        self.target_table = target_table
-        
-        from logger import DataLogger
-        self.logger = DataLogger(self.collect_name)
+        self.logger = logger
         
         self._retry_config = {
             'max_retries': 3,
@@ -137,12 +133,13 @@ class DataCollector(ABC):
         """
         pass
     
-    def save(self, data: pd.DataFrame, conflict_columns: List[str] = None) -> bool:
+    def save(self, data: pd.DataFrame, target_table: str = None, conflict_columns: List[str] = None) -> bool:
         """
         保存数据到数据库
         
         Args:
             data: 采集到的数据
+            target_table: 目标数据库表名
             conflict_columns: 冲突判断列名列表（用于upsert）
             
         Returns:
@@ -151,33 +148,33 @@ class DataCollector(ABC):
         if data is None or data.empty:
             return False
         
-        if self.db_conn is None or self.target_table is None:
+        if self.db_conn is None or target_table is None:
             self.logger.warning("未配置数据库连接或目标表，跳过保存")
             return False
         
         try:
             data_list = data.to_dict('records')
             
-            if self.db_conn.table_exists(self.target_table):
+            if self.db_conn.table_exists(target_table):
                 if conflict_columns:
                     affected = self.db_conn.batch_upsert(
-                        self.target_table,
+                        target_table,
                         data_list,
                         conflict_columns
                     )
                 else:
                     affected = self.db_conn.batch_insert(
-                        self.target_table,
+                        target_table,
                         data_list
                     )
             else:
-                self._create_table_from_df(self.target_table, data)
+                self._create_table_from_df(target_table, data)
                 affected = self.db_conn.batch_insert(
-                    self.target_table,
+                    target_table,
                     data_list
                 )
             
-            self.logger.info(f"保存{len(data_list)}条数据到{self.target_table}")
+            self.logger.info(f"保存{len(data_list)}条数据到{target_table}")
             return affected > 0
             
         except Exception as e:
@@ -315,7 +312,7 @@ class DataCollector(ABC):
                 self.logger.log_collect_end(self.collect_name, False, len(data))
                 return False, len(data), error_msg
             
-            success = self.save(data)
+            success = self.save(data, kwargs.get('target_table'))
             
             elapsed = time.time() - start_time
             self.logger.info(f"采集完成，耗时: {elapsed:.2f}秒")
@@ -398,7 +395,6 @@ class DataCollector(ABC):
             'collect_name': self.collect_name,
             'description': self.description,
             'connector': str(self.connector),
-            'target_table': self.target_table,
             'retry_config': self._retry_config
         }
     
