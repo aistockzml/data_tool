@@ -1,0 +1,14 @@
+[2026-02-05 00:09:59] [INFO] [collect] 开始采集Tushare数据: stock_basic
+[2026-02-05 00:10:05] [INFO] [collect] 成功采集5478条stock_basic数据
+[2026-02-05 00:10:20] [INFO] [collect] 开始采集Tushare数据: stock_basic
+[2026-02-05 00:10:50] [ERROR] [collect] 采集stock_basic数据失败: HTTPConnectionPool(host='lianghua.9vvn.com', port=80): Read timed out. (read timeout=30)
+[2026-02-05 00:11:36] [INFO] [collect] 开始采集Tushare数据: stock_basic
+[2026-02-05 00:11:43] [INFO] [collect] 成功采集5478条stock_basic数据
+[2026-02-05 00:13:34] [INFO] [collect] 保存5478条数据到aistockzml_tushare_stock_base_info
+[2026-02-05 00:20:12] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 00:20:43] [ERROR] [collect] 采集stock_company数据失败: HTTPConnectionPool(host='lianghua.9vvn.com', port=80): Read timed out. (read timeout=30)
+[2026-02-05 00:21:21] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 00:21:51] [ERROR] [collect] 采集stock_company数据失败: HTTPConnectionPool(host='lianghua.9vvn.com', port=80): Read timed out. (read timeout=30)
+[2026-02-05 00:22:40] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 00:22:40] [INFO] [collect] 成功采集1条stock_company数据
+[2026-02-05 00:22:40] [ERROR] [collect] 保存数据失败: 插入失败: (1054, "Unknown column 'ann_date' in 'field list'")

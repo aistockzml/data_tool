@@ -5,12 +5,11 @@ from collector import TushareConnector, TushareDataCollector
 from config import ConfigParser
 from logger import LoggerManager
 
-config = ConfigParser(r'E:\2-项目代码\data_tool\config\base_config.yaml')
+config = ConfigParser(r'E:\2-项目代码\aistockzml\data_tools\config\base_config.yaml')
 
 logger_mge = LoggerManager()
 logger_mge.configure(**config.get_section('logger'))
 collect_logger = logger_mge.get_logger("collect")
-collect_logger.info('leishezhenhao')
 
 mysql = MySqlOperator(**config.get_section('database'))
 
@@ -25,9 +24,29 @@ ts_collector = TushareDataCollector(
     db_conn=mysql,
     logger=collect_logger)
 
-data = ts_collector.collect(method='income', ts_code='000002.SZ', fields='ts_code,ann_date,f_ann_date,end_date,report_type')
+data = ts_collector.collect(method='stock_company', limit=1, fields=[
+    "ts_code",
+    "com_name",
+    "com_id",
+    "chairman",
+    "manager",
+    "secretary",
+    "reg_capital",
+    "setup_date",
+    "province",
+    "city",
+    "introduction",
+    "website",
+    "email",
+    "office",
+    "business_scope",
+    "employees",
+    "main_business",
+    "exchange",
+    "ann_date"
+])
 
-
+ts_collector.save(data, target_table='aistockzml_tushare_stock_company_base_info')
 
 
 
