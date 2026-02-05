@@ -12,3 +12,31 @@
 [2026-02-05 00:22:40] [INFO] [collect] 开始采集Tushare数据: stock_company
 [2026-02-05 00:22:40] [INFO] [collect] 成功采集1条stock_company数据
 [2026-02-05 00:22:40] [ERROR] [collect] 保存数据失败: 插入失败: (1054, "Unknown column 'ann_date' in 'field list'")
+[2026-02-05 21:32:05] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 21:32:06] [INFO] [collect] 成功采集1条stock_company数据
+[2026-02-05 21:32:23] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 21:32:23] [INFO] [collect] 成功采集1条stock_company数据
+[2026-02-05 21:32:46] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 21:32:47] [INFO] [collect] 成功采集1条stock_company数据
+[2026-02-05 21:33:01] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 21:33:01] [INFO] [collect] 成功采集1条stock_company数据
+[2026-02-05 21:34:58] [INFO] [collect] 开始采集Tushare数据: stock_company
+[2026-02-05 21:34:58] [INFO] [collect] 成功采集1条stock_company数据
+[2026-02-05 21:38:32] [INFO] [collect] 开始采集Tushare数据: income
+[2026-02-05 21:38:33] [ERROR] [collect] 采集income数据失败: 必填参数, ts_code
+[2026-02-05 21:38:46] [INFO] [collect] 开始采集Tushare数据: income
+[2026-02-05 21:38:46] [INFO] [collect] 成功采集1条income数据
+[2026-02-05 21:39:05] [INFO] [collect] 开始采集Tushare数据: income
+[2026-02-05 21:39:06] [INFO] [collect] 成功采集1条income数据
+[2026-02-05 21:39:21] [INFO] [collect] 开始采集Tushare数据: income
+[2026-02-05 21:39:21] [INFO] [collect] 成功采集1条income数据
+[2026-02-05 21:53:52] [INFO] [collect] 开始采集Tushare数据: stk_premarket
+[2026-02-05 21:53:52] [ERROR] [collect] 采集stk_premarket数据失败: 抱歉，您没有接口访问权限，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
+[2026-02-05 22:05:48] [INFO] [collect] 开始采集Tushare数据: rt_k
+[2026-02-05 22:05:49] [ERROR] [collect] 采集rt_k数据失败: 抱歉，您每天最多访问该接口2次，权限的具体详情访问：https://tushare.pro/document/1?doc_id=108。
+[2026-02-05 22:16:25] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-05 22:16:26] [INFO] [collect] 成功采集daily数据，数据为空
+[2026-02-05 22:16:41] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-05 22:16:42] [INFO] [collect] 成功采集daily数据，数据为空
+[2026-02-05 22:17:25] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-05 22:17:26] [INFO] [collect] 成功采集5467条daily数据

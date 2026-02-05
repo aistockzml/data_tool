@@ -24,29 +24,10 @@ ts_collector = TushareDataCollector(
     db_conn=mysql,
     logger=collect_logger)
 
-data = ts_collector.collect(method='stock_company', limit=1, fields=[
-    "ts_code",
-    "com_name",
-    "com_id",
-    "chairman",
-    "manager",
-    "secretary",
-    "reg_capital",
-    "setup_date",
-    "province",
-    "city",
-    "introduction",
-    "website",
-    "email",
-    "office",
-    "business_scope",
-    "employees",
-    "main_business",
-    "exchange",
-    "ann_date"
-])
-
-ts_collector.save(data, target_table='aistockzml_tushare_stock_company_base_info')
+data = ts_collector.collect(method='daily', trade_date='20260205', fields='*')
+print(data)
+print(list(data.columns))
+# ts_collector.save(data, target_table='aistockzml_tushare_stock_company_base_info')
 
 
 
