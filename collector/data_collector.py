@@ -133,7 +133,8 @@ class DataCollector(ABC):
         """
         pass
     
-    def save(self, data: pd.DataFrame, target_table: str = None, conflict_columns: List[str] = None) -> bool:
+    def save(self, data: pd.DataFrame, target_table: str = None, 
+             conflict_columns: List[str] = None, insert_mode: str = 'incremental') -> bool:
         """
         保存数据到数据库
         
@@ -141,6 +142,9 @@ class DataCollector(ABC):
             data: 采集到的数据
             target_table: 目标数据库表名
             conflict_columns: 冲突判断列名列表（用于upsert）
+            insert_mode: 插入模式，可选值：
+                - 'incremental': 增量插入（默认），追加新数据
+                - 'overwrite': 覆盖存储，先清空表再插入
             
         Returns:
             bool: 保存是否成功
@@ -152,10 +156,18 @@ class DataCollector(ABC):
             self.logger.warning("未配置数据库连接或目标表，跳过保存")
             return False
         
+        if insert_mode not in ('incremental', 'overwrite'):
+            self.logger.warning(f"不支持的插入模式: {insert_mode}，使用默认增量模式")
+            insert_mode = 'incremental'
+        
         try:
             data_list = data.to_dict('records')
             
             if self.db_conn.table_exists(target_table):
+                if insert_mode == 'overwrite':
+                    self.logger.info(f"覆盖模式：清空表 {target_table}")
+                    self.db_conn.execute(f"TRUNCATE TABLE {target_table}")
+                
                 if conflict_columns:
                     affected = self.db_conn.batch_upsert(
                         target_table,
@@ -174,7 +186,7 @@ class DataCollector(ABC):
                     data_list
                 )
             
-            self.logger.info(f"保存{len(data_list)}条数据到{target_table}")
+            self.logger.info(f"保存{len(data_list)}条数据到{target_table}，模式: {insert_mode}")
             return affected > 0
             
         except Exception as e:

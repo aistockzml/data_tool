@@ -187,7 +187,7 @@ class MySqlOperator:
         if not data:
             raise DatabaseOperationError("插入数据不能为空")
         
-        columns = ', '.join(data.keys())
+        columns = ', '.join([f'`{col}`' for col in data.keys()])
         placeholders = ', '.join(['%s'] * len(data))
         sql = f"INSERT INTO {table} ({columns}) VALUES ({placeholders})"
         
@@ -226,19 +226,20 @@ class MySqlOperator:
         if len(data_list) == 1:
             return self.insert(table, data_list[0])
         
-        columns = ', '.join(data_list[0].keys())
-        placeholders = ', '.join(['%s'] * len(data_list[0]))
-        sql = f"INSERT INTO {table} ({columns}) VALUES ({placeholders})"
+        columns = list(data_list[0].keys())
+        column_names = ', '.join([f'`{col}`' for col in columns])
+        placeholders = ', '.join(['%s'] * len(columns))
+        sql = f"INSERT INTO {table} ({column_names}) VALUES ({placeholders})"
+        
+        values_list = [tuple(data[col] for col in columns) for data in data_list]
         
         try:
             conn = self.get_connection()
             try:
                 with conn.cursor() as cursor:
-                    for data in data_list:
-                        if set(data.keys()) == set(data_list[0].keys()):
-                            cursor.execute(sql, tuple(data.values()))
-                    conn.commit()
-                    return len(data_list)
+                    cursor.executemany(sql, values_list)
+                conn.commit()
+                return len(data_list)
             except Exception as e:
                 conn.rollback()
                 raise e
@@ -267,7 +268,7 @@ class MySqlOperator:
         if not data:
             raise DatabaseOperationError("更新数据不能为空")
         
-        set_clause = ', '.join([f"{key} = %s" for key in data.keys()])
+        set_clause = ', '.join([f"`{key}` = %s" for key in data.keys()])
         sql = f"UPDATE {table} SET {set_clause} WHERE {where}"
         
         try:
@@ -369,12 +370,12 @@ class MySqlOperator:
         if not data:
             raise DatabaseOperationError("数据不能为空")
         
-        columns = ', '.join(data.keys())
+        columns = ', '.join([f'`{col}`' for col in data.keys()])
         placeholders = ', '.join(['%s'] * len(data))
-        update_clause = ', '.join([f"{key} = VALUES({key})" for key in data.keys()])
+        update_clause = ', '.join([f"`{key}` = VALUES(`{key}`)" for key in data.keys()])
         
         if conflict_columns:
-            conflict_cols = ', '.join(conflict_columns)
+            conflict_cols = ', '.join([f'`{col}`' for col in conflict_columns])
             sql = (f"INSERT INTO {table} ({columns}) VALUES ({placeholders}) "
                    f"ON DUPLICATE KEY UPDATE {update_clause}")
         else:
