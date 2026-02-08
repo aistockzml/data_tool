@@ -1,0 +1,51 @@
+[2026-02-09 01:13:05] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:13:05] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-09 01:13:05] [INFO] [tushare-collect] 执行时间: 2026-02-09 01:13:05.887059
+[2026-02-09 01:13:05] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:13:05] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-09 01:13:06] [INFO] [tushare-collect] 成功采集6条trade_cal数据
+[2026-02-09 01:13:06] [INFO] [tushare-collect] (20260209) 是否为交易日: True
+[2026-02-09 01:13:06] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-09 01:13:06] [INFO] [tushare-collect] 成功采集8条income_vip数据
+[2026-02-09 01:13:06] [INFO] [tushare-collect] 去重后数据: 8 条
+[2026-02-09 01:13:06] [INFO] [tushare-collect] 保存8条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-09 01:13:06] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:13:06] [INFO] [tushare-collect] 定时任务完成
+[2026-02-09 01:13:06] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:38:12] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:38:12] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-09 01:38:12] [INFO] [tushare-collect] 执行时间: 2026-02-09 01:38:12.814325
+[2026-02-09 01:38:12] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:38:12] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-09 01:38:13] [INFO] [tushare-collect] 成功采集6条trade_cal数据
+[2026-02-09 01:38:13] [INFO] [tushare-collect] (20260209) 是否为交易日: True
+[2026-02-09 01:38:13] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-09 01:38:13] [INFO] [tushare-collect] 成功采集8条income_vip数据
+[2026-02-09 01:40:02] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:40:02] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-09 01:40:02] [INFO] [tushare-collect] 执行时间: 2026-02-09 01:40:02.690332
+[2026-02-09 01:40:02] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:40:02] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-09 01:40:03] [INFO] [tushare-collect] 成功采集6条trade_cal数据
+[2026-02-09 01:40:03] [INFO] [tushare-collect] (20260209) 是否为交易日: True
+[2026-02-09 01:40:03] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-09 01:40:03] [INFO] [tushare-collect] 成功采集8条income_vip数据
+[2026-02-09 01:40:03] [INFO] [tushare-collect] 去重后数据: 8 条
+[2026-02-09 01:40:03] [INFO] [tushare-collect] 保存8条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-09 01:40:03] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:40:03] [INFO] [tushare-collect] 定时任务完成
+[2026-02-09 01:40:03] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:42:46] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:42:46] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-09 01:42:46] [INFO] [tushare-collect] 执行时间: 2026-02-09 01:42:46.359209
+[2026-02-09 01:42:46] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:42:46] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-09 01:42:46] [INFO] [tushare-collect] 成功采集6条trade_cal数据
+[2026-02-09 01:42:46] [INFO] [tushare-collect] (20260209) 是否为交易日: True
+[2026-02-09 01:42:46] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-09 01:42:47] [INFO] [tushare-collect] 成功采集8条income_vip数据
+[2026-02-09 01:42:47] [INFO] [tushare-collect] 去重后数据: 8 条
+[2026-02-09 01:42:47] [INFO] [tushare-collect] 保存8条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-09 01:42:47] [INFO] [tushare-collect] ==================================================
+[2026-02-09 01:42:47] [INFO] [tushare-collect] 定时任务完成
+[2026-02-09 01:42:47] [INFO] [tushare-collect] ==================================================

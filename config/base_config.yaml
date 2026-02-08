@@ -24,6 +24,7 @@ logger:
   backup_days: 7
   console_level: INFO
   file_level: DEBUG
+  prefect_enabled: true
 
 # 数据源配置
 data_sources:

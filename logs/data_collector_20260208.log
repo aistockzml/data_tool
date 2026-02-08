@@ -1,0 +1,103 @@
+[2026-02-08 00:01:19] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:01:19] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-08 00:01:19] [INFO] [tushare-collect] 执行时间: 2026-02-08 00:01:19.184400
+[2026-02-08 00:01:19] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:01:19] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-08 00:01:19] [INFO] [tushare-collect] 成功采集5条trade_cal数据
+[2026-02-08 00:01:19] [INFO] [tushare-collect] (20260208) 是否为交易日: False
+[2026-02-08 00:01:19] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-08 00:01:49] [ERROR] [tushare-collect] 采集stock_company数据失败: HTTPConnectionPool(host='lianghua.9vvn.com', port=80): Read timed out. (read timeout=30)
+[2026-02-08 00:01:49] [WARNING] [tushare-collect] (20260206) 无数据需要保存(stock_company)
+[2026-02-08 00:01:49] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:01:49] [INFO] [tushare-collect] 定时任务完成
+[2026-02-08 00:01:49] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:04:16] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:04:16] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-08 00:04:16] [INFO] [tushare-collect] 执行时间: 2026-02-08 00:04:16.865732
+[2026-02-08 00:04:16] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:04:16] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-08 00:04:17] [INFO] [tushare-collect] 成功采集5条trade_cal数据
+[2026-02-08 00:04:17] [INFO] [tushare-collect] (20260208) 是否为交易日: False
+[2026-02-08 00:04:17] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-08 00:04:40] [INFO] [tushare-collect] 成功采集6212条stock_company数据
+[2026-02-08 00:04:41] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_company
+[2026-02-08 00:04:41] [ERROR] [tushare-collect] 保存数据失败: 批量插入失败: nan can not be used with MySQL
+[2026-02-08 00:04:41] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:04:41] [INFO] [tushare-collect] 定时任务完成
+[2026-02-08 00:04:41] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:06:05] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:06:05] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-08 00:06:05] [INFO] [tushare-collect] 执行时间: 2026-02-08 00:06:05.190720
+[2026-02-08 00:06:05] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:06:05] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-08 00:06:05] [INFO] [tushare-collect] 成功采集5条trade_cal数据
+[2026-02-08 00:06:05] [INFO] [tushare-collect] (20260208) 是否为交易日: False
+[2026-02-08 00:06:05] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-08 00:06:30] [INFO] [tushare-collect] 成功采集6212条stock_company数据
+[2026-02-08 00:06:30] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_company
+[2026-02-08 00:06:31] [ERROR] [tushare-collect] 保存数据失败: 批量插入失败: nan can not be used with MySQL
+[2026-02-08 00:06:31] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:06:31] [INFO] [tushare-collect] 定时任务完成
+[2026-02-08 00:06:31] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:10:28] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:10:28] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-08 00:10:28] [INFO] [tushare-collect] 执行时间: 2026-02-08 00:10:28.257027
+[2026-02-08 00:10:28] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:10:28] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-08 00:10:28] [INFO] [tushare-collect] 成功采集5条trade_cal数据
+[2026-02-08 00:10:28] [INFO] [tushare-collect] (20260208) 是否为交易日: False
+[2026-02-08 00:10:28] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-08 00:10:52] [INFO] [tushare-collect] 成功采集6212条stock_company数据
+[2026-02-08 00:10:52] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_company
+[2026-02-08 00:10:59] [INFO] [tushare-collect] 保存6212条数据到aistockzml_tushare_stock_company，模式: overwrite
+[2026-02-08 00:10:59] [INFO] [tushare-collect] ==================================================
+[2026-02-08 00:10:59] [INFO] [tushare-collect] 定时任务完成
+[2026-02-08 00:10:59] [INFO] [tushare-collect] ==================================================
+[2026-02-08 10:35:24] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 10:35:28] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 10:35:28] [ERROR] [collect] 更新数据失败: 'ts_code'
+[2026-02-08 10:35:59] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 10:36:00] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 10:44:47] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 10:44:48] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 10:57:34] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 10:57:35] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 10:57:35] [INFO] [collect] 覆盖模式：清空表 aistockzml_tushare_daily
+[2026-02-08 10:57:36] [INFO] [collect] 保存5466条数据到aistockzml_tushare_daily，模式: overwrite
+[2026-02-08 10:57:51] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 10:57:52] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 10:57:52] [INFO] [collect] 保存5466条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:04:24] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:04:25] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 11:04:27] [INFO] [collect] 保存5466条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:13:40] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:13:43] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 11:13:43] [INFO] [collect] 保存5466条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:14:07] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:14:10] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 11:14:11] [INFO] [collect] 保存5466条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:15:41] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:15:42] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 11:15:43] [ERROR] [collect] 保存数据失败: 批量插入失败: (1062, "Duplicate entry '000001.SZ-20260206' for key 'aistockzml_tushare_daily.PRIMARY'")
+[2026-02-08 11:22:19] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:22:26] [INFO] [collect] 成功采集5466条daily数据
+[2026-02-08 11:22:27] [INFO] [collect] 保存5466条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:44:27] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:44:28] [INFO] [collect] 成功采集5467条daily数据
+[2026-02-08 11:44:29] [INFO] [collect] 保存5467条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:44:41] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:44:43] [INFO] [collect] 成功采集5467条daily数据
+[2026-02-08 11:44:44] [INFO] [collect] 保存5467条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:44:55] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:44:56] [INFO] [collect] 成功采集5468条daily数据
+[2026-02-08 11:44:57] [INFO] [collect] 保存5468条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 11:45:15] [INFO] [collect] 开始采集Tushare数据: daily
+[2026-02-08 11:45:16] [INFO] [collect] 成功采集5465条daily数据
+[2026-02-08 11:45:17] [INFO] [collect] 保存5465条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-08 13:52:16] [INFO] [collect] 开始采集Tushare数据: income_vip
+[2026-02-08 13:52:24] [INFO] [collect] 成功采集7369条income_vip数据
+[2026-02-08 13:52:27] [INFO] [collect] 保存7369条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-08 14:13:37] [INFO] [collect] 开始采集Tushare数据: income_vip
+[2026-02-08 14:13:45] [INFO] [collect] 成功采集7369条income_vip数据
+[2026-02-08 14:13:45] [INFO] [collect] 覆盖模式：清空表 aistockzml_tushare_income
+[2026-02-08 14:13:47] [INFO] [collect] 保存6104条数据到aistockzml_tushare_income，模式: overwrite

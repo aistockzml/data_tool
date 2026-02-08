@@ -192,6 +192,57 @@ class DataCollector(ABC):
         except Exception as e:
             self.logger.error(f"保存数据失败: {e}")
             return False
+
+    def update(self, data: pd.DataFrame, target_table: str,
+              where_columns: List[str]) -> int:
+        """
+        更新DataFrame数据到数据库（整行更新）
+
+        Args:
+            data: 更新数据DataFrame
+            target_table: 目标数据库表名
+            where_columns: WHERE条件列名列表，用于定位要更新的行
+
+        Returns:
+            int: 更新的行数
+        """
+        if data is None or data.empty:
+            self.logger.warning("更新数据为空，跳过")
+            return 0
+
+        if self.db_conn is None:
+            self.logger.warning("未配置数据库连接，跳过更新")
+            return 0
+
+        if not where_columns:
+            self.logger.warning("未指定WHERE条件列，跳过更新")
+            return 0
+
+        try:
+            data_list = data.to_dict('records')
+            total_affected = 0
+
+            for row in data_list:
+                where_clause = ' AND '.join([f"`{col}` = %s" for col in where_columns])
+                where_params = tuple(row[col] for col in where_columns)
+
+                update_data = {k: v for k, v in row.items() if k not in where_columns}
+
+                if update_data:
+                    affected = self.db_conn.update(
+                        target_table,
+                        update_data,
+                        where_clause,
+                        where_params
+                    )
+                    total_affected += affected
+
+            self.logger.info(f"更新表 {target_table}，更新行数: {total_affected}")
+            return total_affected
+
+        except Exception as e:
+            self.logger.error(f"更新数据失败: {e}")
+            return 0
     
     def _create_table_from_df(self, table_name: str, df: pd.DataFrame) -> None:
         """

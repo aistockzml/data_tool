@@ -40,6 +40,7 @@ import pymysql
 from pymysql.cursors import DictCursor
 from typing import Any, Dict, List, Optional, Tuple
 import threading
+import math
 
 try:
     from dbutils.pooled_db import PooledDB
@@ -230,8 +231,19 @@ class MySqlOperator:
         column_names = ', '.join([f'`{col}`' for col in columns])
         placeholders = ', '.join(['%s'] * len(columns))
         sql = f"INSERT INTO {table} ({column_names}) VALUES ({placeholders})"
-        
-        values_list = [tuple(data[col] for col in columns) for data in data_list]
+
+        def convert_nan_to_none(value):
+            """将NaN值转换为None"""
+            if value is None:
+                return None
+            if isinstance(value, float) and (math.isnan(value) or math.isinf(value)):
+                return None
+            return value
+
+        values_list = [
+            tuple(convert_nan_to_none(data[col]) for col in columns)
+            for data in data_list
+        ]
         
         try:
             conn = self.get_connection()
@@ -355,32 +367,33 @@ class MySqlOperator:
                conflict_columns: List[str] = None) -> int:
         """
         插入或更新（Upsert）
-        
+
         Args:
             table: 表名
             data: 数据字典
-            conflict_columns: 冲突判断列名列表
-            
+            conflict_columns: 冲突判断列名列表（主键/唯一索引列，这些列在冲突时不更新）
+
         Returns:
             int: 影响行数
-            
+
         Raises:
             DatabaseOperationError: 执行失败
         """
         if not data:
             raise DatabaseOperationError("数据不能为空")
-        
+
         columns = ', '.join([f'`{col}`' for col in data.keys()])
         placeholders = ', '.join(['%s'] * len(data))
-        update_clause = ', '.join([f"`{key}` = VALUES(`{key}`)" for key in data.keys()])
-        
+
         if conflict_columns:
-            conflict_cols = ', '.join([f'`{col}`' for col in conflict_columns])
-            sql = (f"INSERT INTO {table} ({columns}) VALUES ({placeholders}) "
-                   f"ON DUPLICATE KEY UPDATE {update_clause}")
+            update_columns = [col for col in data.keys() if col not in conflict_columns]
         else:
-            sql = (f"INSERT INTO {table} ({columns}) VALUES ({placeholders}) "
-                   f"ON DUPLICATE KEY UPDATE {update_clause}")
+            update_columns = list(data.keys())
+
+        update_clause = ', '.join([f"`{key}` = VALUES(`{key}`)" for key in update_columns])
+
+        sql = (f"INSERT INTO {table} ({columns}) VALUES ({placeholders}) "
+               f"ON DUPLICATE KEY UPDATE {update_clause}")
         
         try:
             conn = self.get_connection()
@@ -400,31 +413,68 @@ class MySqlOperator:
     def batch_upsert(self, table: str, data_list: List[Dict],
                      conflict_columns: List[str] = None) -> int:
         """
-        批量插入或更新
-        
+        批量插入或更新（Upsert）
+
         Args:
             table: 表名
             data_list: 数据字典列表
-            conflict_columns: 冲突判断列名列表
-            
+            conflict_columns: 冲突判断列名列表（主键/唯一索引列，这些列在冲突时不更新）
+
         Returns:
             int: 总影响行数
-            
+
         Raises:
             DatabaseOperationError: 执行失败
         """
         if not data_list:
             return 0
-        
+
+        columns = list(data_list[0].keys())
+        column_names = ', '.join([f'`{col}`' for col in columns])
+        placeholders = ', '.join(['%s'] * len(columns))
+
+        if conflict_columns:
+            update_columns = [col for col in columns if col not in conflict_columns]
+        else:
+            update_columns = columns
+
+        update_clause = ', '.join([f"`{key}` = VALUES(`{key}`)" for key in update_columns])
+
+        sql = (f"INSERT INTO {table} ({column_names}) VALUES ({placeholders}) "
+               f"ON DUPLICATE KEY UPDATE {update_clause}")
+
+        def convert_nan_to_none(value):
+            """将NaN值转换为None"""
+            if value is None:
+                return None
+            if isinstance(value, float) and (math.isnan(value) or math.isinf(value)):
+                return None
+            return value
+
+        BATCH_SIZE = 500
         total_affected = 0
-        for data in data_list:
+
+        try:
+            conn = self.get_connection()
             try:
-                affected = self.upsert(table, data, conflict_columns)
-                total_affected += affected
-            except DatabaseOperationError as e:
+                with conn.cursor() as cursor:
+                    for i in range(0, len(data_list), BATCH_SIZE):
+                        batch = data_list[i:i + BATCH_SIZE]
+                        values_list = [
+                            tuple(convert_nan_to_none(data[col]) for col in columns)
+                            for data in batch
+                        ]
+                        cursor.executemany(sql, values_list)
+                        total_affected += len(batch)
+                    conn.commit()
+                return total_affected
+            except Exception as e:
+                conn.rollback()
                 raise DatabaseOperationError(f"批量Upsert失败: {e}")
-        
-        return total_affected
+            finally:
+                conn.close()
+        except pymysql.Error as e:
+            raise DatabaseOperationError(f"批量Upsert失败: {e}")
     
     def table_exists(self, table_name: str) -> bool:
         """

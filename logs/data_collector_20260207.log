@@ -1,0 +1,419 @@
+
+[2026-02-07 15:21:36] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:21:36] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:21:36] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:21:36] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:21:36] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:21:36] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:21:37] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:21:37] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:21:37] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:21:37] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:21:38] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:21:38] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:21:38] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:21:39] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:21:39] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:21:39] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:21:39] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:21:39] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:21:42] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:21:42] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:21:42] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:21:42] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:21:42] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:22:15] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:22:15] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:22:15] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:22:15] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:22:15] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:22:37] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:22:37] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:22:37] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:22:37] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:22:37] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:23:11] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:23:11] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:23:12] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:23:12] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:23:12] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:23:28] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:23:28] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:23:28] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:23:28] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:23:28] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:41] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:42] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:42] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:42] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:42] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:43] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:43] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:43] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:44] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:44] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:44] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:44] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:44] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:27:45] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:27:46] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:27:46] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:27:46] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:27:46] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:28:18] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:28:18] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:28:18] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:28:18] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:28:18] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:28:31] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:28:31] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:28:31] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:28:31] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:28:31] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:29:11] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:29:11] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:29:11] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:29:11] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:29:11] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:29:31] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:29:31] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:29:31] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:29:31] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:29:31] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:30:14] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:30:14] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:30:14] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:30:14] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:30:14] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:30:26] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:30:26] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:30:26] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:30:26] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:30:26] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:30:36] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:30:36] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:30:36] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:30:36] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:30:36] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:31:12] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:31:12] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:31:12] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:31:12] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:31:12] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:32:10] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:32:10] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:32:10] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:32:10] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:32:10] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:32:10] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:32:10] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:32:11] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:32:11] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:32:11] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:32:31] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:32:31] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:32:32] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:32:32] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:32:32] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:33:12] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:33:13] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:33:13] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:33:13] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:33:13] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:33:59] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:33:59] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:33:59] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:33:59] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:33:59] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:34:19] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:34:19] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:34:20] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:34:20] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:34:20] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:34:28] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:34:28] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:34:28] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:34:28] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:34:28] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 15:35:14] [INFO] [stock-basic] start data processing flow
+[2026-02-07 15:35:14] [INFO] [stock-basic] finish generate data: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
+[2026-02-07 15:35:14] [INFO] [stock-basic] finish process data, avg: 9.0
+[2026-02-07 15:35:14] [INFO] [stock-basic] finish save result, file_path: ./result.txt
+[2026-02-07 15:35:14] [INFO] [stock-basic] finish data processing flow
+[2026-02-07 17:43:23] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:43:23] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:43:23] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:43:24] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:43:24] [INFO] [stock-basic] 获取到上交所 5 条交易日历数据
+[2026-02-07 17:43:24] [INFO] [stock-basic] 获取到深交所 5 条交易日历数据
+[2026-02-07 17:46:00] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:46:02] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:46:02] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:46:02] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:46:02] [INFO] [stock-basic] 获取到上交所 5 条交易日历数据
+[2026-02-07 17:46:02] [INFO] [stock-basic] 获取到深交所 5 条交易日历数据
+[2026-02-07 17:46:04] [INFO] [stock-basic] 今日 (20260207) 上交所是否为交易日: False
+[2026-02-07 17:46:04] [INFO] [stock-basic] 今日 (20260207) 深交所是否为交易日: False
+[2026-02-07 17:52:26] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:52:26] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:52:26] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:52:26] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:52:26] [INFO] [stock-basic] 获取到上交所 5 条交易日历数据
+[2026-02-07 17:52:26] [INFO] [stock-basic] 获取到深交所 5 条交易日历数据
+[2026-02-07 17:52:28] [INFO] [stock-basic] 今日 (20260207) 上交所是否为交易日: False
+[2026-02-07 17:52:28] [INFO] [stock-basic] 今日 (20260207) 深交所是否为交易日: False
+[2026-02-07 17:53:42] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:53:42] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:53:42] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 17:53:43] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 17:53:43] [INFO] [stock-basic] 获取到上交所 5 条交易日历数据
+[2026-02-07 17:53:43] [INFO] [stock-basic] 获取到深交所 5 条交易日历数据
+[2026-02-07 17:53:45] [INFO] [stock-basic] 今日 (20260207) 上交所是否为交易日: False
+[2026-02-07 17:53:45] [INFO] [stock-basic] 今日 (20260207) 深交所是否为交易日: False
+[2026-02-07 21:50:07] [INFO] [stock-basic] ==================================================
+[2026-02-07 21:50:07] [INFO] [stock-basic] 开始执行定时任务
+[2026-02-07 21:50:07] [INFO] [stock-basic] 执行时间: 2026-02-07 21:50:07.812579
+[2026-02-07 21:50:07] [INFO] [stock-basic] ==================================================
+[2026-02-07 21:50:07] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 21:50:08] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 21:50:08] [ERROR] [stock-basic] 获取上交所交易日历失败: sort_values() takes 1 positional argument but 2 positional arguments (and 1 keyword-only argument) were given
+[2026-02-07 21:50:09] [INFO] [stock-basic] 今日 (20260207) 上交所是否为交易日: False
+[2026-02-07 21:50:09] [INFO] [stock-basic] 今日不是交易日，跳过数据采集
+[2026-02-07 21:50:09] [INFO] [stock-basic] ==================================================
+[2026-02-07 21:50:09] [INFO] [stock-basic] 定时任务完成
+[2026-02-07 21:50:09] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:17:51] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:17:51] [INFO] [stock-basic] 开始执行定时任务
+[2026-02-07 22:17:51] [INFO] [stock-basic] 执行时间: 2026-02-07 22:17:51.876816
+[2026-02-07 22:17:51] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:17:51] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 22:17:53] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 22:17:53] [INFO] [stock-basic] 获取到上交所交易日历数据 5 条
+[2026-02-07 22:17:53] [INFO] [stock-basic] 今日 (20260207) 是否为交易日: False
+[2026-02-07 22:17:53] [INFO] [stock-basic] 开始采集股票基础信息
+[2026-02-07 22:17:53] [INFO] [stock-basic] 今日不是交易日，跳过数据采集
+[2026-02-07 22:17:53] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:17:53] [INFO] [stock-basic] 定时任务完成
+[2026-02-07 22:17:53] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:23:14] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:23:14] [INFO] [stock-basic] 开始执行定时任务
+[2026-02-07 22:23:14] [INFO] [stock-basic] 执行时间: 2026-02-07 22:23:14.610333
+[2026-02-07 22:23:14] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:23:14] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 22:23:15] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 22:23:15] [INFO] [stock-basic] 获取到上交所交易日历数据 5 条
+[2026-02-07 22:23:15] [INFO] [stock-basic] 今日 (20260207) 是否为交易日: False
+[2026-02-07 22:23:15] [INFO] [stock-basic] 开始采集股票基础信息
+[2026-02-07 22:23:15] [INFO] [stock-basic] 开始采集Tushare数据: stock_basic
+[2026-02-07 22:23:18] [INFO] [stock-basic] 成功采集5479条stock_basic数据
+[2026-02-07 22:23:18] [INFO] [stock-basic] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-07 22:23:19] [INFO] [stock-basic] 保存5479条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-07 22:23:19] [INFO] [stock-basic] 成功保存 5479 条股票基础数据
+[2026-02-07 22:23:19] [INFO] [stock-basic] ==================================================
+[2026-02-07 22:23:19] [INFO] [stock-basic] 定时任务完成
+[2026-02-07 22:23:19] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:01:12] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:01:12] [INFO] [stock-basic] 开始执行定时任务
+[2026-02-07 23:01:12] [INFO] [stock-basic] 执行时间: 2026-02-07 23:01:12.706832
+[2026-02-07 23:01:12] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:01:12] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 23:01:13] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 23:01:13] [INFO] [stock-basic] 获取到上交所交易日历数据 5 条
+[2026-02-07 23:01:13] [INFO] [stock-basic] 今日 (20260207) 是否为交易日: False
+[2026-02-07 23:01:13] [INFO] [stock-basic] 开始采集股票列表(stock_basic)
+[2026-02-07 23:01:13] [INFO] [stock-basic] 开始采集Tushare数据: stock_basic
+[2026-02-07 23:01:14] [INFO] [stock-basic] 成功采集5479条stock_basic数据
+[2026-02-07 23:01:14] [INFO] [stock-basic] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-07 23:01:16] [INFO] [stock-basic] 保存5479条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-07 23:02:26] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:02:26] [INFO] [stock-basic] 开始执行定时任务
+[2026-02-07 23:02:26] [INFO] [stock-basic] 执行时间: 2026-02-07 23:02:26.307179
+[2026-02-07 23:02:26] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:02:26] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 23:02:26] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 23:02:26] [INFO] [stock-basic] 获取到上交所交易日历数据 5 条
+[2026-02-07 23:02:26] [INFO] [stock-basic] 今日 (20260207) 是否为交易日: False
+[2026-02-07 23:02:26] [INFO] [stock-basic] 开始采集股票列表(stock_basic)
+[2026-02-07 23:02:26] [INFO] [stock-basic] 开始采集Tushare数据: stock_basic
+[2026-02-07 23:02:28] [INFO] [stock-basic] 成功采集5479条stock_basic数据
+[2026-02-07 23:02:28] [INFO] [stock-basic] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-07 23:02:29] [INFO] [stock-basic] 保存5479条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-07 23:02:29] [INFO] [stock-basic] 今日(20260207) 成功保存 5479 条股票列表数据(stock_basic)
+[2026-02-07 23:02:29] [INFO] [stock-basic] 开始采集沪深港通股票列表(stock_hsgt)，日期: 20260206
+[2026-02-07 23:02:29] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:02:29] [INFO] [stock-basic] 成功采集1726条stock_hsgt数据
+[2026-02-07 23:02:30] [INFO] [stock-basic] 保存1726条数据到aistockzml_tushare_stock_hsgt_HK_SZ，模式: overwrite
+[2026-02-07 23:02:30] [INFO] [stock-basic] 今日(20260206) 成功保存 1726 条HK_SZ股票列表数据(stock_hsgt_HK_SZ)
+[2026-02-07 23:02:30] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:02:30] [INFO] [stock-basic] 成功采集stock_hsgt数据，数据为空
+[2026-02-07 23:02:30] [WARNING] [stock-basic] 今日(20260206) 无数据需要保存(SSZ_HKZSE stock_hsgt_SSZ_HKZSE)
+[2026-02-07 23:02:30] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:02:34] [INFO] [stock-basic] 成功采集1539条stock_hsgt数据
+[2026-02-07 23:02:34] [INFO] [stock-basic] 保存1539条数据到aistockzml_tushare_stock_hsgt_HK_SH，模式: incremental
+[2026-02-07 23:02:34] [INFO] [stock-basic] 今日(20260206) 成功保存 1539 条HK_SH股票列表数据(stock_hsgt_HK_SH)
+[2026-02-07 23:02:34] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:02:35] [INFO] [stock-basic] 成功采集566条stock_hsgt数据
+[2026-02-07 23:02:35] [INFO] [stock-basic] 保存566条数据到aistockzml_tushare_stock_hsgt_SH_HK，模式: incremental
+[2026-02-07 23:02:35] [INFO] [stock-basic] 今日(20260206) 成功保存 566 条SH_HK股票列表数据(stock_hsgt_SH_HK)
+[2026-02-07 23:02:35] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:02:35] [INFO] [stock-basic] 定时任务完成
+[2026-02-07 23:02:35] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:04:22] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:04:22] [INFO] [stock-basic] 开始执行定时任务
+[2026-02-07 23:04:22] [INFO] [stock-basic] 执行时间: 2026-02-07 23:04:22.117121
+[2026-02-07 23:04:22] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:04:22] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 23:04:22] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 23:04:22] [INFO] [stock-basic] 获取到上交所交易日历数据 5 条
+[2026-02-07 23:04:22] [INFO] [stock-basic] (20260207) 是否为交易日: False
+[2026-02-07 23:04:22] [INFO] [stock-basic] 开始采集股票列表(stock_basic)
+[2026-02-07 23:04:22] [INFO] [stock-basic] 开始采集Tushare数据: stock_basic
+[2026-02-07 23:04:23] [INFO] [stock-basic] 成功采集5479条stock_basic数据
+[2026-02-07 23:04:23] [INFO] [stock-basic] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-07 23:04:24] [INFO] [stock-basic] 保存5479条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-07 23:04:24] [INFO] [stock-basic] (20260207) 成功保存 5479 条股票列表数据(stock_basic)
+[2026-02-07 23:04:24] [INFO] [stock-basic] 开始采集沪深港通股票列表(stock_hsgt)，日期: 20260206
+[2026-02-07 23:04:24] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:04:25] [INFO] [stock-basic] 成功采集1726条stock_hsgt数据
+[2026-02-07 23:04:25] [INFO] [stock-basic] 覆盖模式：清空表 aistockzml_tushare_stock_hsgt_HK_SZ
+[2026-02-07 23:04:25] [INFO] [stock-basic] 保存1726条数据到aistockzml_tushare_stock_hsgt_HK_SZ，模式: overwrite
+[2026-02-07 23:04:25] [INFO] [stock-basic] (20260206) 成功保存 1726 条HK_SZ股票列表数据(stock_hsgt_HK_SZ)
+[2026-02-07 23:04:25] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:04:26] [INFO] [stock-basic] 成功采集stock_hsgt数据，数据为空
+[2026-02-07 23:04:26] [WARNING] [stock-basic] (20260206) 无数据需要保存(SSZ_HKZSE stock_hsgt_SSZ_HKZSE)
+[2026-02-07 23:04:26] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:04:26] [INFO] [stock-basic] 成功采集1539条stock_hsgt数据
+[2026-02-07 23:04:26] [INFO] [stock-basic] 保存1539条数据到aistockzml_tushare_stock_hsgt_HK_SH，模式: incremental
+[2026-02-07 23:04:26] [INFO] [stock-basic] (20260206) 成功保存 1539 条HK_SH股票列表数据(stock_hsgt_HK_SH)
+[2026-02-07 23:04:26] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:04:27] [INFO] [stock-basic] 成功采集566条stock_hsgt数据
+[2026-02-07 23:04:27] [INFO] [stock-basic] 保存566条数据到aistockzml_tushare_stock_hsgt_SH_HK，模式: incremental
+[2026-02-07 23:04:27] [INFO] [stock-basic] (20260206) 成功保存 566 条SH_HK股票列表数据(stock_hsgt_SH_HK)
+[2026-02-07 23:04:27] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:04:27] [INFO] [stock-basic] 定时任务完成
+[2026-02-07 23:04:27] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:05:59] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:05:59] [INFO] [stock-basic] 开始执行定时任务
+[2026-02-07 23:05:59] [INFO] [stock-basic] 执行时间: 2026-02-07 23:05:59.590113
+[2026-02-07 23:05:59] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:05:59] [INFO] [stock-basic] 开始采集Tushare数据: trade_cal
+[2026-02-07 23:05:59] [INFO] [stock-basic] 成功采集5条trade_cal数据
+[2026-02-07 23:05:59] [INFO] [stock-basic] 获取到上交所交易日历数据 5 条
+[2026-02-07 23:05:59] [INFO] [stock-basic] (20260207) 是否为交易日: False
+[2026-02-07 23:05:59] [INFO] [stock-basic] 开始采集股票列表(stock_basic)
+[2026-02-07 23:05:59] [INFO] [stock-basic] 开始采集Tushare数据: stock_basic
+[2026-02-07 23:06:13] [INFO] [stock-basic] 成功采集5479条stock_basic数据
+[2026-02-07 23:06:13] [INFO] [stock-basic] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-07 23:06:14] [INFO] [stock-basic] 保存5479条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-07 23:06:14] [INFO] [stock-basic] (20260207) 成功保存 5479 条股票列表数据(stock_basic)
+[2026-02-07 23:06:14] [INFO] [stock-basic] 开始采集沪深港通股票列表(stock_hsgt)，日期: 20260206
+[2026-02-07 23:06:14] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:06:14] [INFO] [stock-basic] 成功采集1726条stock_hsgt数据
+[2026-02-07 23:06:14] [INFO] [stock-basic] 覆盖模式：清空表 aistockzml_tushare_stock_hsgt
+[2026-02-07 23:06:15] [INFO] [stock-basic] 保存1726条数据到aistockzml_tushare_stock_hsgt，模式: overwrite
+[2026-02-07 23:06:15] [INFO] [stock-basic] (20260206) 成功保存 1726 条HK_SZ股票列表数据(stock_hsgt)
+[2026-02-07 23:06:15] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:06:15] [INFO] [stock-basic] 成功采集stock_hsgt数据，数据为空
+[2026-02-07 23:06:15] [WARNING] [stock-basic] (20260206) 无数据需要保存(stock_hsgt)
+[2026-02-07 23:06:15] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:06:16] [INFO] [stock-basic] 成功采集1539条stock_hsgt数据
+[2026-02-07 23:06:16] [INFO] [stock-basic] 保存1539条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:06:16] [INFO] [stock-basic] (20260206) 成功保存 1539 条HK_SH股票列表数据(stock_hsgt)
+[2026-02-07 23:06:16] [INFO] [stock-basic] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:06:16] [INFO] [stock-basic] 成功采集566条stock_hsgt数据
+[2026-02-07 23:06:16] [INFO] [stock-basic] 保存566条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:06:16] [INFO] [stock-basic] (20260206) 成功保存 566 条SH_HK股票列表数据(stock_hsgt)
+[2026-02-07 23:06:16] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:06:16] [INFO] [stock-basic] 定时任务完成
+[2026-02-07 23:06:16] [INFO] [stock-basic] ==================================================
+[2026-02-07 23:14:48] [INFO] [tushare-collect] ==================================================
+[2026-02-07 23:14:48] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-07 23:14:48] [INFO] [tushare-collect] 执行时间: 2026-02-07 23:14:48.311848
+[2026-02-07 23:14:48] [INFO] [tushare-collect] ==================================================
+[2026-02-07 23:14:48] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-07 23:14:48] [INFO] [tushare-collect] 成功采集5条trade_cal数据
+[2026-02-07 23:14:48] [INFO] [tushare-collect] 获取到上交所交易日历数据 5 条
+[2026-02-07 23:14:48] [INFO] [tushare-collect] (20260207) 是否为交易日: False
+[2026-02-07 23:14:48] [INFO] [tushare-collect] 开始采集股票列表(stock_basic)
+[2026-02-07 23:14:48] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-07 23:14:52] [INFO] [tushare-collect] 成功采集5479条stock_basic数据
+[2026-02-07 23:14:53] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-07 23:14:54] [INFO] [tushare-collect] 保存5479条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-07 23:14:54] [INFO] [tushare-collect] (20260207) 成功保存 5479 条股票列表数据(stock_basic)
+[2026-02-07 23:14:54] [INFO] [tushare-collect] 开始采集沪深港通股票列表(stock_hsgt)，日期: 20260206
+[2026-02-07 23:14:54] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:14:56] [INFO] [tushare-collect] 成功采集1726条stock_hsgt数据
+[2026-02-07 23:14:56] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_hsgt
+[2026-02-07 23:14:56] [INFO] [tushare-collect] 保存1726条数据到aistockzml_tushare_stock_hsgt，模式: overwrite
+[2026-02-07 23:14:56] [INFO] [tushare-collect] (20260206) 成功保存 1726 条HK_SZ股票列表数据(stock_hsgt)
+[2026-02-07 23:14:56] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:14:56] [INFO] [tushare-collect] 成功采集566条stock_hsgt数据
+[2026-02-07 23:14:56] [INFO] [tushare-collect] 保存566条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:14:56] [INFO] [tushare-collect] (20260206) 成功保存 566 条SZ_HK股票列表数据(stock_hsgt)
+[2026-02-07 23:14:56] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:14:57] [INFO] [tushare-collect] 成功采集1539条stock_hsgt数据
+[2026-02-07 23:14:57] [INFO] [tushare-collect] 保存1539条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:14:57] [INFO] [tushare-collect] (20260206) 成功保存 1539 条HK_SH股票列表数据(stock_hsgt)
+[2026-02-07 23:14:57] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:14:57] [INFO] [tushare-collect] 成功采集566条stock_hsgt数据
+[2026-02-07 23:14:57] [INFO] [tushare-collect] 保存566条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:14:57] [INFO] [tushare-collect] (20260206) 成功保存 566 条SH_HK股票列表数据(stock_hsgt)
+[2026-02-07 23:14:57] [INFO] [tushare-collect] ==================================================
+[2026-02-07 23:14:57] [INFO] [tushare-collect] 定时任务完成
+[2026-02-07 23:14:57] [INFO] [tushare-collect] ==================================================
+[2026-02-07 23:19:07] [INFO] [tushare-collect] ==================================================
+[2026-02-07 23:19:07] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-07 23:19:07] [INFO] [tushare-collect] 执行时间: 2026-02-07 23:19:07.349198
+[2026-02-07 23:19:07] [INFO] [tushare-collect] ==================================================
+[2026-02-07 23:19:07] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-07 23:19:07] [INFO] [tushare-collect] 成功采集5条trade_cal数据
+[2026-02-07 23:19:07] [INFO] [tushare-collect] (20260207) 是否为交易日: False
+[2026-02-07 23:19:07] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-07 23:19:09] [INFO] [tushare-collect] 成功采集5479条stock_basic数据
+[2026-02-07 23:19:09] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-07 23:19:10] [INFO] [tushare-collect] 保存5479条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-07 23:19:10] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:19:12] [INFO] [tushare-collect] 成功采集1726条stock_hsgt数据
+[2026-02-07 23:19:13] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_hsgt
+[2026-02-07 23:19:13] [INFO] [tushare-collect] 保存1726条数据到aistockzml_tushare_stock_hsgt，模式: overwrite
+[2026-02-07 23:19:13] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:19:14] [INFO] [tushare-collect] 成功采集566条stock_hsgt数据
+[2026-02-07 23:19:14] [INFO] [tushare-collect] 保存566条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:19:14] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:19:15] [INFO] [tushare-collect] 成功采集1539条stock_hsgt数据
+[2026-02-07 23:19:15] [INFO] [tushare-collect] 保存1539条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:19:15] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-07 23:19:16] [INFO] [tushare-collect] 成功采集566条stock_hsgt数据
+[2026-02-07 23:19:16] [INFO] [tushare-collect] 保存566条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-07 23:19:16] [INFO] [tushare-collect] ==================================================
+[2026-02-07 23:19:16] [INFO] [tushare-collect] 定时任务完成
+[2026-02-07 23:19:16] [INFO] [tushare-collect] ==================================================
