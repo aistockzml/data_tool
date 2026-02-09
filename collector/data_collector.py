@@ -174,6 +174,7 @@ class DataCollector(ABC):
                         data_list,
                         conflict_columns
                     )
+                    print(f"upsert 受影响 {affected} 行")
                 else:
                     affected = self.db_conn.batch_insert(
                         target_table,
@@ -186,7 +187,7 @@ class DataCollector(ABC):
                     data_list
                 )
             
-            self.logger.info(f"保存{len(data_list)}条数据到{target_table}，模式: {insert_mode}")
+            self.logger.info(f"保存 {affected} 条数据到{target_table}，模式: {insert_mode}")
             return affected > 0
             
         except Exception as e:
