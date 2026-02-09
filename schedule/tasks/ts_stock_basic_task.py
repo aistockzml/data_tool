@@ -136,34 +136,6 @@ def collect_and_save_stock_company():
             logger.warning(f"无数据需要保存(stock_company)({exchange})")
 
 
-@task(name="collect_and_save_income")
-def collect_and_save_income(today):
-    """采集利润表并保存到数据库"""
-    
-    data = ts_collector.collect(
-        method='income_vip',
-        start_date=today,
-        end_date=today,
-        report_type='1',
-        fields='*'
-    )
-
-    if data is not None and not data.empty:
-        data['_UPDATE_TIME_DT'] = pd.to_datetime(data['UPDATE_TIME'], format='%Y-%m-%d %H:%M:%S')
-        data = data.sort_values('_UPDATE_TIME_DT', ascending=False).drop_duplicates(subset=['TS_CODE', 'END_DATE'], keep='first')
-        data = data.drop(columns=['_UPDATE_TIME_DT']).reset_index(drop=True)
-        logger.info(f"去重后数据: {len(data)} 条")
-        
-        ts_collector.save(
-            data,
-            target_table='aistockzml_tushare_income',
-            conflict_columns=['TS_CODE', 'END_DATE'],
-            insert_mode='incremental'
-        )
-    else:
-        logger.warning(f"无数据需要保存(income)")
-
-
 @flow(name="股票基础信息采集流程")
 def stock_basic_flow():
     """股票基础信息采集主流程"""
@@ -179,8 +151,7 @@ def stock_basic_flow():
         # collect_and_save_stock_basic(is_trading_day=1)
         # collect_and_save_stock_hsgt(is_trading_day=1, trade_date='20260206')
         # collect_and_save_stock_company(is_trading_day=1, trade_date='20260206')
-        collect_and_save_income(today='20260109')  
-    
+        pass
 
     logger.info("=" * 50)
     logger.info("定时任务完成")

@@ -5,6 +5,7 @@ pymysql>=1.0.0
 pyyaml>=6.0
 pandas>=1.5.0
 DBUtils>=3.0.0
+concurrent-log-handler>=0.9.0
 
 # 可选依赖（根据使用的数据源安装）
 # tushare>=1.2.0

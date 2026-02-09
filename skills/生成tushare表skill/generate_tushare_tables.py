@@ -14,6 +14,7 @@ logger = logging.getLogger(__name__)
 DOC_ID_MAP = {
     '25': '股票列表-基础信息',
     '26': '交易日历',
+    '36': '资产负债表',
     '398': '沪深港通股票列表',
     '112': '上市公司基本信息',
     '33': '利润表',
@@ -50,6 +51,7 @@ TOKEN = 'c26e3f2b758e67f46d3af7cb8273f20c178dc2919ee46318e837fc536f98'
 API_NAME_MAP = {
     '25': 'stock_basic',
     '26': 'trade_cal',
+    '36': 'balancesheet',
     '398': 'stock_hsgt',
     '112': 'stock_company',
     '33': 'income',
@@ -80,6 +82,7 @@ API_NAME_MAP = {
 }
 
 API_PARAMS = {
+    'balancesheet': {'ts_code': '000001.SZ', 'report_type': '1'},
     'income': {'ts_code': '000001.SZ', 'report_type': '1'},
     'cashflow': {'ts_code': '000001.SZ', 'report_type': '1'},
     'forecast': {'ts_code': '000001.SZ'},

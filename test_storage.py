@@ -26,7 +26,7 @@ ts_collector = TushareDataCollector(
     db_conn=mysql,
     logger=logger)
 
-data = ts_collector.collect(method='income_vip', period='20250630', report_type='1', fields='*')
+data = ts_collector.collect(method='fina_indicator_vip', period='20250630', fields='*')
 
 if data is not None and not data.empty:
     print(f"原始数据: {len(data)} 条")
@@ -44,6 +44,6 @@ if data is not None and not data.empty:
 
     ts_collector.save(
         data_unique, 
-        target_table='aistockzml_tushare_income', 
+        target_table='aistockzml_tushare_fina_indicator', 
         insert_mode='overwrite'
     )
