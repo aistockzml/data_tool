@@ -28,7 +28,7 @@ ts_collector = TushareDataCollector(
 
 data = ts_collector.collect(method='cashflow_vip', ann_date='20260109', fields='*')
 
-data.loc[(data['TS_CODE'] == '920050.BJ') & (data['END_DATE'] == '20250630'), 'UPDATE_FLAG'] = '2222'
+# data.loc[(data['TS_CODE'] == '920050.BJ') & (data['END_DATE'] == '20250630'), 'UPDATE_FLAG'] = '2222'
 
 ts_collector.save(
     data, 

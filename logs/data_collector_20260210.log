@@ -234,3 +234,7 @@
 [2026-02-10 17:43:27] [INFO] [collect] 成功采集2条cashflow_vip数据
 [2026-02-10 17:43:27] [INFO] [collect] upsert 受影响 2 行
 [2026-02-10 17:43:27] [INFO] [collect] 保存 2 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-10 18:06:35] [INFO] [collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-10 18:06:36] [INFO] [collect] 成功采集2条cashflow_vip数据
+[2026-02-10 18:06:36] [INFO] [collect] upsert 受影响 2 行
+[2026-02-10 18:06:36] [INFO] [collect] 保存 2 条数据到aistockzml_tushare_cashflow，模式: incremental
