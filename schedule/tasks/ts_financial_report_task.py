@@ -3,6 +3,19 @@
 财务报表数据采集任务
 
 使用 Prefect 3.0 调度，采集 Tushare 财务报表数据
+
+表名对照表:
+| 中文名           | 英文表名                        |
+|-----------------|--------------------------------|
+| 利润表           | aistockzml_tushare_income      |
+| 资产负债表       | aistockzml_tushare_balancesheet|
+| 现金流量表       | aistockzml_tushare_cashflow    |
+| 业绩预告         | aistockzml_tushare_forecast    |
+| 业绩快报         | aistockzml_tushare_express     |
+| 财务指标         | aistockzml_tushare_fina_indicator|
+| 主营业务构成     | aistockzml_tushare_fina_mainbz |
+| 财报披露日期     | aistockzml_tushare_disclosure_date|
+| 分红送股         | aistockzml_tushare_dividend    |
 """
 
 import sys
@@ -10,6 +23,7 @@ import os
 import time
 import pandas as pd
 from datetime import datetime, timedelta
+from typing import List
 
 if sys.platform == 'win32':
     os.environ['PYTHONIOENCODING'] = 'utf-8'
@@ -24,7 +38,8 @@ from schedule import logger, ts_collector
 
 
 def collect_and_save_financial_report(method: str, report_name: str, target_table: str, 
-                                       max_retries: int = 100, retry_interval: int = 5, **kwargs):
+                                       max_retries: int = 100, retry_interval: int = 5, 
+                                       dedup: bool = True, conflict_columns: List[str] = None, **kwargs):
     """采集并保存财务报表数据的公共函数
     
     Args:
@@ -33,8 +48,13 @@ def collect_and_save_financial_report(method: str, report_name: str, target_tabl
         target_table: 目标数据库表名
         max_retries: 最大重试次数(默认100次)
         retry_interval: 重试间隔秒数(默认5秒)
+        dedup: 是否去重（默认True），按conflict_columns分组后取UPDATE_TIME最新的记录
+        conflict_columns: 冲突判断列名列表，用于去重和upsert（默认None则使用TS_CODE, END_DATE）
         **kwargs: 动态参数
     """
+    if conflict_columns is None:
+        conflict_columns = ['TS_CODE', 'END_DATE']
+    
     params = {
         'method': method,
         'fields': '*'
@@ -49,17 +69,18 @@ def collect_and_save_financial_report(method: str, report_name: str, target_tabl
             data = ts_collector.collect(**params)
 
             if data is not None and not data.empty:
-                data['_UPDATE_TIME_DT'] = pd.to_datetime(data['UPDATE_TIME'], format='%Y-%m-%d %H:%M:%S')
-                data = data.sort_values('_UPDATE_TIME_DT', ascending=False).drop_duplicates(
-                    subset=['TS_CODE', 'END_DATE'], keep='first'
-                )
-                data = data.drop(columns=['_UPDATE_TIME_DT']).reset_index(drop=True)
-                logger.info(f"[{report_name}] 去重后数据: {len(data)} 条")
+                if dedup:
+                    data['_UPDATE_TIME_DT'] = pd.to_datetime(data['UPDATE_TIME'], format='%Y-%m-%d %H:%M:%S')
+                    data = data.sort_values('_UPDATE_TIME_DT', ascending=False).drop_duplicates(
+                        subset=conflict_columns, keep='first'
+                    )
+                    data = data.drop(columns=['_UPDATE_TIME_DT']).reset_index(drop=True)
+                    logger.info(f"[{report_name}] 去重后数据: {len(data)} 条")
                 
                 result = ts_collector.save(
                     data,
                     target_table=target_table,
-                    conflict_columns=['TS_CODE', 'END_DATE'],
+                    conflict_columns=conflict_columns,
                     insert_mode='incremental'
                 )
                 
@@ -163,6 +184,30 @@ def collect_and_save_fina_mainbz(period: str):
     )
 
 
+@task(name="collect_and_save_disclosure_date")
+def collect_and_save_disclosure_date(end_date: str):
+    """采集财务报表披露日期并保存到数据库"""
+    collect_and_save_financial_report(
+        method='disclosure_date',
+        report_name='disclosure_date',
+        target_table='aistockzml_tushare_disclosure_date',
+        end_date=end_date
+    )
+
+@task(name="collect_and_save_financial_dividend")
+def collect_and_save_financial_dividend(ann_date: str):
+    """采集分红送股并保存到数据库"""
+    collect_and_save_financial_report(
+        method='dividend_vip',
+        report_name='dividend',
+        target_table='aistockzml_tushare_dividend', 
+        ann_date=ann_date,
+        dedup=False,
+        conflict_columns=['ID']
+    )
+    time.sleep(0.2)
+
+
 @flow(name="财务报表采集流程")
 def financial_report_flow():
     """财务报表采集主流程"""
@@ -181,13 +226,26 @@ def financial_report_flow():
     logger.info(f"当前季度及前3季度末日期列表: {quarter_end_dates}")
 
     for period in quarter_end_dates:
-        collect_and_save_income(period)
+        collect_and_save_income(period)   
         collect_and_save_balancesheet(period)
         collect_and_save_cashflow(period)
         collect_and_save_forecast(period)
         collect_and_save_express(period)
         collect_and_save_fina_indicator(period)   
         collect_and_save_fina_mainbz(period)   
+        collect_and_save_disclosure_date(end_date=period)
+
+    # 采集近360天的分红数据
+    today = datetime.now().strftime('%Y%m%d')
+    start_date = (datetime.now() - timedelta(days=10)).strftime('%Y%m%d')
+    dividend_dates = pd.date_range(start=start_date, end=today, freq='D').strftime('%Y%m%d').tolist()
+    logger.info(f"近360天分红公告日期列表: {dividend_dates}")
+
+    # logger.info("开始采集分红数据...")
+    for ann_date in dividend_dates:
+        collect_and_save_financial_dividend(ann_date)
+    #     logger.info(f"已采集 {ann_date} 的分红数据")
+    # logger.info("分红数据采集完成")
 
     logger.info("=" * 50)
     logger.info("财务报表采集任务完成")

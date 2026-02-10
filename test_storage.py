@@ -34,5 +34,5 @@ ts_collector.save(
     data, 
     target_table='aistockzml_tushare_cashflow', 
     insert_mode='incremental',
-    conflict_columns=['TS_CODE', 'END_DATE'],
+    conflict_columns=['TS_CODE', 'END_DATE']
 )
