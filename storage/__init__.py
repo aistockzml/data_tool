@@ -138,12 +138,19 @@ class MySqlOperator:
     
     def get_connection(self):
         """
-        获取数据库连接
+        获取数据库连接，确保连接是健康的
         
         Returns:
             Connection: 数据库连接对象
         """
-        return self._pool.connection()
+        conn = self._pool.connection()
+        try:
+            conn.ping(reconnect=True)
+        except Exception:
+            conn.close()
+            conn = self._pool.connection()
+            conn.ping(reconnect=True)
+        return conn
     
     def query(self, sql: str, params: Tuple = None) -> List[Dict]:
         """

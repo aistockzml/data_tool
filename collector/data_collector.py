@@ -32,6 +32,7 @@
 
 import pandas as pd
 import time
+from datetime import datetime
 from typing import Any, Dict, List, Optional, Tuple
 from abc import ABC, abstractmethod
 from . import DataConnector
@@ -161,6 +162,7 @@ class DataCollector(ABC):
             insert_mode = 'incremental'
         
         try:
+            data['etl_time'] = datetime.now()
             data_list = data.to_dict('records')
             
             if self.db_conn.table_exists(target_table):
@@ -174,7 +176,7 @@ class DataCollector(ABC):
                         data_list,
                         conflict_columns
                     )
-                    print(f"upsert 受影响 {affected} 行")
+                    self.logger.info(f"upsert 受影响 {affected} 行")
                 else:
                     affected = self.db_conn.batch_insert(
                         target_table,

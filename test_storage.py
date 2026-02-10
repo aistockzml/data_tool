@@ -26,24 +26,13 @@ ts_collector = TushareDataCollector(
     db_conn=mysql,
     logger=logger)
 
-data = ts_collector.collect(method='fina_indicator_vip', period='20250630', fields='*')
+data = ts_collector.collect(method='cashflow_vip', ann_date='20260109', fields='*')
 
-if data is not None and not data.empty:
-    print(f"原始数据: {len(data)} 条")
+data.loc[(data['TS_CODE'] == '920050.BJ') & (data['END_DATE'] == '20250630'), 'UPDATE_FLAG'] = '2222'
 
-    data['UPDATE_TIME'] = pd.to_datetime(data['UPDATE_TIME'], errors='coerce')
-
-    data_unique = (
-        data
-        .sort_values('UPDATE_TIME', ascending=False)
-        .drop_duplicates(subset=['TS_CODE'], keep='first')
-    )
-
-    data_unique = data_unique.reset_index(drop=True)
-    print(f"去重后数据: {len(data_unique)} 条")
-
-    ts_collector.save(
-        data_unique, 
-        target_table='aistockzml_tushare_fina_indicator', 
-        insert_mode='overwrite'
-    )
+ts_collector.save(
+    data, 
+    target_table='aistockzml_tushare_cashflow', 
+    insert_mode='incremental',
+    conflict_columns=['TS_CODE', 'END_DATE'],
+)
