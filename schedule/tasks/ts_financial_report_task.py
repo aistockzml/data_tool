@@ -2,7 +2,7 @@
 """
 财务报表数据采集任务
 
-使用 Prefect 3.0 调度，采集 Tushare 财务报表数据
+使用 Prefect 3.0 调度,采集 Tushare 财务报表数据
 
 表名对照表:
 | 中文名           | 英文表名                        |
@@ -48,8 +48,8 @@ def collect_and_save_financial_report(method: str, report_name: str, target_tabl
         target_table: 目标数据库表名
         max_retries: 最大重试次数(默认100次)
         retry_interval: 重试间隔秒数(默认5秒)
-        dedup: 是否去重（默认True），按conflict_columns分组后取UPDATE_TIME最新的记录
-        conflict_columns: 冲突判断列名列表，用于去重和upsert（默认None则使用TS_CODE, END_DATE）
+        dedup: 是否去重(默认True),按conflict_columns分组后取UPDATE_TIME最新的记录
+        conflict_columns: 冲突判断列名列表,用于去重和upsert(默认None则使用TS_CODE, END_DATE)
         **kwargs: 动态参数
     """
     if conflict_columns is None:
@@ -88,7 +88,7 @@ def collect_and_save_financial_report(method: str, report_name: str, target_tabl
                     logger.info(f"[{report_name}] 数据保存成功")
                     return True
                 else:
-                    logger.warning(f"[{report_name}] 数据保存返回失败，准备重试")
+                    logger.warning(f"[{report_name}] 数据保存返回失败,准备重试")
             else:
                 logger.info(f"[{report_name}] 无数据需要保存")
                 return True
@@ -100,7 +100,7 @@ def collect_and_save_financial_report(method: str, report_name: str, target_tabl
             logger.info(f"[{report_name}] 等待{retry_interval}秒后进行第{attempt + 1}次重试...")
             time.sleep(retry_interval)
     
-    logger.error(f"[{report_name}] 已达到最大重试次数({max_retries})，任务失败")
+    logger.error(f"[{report_name}] 已达到最大重试次数({max_retries}),任务失败")
     return False
 
 
@@ -216,7 +216,7 @@ def financial_report_flow():
     logger.info(f"执行时间: {datetime.now()}")
     logger.info("=" * 50)
     
-    # 生成当前季度末及前3个季度末（共4个季度）
+    # 生成当前季度末及前3个季度末(共4个季度)
     current_quarter_end = pd.Timestamp.now() + pd.offsets.QuarterEnd(0)
     quarter_end_dates = pd.date_range(
         end=current_quarter_end,

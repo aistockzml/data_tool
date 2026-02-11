@@ -50,7 +50,7 @@ def get_trade_dates(start_date=None, end_date=None):
 
 
 @task(name="check_is_trading_day")
-def check_is_trading_day(trade_cal):
+def check_is_trading_day(trade_cal: list):
     """检查今天是否为交易日（仅检查上交所）"""
     today = datetime.now().strftime("%Y%m%d")
 
@@ -148,10 +148,9 @@ def stock_basic_flow():
     is_trading_day, today = check_is_trading_day(trade_cal)
 
     if is_trading_day:
-        # collect_and_save_stock_basic(is_trading_day=1)
-        # collect_and_save_stock_hsgt(is_trading_day=1, trade_date='20260206')
-        # collect_and_save_stock_company(is_trading_day=1, trade_date='20260206')
-        pass
+        collect_and_save_stock_basic()
+        collect_and_save_stock_hsgt(today)
+        collect_and_save_stock_company()
 
     logger.info("=" * 50)
     logger.info("定时任务完成")

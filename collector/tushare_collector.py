@@ -91,19 +91,14 @@ class TushareDataCollector(DataCollector):
         
         self.logger.info(f"开始采集Tushare数据: {method}")
         
-        try:
-            data = func(**kwargs)
-            
-            if data is not None and not data.empty:
-                self.logger.info(f"成功采集{len(data)}条{method}数据")
-            elif data is not None:
-                self.logger.info(f"成功采集{method}数据，数据为空")
-            
-            return data
-            
-        except Exception as e:
-            self.logger.error(f"采集{method}数据失败: {e}")
-            return None
+        data = func(**kwargs)
+        
+        if data is not None and not data.empty:
+            self.logger.info(f"成功采集{len(data)}条{method}数据")
+        elif data is not None:
+            self.logger.info(f"成功采集{method}数据，数据为空")
+        
+        return data
     
     def __repr__(self) -> str:
         return f"<TushareDataCollector(name={self.collect_name}, token={'*' * 8 if self.token else 'None'})>"

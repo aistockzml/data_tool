@@ -15,5 +15,8 @@ logger = logger_mge.get_logger("collect")
 
 mysql = MySqlOperator(**config.get_section('database'))
 
-data_unique = [{"TS_CODE": "001281.SZ", "col1": "2", "col2": "a"}]
-mysql.batch_upsert('test_inst', data_unique, conflict_columns=['TS_CODE', 'col1'])
+# data_unique = [{"TS_CODE": "001281.SZ", "col1": "2", "col2": "a"}]
+# mysql.batch_upsert('test_inst', data_unique, conflict_columns=['TS_CODE', 'col1'])
+
+
+mysql.query('desc aistockzml_tushare_stk_monthly_adj')
