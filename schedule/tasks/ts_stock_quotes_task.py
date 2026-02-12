@@ -94,6 +94,18 @@ def collect_and_save_weekly(trade_date: str):
     )
 
 
+@task(name="collect_and_save_daily_basic")
+def collect_and_save_daily_basic(trade_date: str):
+    """采集日线行情-基础指标并保存到数据库"""
+    collect_and_save_quotes(
+        method='daily_basic',
+        target_table='aistockzml_tushare_daily_basic',
+        quotes_name='daily_basic',
+        trade_date=trade_date
+    )  
+
+
+@task(name="collect_and_save_monthly")  
 def collect_and_save_monthly(trade_date: str):
     """采集月线行情(月k-历史)-未复权行情并保存到数据库
     ps:只有一个月的最后一个交易日才会有数据
@@ -181,7 +193,66 @@ def collect_and_save_ggt_daily(trade_date: str):
         target_table='aistockzml_tushare_ggt_daily',
         quotes_name='ggt_daily',
         trade_date=trade_date,
-        conflict_columns=['trade_date']
+        conflict_columns=['TRADE_DATE']
+    )  
+
+
+@task(name="collect_and_save_suspend_d")
+def collect_and_save_suspend_d(trade_date: str):
+    """采集股票每日暂停交易信息并保存到数据库"""
+    collect_and_save_quotes(
+        method='suspend_d',
+        target_table='aistockzml_tushare_suspend_d',
+        quotes_name='suspend_d',
+        trade_date=trade_date,
+        conflict_columns=['UNIQUE_ID']
+    )  
+
+
+@task(name="collect_and_save_bak_daily")
+def collect_and_save_bak_daily(trade_date: str):
+    """采集股票每日行情-历史数据并保存到数据库"""
+    collect_and_save_quotes(
+        method='bak_daily',
+        target_table='aistockzml_tushare_bak_daily',
+        quotes_name='bak_daily',
+        trade_date=trade_date,
+        conflict_columns=['TS_CODE','TRADE_DATE']
+    )  
+
+@task(name="collect_and_save_adj_factor")
+def collect_and_save_adj_factor(trade_date: str):
+    """采集股票复权因子并保存到数据库"""
+    collect_and_save_quotes(
+        method='adj_factor',
+        target_table='aistockzml_tushare_adj_factor',
+        quotes_name='adj_factor',
+        trade_date=trade_date,
+        conflict_columns=['TS_CODE','TRADE_DATE']
+    )  
+
+
+@task(name="collect_and_save_stk_factor_pro")
+def collect_and_save_stk_factor_pro(trade_date: str):
+    """采集日线行情-股票技术面因子表(专业版)并保存到数据库"""
+    collect_and_save_quotes(
+        method='stk_factor_pro',
+        target_table='aistockzml_tushare_stk_factor_pro',
+        quotes_name='stk_factor_pro',
+        trade_date=trade_date,
+        conflict_columns=['TS_CODE','TRADE_DATE']
+    )  
+
+
+@task(name="collect_and_save_cyq_perf")
+def collect_and_save_cyq_perf(trade_date: str):
+    """采集每日筹码及胜率表并保存到数据库"""
+    collect_and_save_quotes(
+        method='cyq_perf',
+        target_table='aistockzml_tushare_cyq_perf',
+        quotes_name='cyq_perf',
+        trade_date=trade_date,
+        conflict_columns=['TS_CODE','TRADE_DATE']
     )  
 
 
@@ -193,7 +264,7 @@ def quotes_flow():
     logger.info(f"执行时间: {datetime.now()}")
     logger.info("=" * 50)
     
-    today = '20260210'
+    today = '20260212'
     # collect_and_save_daily(today)
     # collect_and_save_weekly(today)
     # collect_and_save_monthly(today)
@@ -202,7 +273,12 @@ def quotes_flow():
     # collect_and_save_stk_weekly_adj(today)
     # collect_and_save_stk_monthly_adj(today)
     # collect_and_save_daily_basic(today)
-    collect_and_save_ggt_daily(today)
+    # collect_and_save_ggt_daily(today)
+    # collect_and_save_suspend_d(today)
+    # collect_and_save_bak_daily(today)
+    # collect_and_save_adj_factor(today)    
+    # collect_and_save_stk_factor_pro(today)
+    collect_and_save_cyq_perf(today)
 
     logger.info("=" * 50)
     logger.info("定时任务完成")

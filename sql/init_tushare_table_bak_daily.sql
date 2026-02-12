@@ -1,0 +1,48 @@
+-- 备用行情表
+-- 接口: bak_daily
+-- 描述: 获取备用行情，包括特定的行情指标(数据从2017年中左右开始，早期有几天数据缺失，近期正常)
+-- 限量: 单次最大7000行数据，可以根据日期参数循环获取，正式权限需要5000积分
+
+CREATE TABLE IF NOT EXISTS `aistockzml_tushare_bak_daily` (
+    `ID` varchar(20) NULL COMMENT 'ID',
+    `VOL` decimal(20,4) NULL COMMENT '成交量',
+    `INDUSTRY` varchar(50) NULL COMMENT '所属行业',
+    `TOTAL_MV` decimal(20,4) NULL COMMENT '总市值',
+    `AVG_PRICE` decimal(20,4) NULL COMMENT '平均价',
+    `ACTIVITY` decimal(20,4) NULL COMMENT '活跃度(%)',
+    `AVG_TURNOVER` decimal(20,4) NULL COMMENT '笔换手',
+    `TRADE_DATE` varchar(20) NOT NULL COMMENT '交易日期',
+    `VOL_RATIO` decimal(20,4) NULL COMMENT '量比',
+    `FLOAT_SHARE` decimal(20,4) NULL COMMENT '流通股本(亿)',
+    `CREATE_TIME` varchar(20) NULL COMMENT '创建时间',
+    `UPDATE_BY` varchar(20) NULL COMMENT '更新人',
+    `NAME` varchar(50) NULL COMMENT '股票名称',
+    `BUYING` decimal(20,4) NULL COMMENT '外盘（主动买，手）',
+    `FLOAT_MV` decimal(20,4) NULL COMMENT '流通市值',
+    `PCT_CHANGE` decimal(20,4) NULL COMMENT '涨跌幅',
+    `OPEN` decimal(20,4) NULL COMMENT '开盘价',
+    `PE` decimal(20,4) NULL COMMENT '市盈(动)',
+    `STRENGTH` decimal(20,4) NULL COMMENT '强弱度(%)',
+    `INTERVAL_6` decimal(20,4) NULL COMMENT '近6月涨幅',
+    `PRE_CLOSE` decimal(20,4) NULL COMMENT '昨收价',
+    `AMOUNT` decimal(20,4) NULL COMMENT '成交额',
+    `SELLING` decimal(20,4) NULL COMMENT '内盘（主动卖，手）',
+    `TOTAL_SHARE` decimal(20,4) NULL COMMENT '总股本(亿)',
+    `INTERVAL_3` decimal(20,4) NULL COMMENT '近3月涨幅',
+    `CLOSE` decimal(20,4) NULL COMMENT '收盘价',
+    `HIGH` decimal(20,4) NULL COMMENT '最高价',
+    `LOW` decimal(20,4) NULL COMMENT '最低价',
+    `TURN_OVER` decimal(20,4) NULL COMMENT '换手率',
+    `CREATE_BY` varchar(20) NULL COMMENT '创建人',
+    `SWING` decimal(20,4) NULL COMMENT '振幅',
+    `AREA` varchar(50) NULL COMMENT '所属地域',
+    `ATTACK` decimal(20,4) NULL COMMENT '攻击波(%)',
+    `UPDATE_TIME` varchar(20) NULL COMMENT '更新时间',
+    `TS_CODE` varchar(20) NOT NULL COMMENT '股票代码',
+    `CHANGE` decimal(20,4) NULL COMMENT '涨跌额',
+    `etl_time` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '数据采集时间',
+    PRIMARY KEY (`TS_CODE`, `TRADE_DATE`),
+    KEY `idx_trade_date` (`TRADE_DATE`),
+    KEY `idx_industry` (`INDUSTRY`),
+    KEY `idx_area` (`AREA`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='备用行情表';
