@@ -1,0 +1,12 @@
+[2026-02-13 00:05:33] [INFO] [tushare-collect] ==================================================
+[2026-02-13 00:05:33] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-13 00:05:33] [INFO] [tushare-collect] 执行时间: 2026-02-13 00:05:33.968121
+[2026-02-13 00:05:33] [INFO] [tushare-collect] ==================================================
+[2026-02-13 00:05:33] [INFO] [tushare-collect] 采集参数: {'method': 'stk_holdertrade', 'fields': '*', 'start_date': '20260209', 'end_date': '20260212'}
+[2026-02-13 00:05:33] [INFO] [tushare-collect] 开始采集Tushare数据: stk_holdertrade
+[2026-02-13 00:05:34] [INFO] [tushare-collect] 成功采集190条stk_holdertrade数据
+[2026-02-13 00:05:34] [INFO] [tushare-collect] upsert 受影响 190 行
+[2026-02-13 00:05:34] [INFO] [tushare-collect] 保存 190 条数据到aistockzml_tushare_stk_holdertrade，模式: incremental
+[2026-02-13 00:05:34] [INFO] [tushare-collect] ==================================================
+[2026-02-13 00:05:34] [INFO] [tushare-collect] 定时任务完成
+[2026-02-13 00:05:34] [INFO] [tushare-collect] ==================================================

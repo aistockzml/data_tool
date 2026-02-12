@@ -13,7 +13,7 @@ if sys.platform == 'win32':
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from prefect import flow, task
-from prefect.task_runners import ThreadPoolTaskRunner
+from prefect.schedules import CronSchedule
 from schedule import logger, ts_collector
 
 
@@ -256,7 +256,7 @@ def collect_and_save_cyq_perf(trade_date: str):
     )  
 
 
-@flow(name="股票行情采集流程")
+@flow(name="股票行情采集流程", schedule=CronSchedule(cron="*/30 15-23 * * *", timezone="Asia/Shanghai"))
 def quotes_flow():
     """日线行情采集主流程"""
     logger.info("=" * 50)

@@ -218,3 +218,193 @@
 [2026-02-12 17:40:29] [INFO] [tushare-collect] ==================================================
 [2026-02-12 17:40:29] [INFO] [tushare-collect] 定时任务完成
 [2026-02-12 17:40:29] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:04:22] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:04:22] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 21:04:22] [INFO] [tushare-collect] 执行时间: 2026-02-12 21:04:22.597108
+[2026-02-12 21:04:22] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:04:22] [INFO] [tushare-collect] 采集参数: {'method': 'moneyflow_ind_dc', 'trade_date': '20260211', 'fields': '*'}
+[2026-02-12 21:04:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-12 21:04:25] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-12 21:04:26] [ERROR] [tushare-collect] 保存数据失败: 批量Upsert失败: (1054, "Unknown column 'ID' in 'field list'")
+[2026-02-12 21:04:26] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:04:26] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 21:04:26] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:06:02] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:06:02] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 21:06:02] [INFO] [tushare-collect] 执行时间: 2026-02-12 21:06:02.660861
+[2026-02-12 21:06:02] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:06:02] [INFO] [tushare-collect] 采集参数: {'method': 'moneyflow_ind_dc', 'trade_date': '20260211', 'fields': '*'}
+[2026-02-12 21:06:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-12 21:06:03] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-12 21:06:03] [INFO] [tushare-collect] upsert 受影响 571 行
+[2026-02-12 21:06:03] [INFO] [tushare-collect] 保存 571 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-12 21:06:03] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:06:03] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 21:06:03] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:14:48] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:14:48] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 21:14:48] [INFO] [tushare-collect] 执行时间: 2026-02-12 21:14:48.992503
+[2026-02-12 21:14:48] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:14:49] [INFO] [tushare-collect] 采集参数: {'method': 'moneyflow_mkt_dc', 'trade_date': '20260211', 'fields': '*'}
+[2026-02-12 21:14:49] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-12 21:14:49] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-12 21:14:49] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-12 21:14:49] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-12 21:14:49] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:14:49] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 21:14:49] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:15:11] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:15:11] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 21:15:11] [INFO] [tushare-collect] 执行时间: 2026-02-12 21:15:11.609574
+[2026-02-12 21:15:11] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:15:11] [INFO] [tushare-collect] 采集参数: {'method': 'moneyflow_mkt_dc', 'trade_date': '20260212', 'fields': '*'}
+[2026-02-12 21:15:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-12 21:15:12] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-12 21:15:12] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-12 21:15:12] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-12 21:15:12] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:15:12] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 21:15:12] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:23:39] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:23:39] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 21:23:39] [INFO] [tushare-collect] 执行时间: 2026-02-12 21:23:39.006781
+[2026-02-12 21:23:39] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:23:39] [INFO] [tushare-collect] 采集参数: {'method': 'moneyflow_mkt_dc', 'trade_date': '20260212', 'fields': '*'}
+[2026-02-12 21:23:39] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-12 21:23:39] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-12 21:23:39] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-12 21:23:39] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-12 21:23:39] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:23:39] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 21:23:39] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:25:38] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:25:38] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 21:25:38] [INFO] [tushare-collect] 执行时间: 2026-02-12 21:25:38.546943
+[2026-02-12 21:25:38] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:25:38] [INFO] [tushare-collect] 采集参数: {'method': 'moneyflow_hsgt', 'trade_date': '20260212', 'fields': '*'}
+[2026-02-12 21:25:38] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-12 21:25:38] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-12 21:25:39] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-12 21:25:39] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-12 21:25:39] [INFO] [tushare-collect] ==================================================
+[2026-02-12 21:25:39] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 21:25:39] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:09] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:09] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 22:11:09] [INFO] [tushare-collect] 执行时间: 2026-02-12 22:11:09.982678
+[2026-02-12 22:11:09] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:10] [INFO] [tushare-collect] 采集参数: {'method': 'repurchase', 'fields': '*', 'start_date': '20260113', 'end_date': '20260212'}
+[2026-02-12 22:11:10] [INFO] [tushare-collect] 开始采集Tushare数据: repurchase
+[2026-02-12 22:11:13] [INFO] [tushare-collect] 成功采集381条repurchase数据
+[2026-02-12 22:11:13] [INFO] [tushare-collect] upsert 受影响 381 行
+[2026-02-12 22:11:13] [INFO] [tushare-collect] 保存 381 条数据到aistockzml_tushare_repurchase，模式: incremental
+[2026-02-12 22:11:13] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:13] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 22:11:13] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:42] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:42] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 22:11:42] [INFO] [tushare-collect] 执行时间: 2026-02-12 22:11:42.887402
+[2026-02-12 22:11:42] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:42] [INFO] [tushare-collect] 采集参数: {'method': 'repurchase', 'fields': '*', 'start_date': '20260113', 'end_date': '20260212'}
+[2026-02-12 22:11:42] [INFO] [tushare-collect] 开始采集Tushare数据: repurchase
+[2026-02-12 22:11:43] [INFO] [tushare-collect] 成功采集381条repurchase数据
+[2026-02-12 22:11:43] [INFO] [tushare-collect] upsert 受影响 381 行
+[2026-02-12 22:11:43] [INFO] [tushare-collect] 保存 381 条数据到aistockzml_tushare_repurchase，模式: incremental
+[2026-02-12 22:11:43] [INFO] [tushare-collect] ==================================================
+[2026-02-12 22:11:43] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 22:11:43] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:45:46] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:45:46] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:45:46] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:45:46.777673
+[2026-02-12 23:45:46] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:45:46] [INFO] [tushare-collect] 采集参数: {'method': 'block_trade', 'fields': '*', 'start_date': '20260113', 'end_date': '20260212'}
+[2026-02-12 23:45:46] [INFO] [tushare-collect] 开始采集Tushare数据: block_trade
+[2026-02-12 23:45:48] [INFO] [tushare-collect] 成功采集1000条block_trade数据
+[2026-02-12 23:45:48] [INFO] [tushare-collect] upsert 受影响 1000 行
+[2026-02-12 23:45:48] [INFO] [tushare-collect] 保存 1000 条数据到aistockzml_tushare_block_trade，模式: incremental
+[2026-02-12 23:45:48] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:45:48] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:45:48] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:46:32] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:46:32] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:46:32] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:46:32.992438
+[2026-02-12 23:46:32] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:46:33] [INFO] [tushare-collect] 采集参数: {'method': 'block_trade', 'fields': '*', 'start_date': '20260207', 'end_date': '20260212'}
+[2026-02-12 23:46:33] [INFO] [tushare-collect] 开始采集Tushare数据: block_trade
+[2026-02-12 23:46:33] [INFO] [tushare-collect] 成功采集873条block_trade数据
+[2026-02-12 23:46:33] [INFO] [tushare-collect] upsert 受影响 873 行
+[2026-02-12 23:46:33] [INFO] [tushare-collect] 保存 873 条数据到aistockzml_tushare_block_trade，模式: incremental
+[2026-02-12 23:46:33] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:46:33] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:46:33] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:47:19] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:47:19] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:47:19] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:47:19.394252
+[2026-02-12 23:47:19] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:47:19] [INFO] [tushare-collect] 采集参数: {'method': 'block_trade', 'fields': '*', 'start_date': '20260209', 'end_date': '20260212'}
+[2026-02-12 23:47:19] [INFO] [tushare-collect] 开始采集Tushare数据: block_trade
+[2026-02-12 23:47:19] [INFO] [tushare-collect] 成功采集873条block_trade数据
+[2026-02-12 23:47:20] [INFO] [tushare-collect] upsert 受影响 873 行
+[2026-02-12 23:47:20] [INFO] [tushare-collect] 保存 873 条数据到aistockzml_tushare_block_trade，模式: incremental
+[2026-02-12 23:47:20] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:47:20] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:47:20] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:28] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:28] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:48:28] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:48:28.728944
+[2026-02-12 23:48:28] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:28] [INFO] [tushare-collect] 采集参数: {'method': 'block_trade', 'fields': '*', 'start_date': '20260209', 'end_date': '20260212'}
+[2026-02-12 23:48:28] [INFO] [tushare-collect] 开始采集Tushare数据: block_trade
+[2026-02-12 23:48:29] [INFO] [tushare-collect] 成功采集873条block_trade数据
+[2026-02-12 23:48:29] [INFO] [tushare-collect] upsert 受影响 873 行
+[2026-02-12 23:48:29] [INFO] [tushare-collect] 保存 873 条数据到aistockzml_tushare_block_trade，模式: incremental
+[2026-02-12 23:48:29] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:29] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:48:29] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:58] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:58] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:48:58] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:48:58.577004
+[2026-02-12 23:48:58] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:58] [INFO] [tushare-collect] 采集参数: {'method': 'block_trade', 'fields': '*', 'start_date': '20260211', 'end_date': '20260212'}
+[2026-02-12 23:48:58] [INFO] [tushare-collect] 开始采集Tushare数据: block_trade
+[2026-02-12 23:48:59] [INFO] [tushare-collect] 成功采集379条block_trade数据
+[2026-02-12 23:48:59] [INFO] [tushare-collect] upsert 受影响 379 行
+[2026-02-12 23:48:59] [INFO] [tushare-collect] 保存 379 条数据到aistockzml_tushare_block_trade，模式: incremental
+[2026-02-12 23:48:59] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:48:59] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:48:59] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:55:44] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:55:45] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:55:45] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:55:45.001469
+[2026-02-12 23:55:45] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:55:45] [INFO] [tushare-collect] 采集参数: {'method': 'stk_holdernumber', 'fields': '*', 'start_date': '20260209', 'end_date': '20260212'}
+[2026-02-12 23:55:45] [INFO] [tushare-collect] 开始采集Tushare数据: stk_holdernumber
+[2026-02-12 23:55:45] [INFO] [tushare-collect] 成功采集655条stk_holdernumber数据
+[2026-02-12 23:55:45] [INFO] [tushare-collect] 保存 655 条数据到aistockzml_tushare_holdernumber，模式: incremental
+[2026-02-12 23:55:45] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:55:45] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:55:45] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:57:16] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:57:16] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:57:16] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:57:16.226299
+[2026-02-12 23:57:16] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:57:16] [INFO] [tushare-collect] 采集参数: {'method': 'stk_holdernumber', 'fields': '*', 'start_date': '20260209', 'end_date': '20260212'}
+[2026-02-12 23:57:16] [INFO] [tushare-collect] 开始采集Tushare数据: stk_holdernumber
+[2026-02-12 23:57:17] [INFO] [tushare-collect] 成功采集655条stk_holdernumber数据
+[2026-02-12 23:57:17] [INFO] [tushare-collect] upsert 受影响 655 行
+[2026-02-12 23:57:17] [INFO] [tushare-collect] 保存 655 条数据到aistockzml_tushare_stk_holdernumber，模式: incremental
+[2026-02-12 23:57:17] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:57:17] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:57:17] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:58:42] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:58:42] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-12 23:58:42] [INFO] [tushare-collect] 执行时间: 2026-02-12 23:58:42.394643
+[2026-02-12 23:58:42] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:58:42] [INFO] [tushare-collect] 采集参数: {'method': 'stk_holdernumber', 'fields': '*', 'start_date': '20260211', 'end_date': '20260212'}
+[2026-02-12 23:58:42] [INFO] [tushare-collect] 开始采集Tushare数据: stk_holdernumber
+[2026-02-12 23:58:43] [INFO] [tushare-collect] 成功采集535条stk_holdernumber数据
+[2026-02-12 23:58:43] [INFO] [tushare-collect] upsert 受影响 535 行
+[2026-02-12 23:58:43] [INFO] [tushare-collect] 保存 535 条数据到aistockzml_tushare_stk_holdernumber，模式: incremental
+[2026-02-12 23:58:43] [INFO] [tushare-collect] ==================================================
+[2026-02-12 23:58:43] [INFO] [tushare-collect] 定时任务完成
+[2026-02-12 23:58:43] [INFO] [tushare-collect] ==================================================

@@ -1,3 +1,8 @@
+"""
+股票资金流数据采集任务
+使用 Prefect 3.0 调度,采集 Tushare 股票资金流数据
+"""
+
 import sys
 import os
 import time
@@ -124,6 +129,44 @@ def collect_and_save_moneyflow_ind_ths(trade_date: str):
     )
 
 
+@task(name="collect_and_save_moneyflow_ind_dc")
+def collect_and_save_moneyflow_ind_dc(trade_date: str):
+    """采集东财概念及行业板块资金流向（DC）并保存到数据库"""
+    return collect_and_save_moneyflow_public(
+        method='moneyflow_ind_dc',
+        target_table='aistockzml_tushare_moneyflow_ind_dc',
+        quotes_name='moneyflow_ind_dc',
+        trade_date=trade_date,
+        conflict_columns=['INS_CODE', 'TRADE_DATE']
+    )
+    
+
+@task(name="collect_and_save_moneyflow_mkt_dc")
+def collect_and_save_moneyflow_mkt_dc(trade_date: str):
+    """采集大盘资金流向（DC）并保存到数据库"""
+    return collect_and_save_moneyflow_public(
+        method='moneyflow_mkt_dc',
+        target_table='aistockzml_tushare_moneyflow_mkt_dc',
+        quotes_name='moneyflow_mkt_dc',
+        trade_date=trade_date,
+        conflict_columns=['ID']
+    )
+
+
+@task(name="collect_and_save_moneyflow_hsgt")
+def collect_and_save_moneyflow_hsgt(trade_date: str):
+    """采集沪深港通资金流向并保存到数据库"""
+    return collect_and_save_moneyflow_public(
+        method='moneyflow_hsgt',
+        target_table='aistockzml_tushare_moneyflow_hsgt',
+        quotes_name='moneyflow_hsgt',
+        trade_date=trade_date,
+        conflict_columns=['TRADE_DATE']
+    )
+
+
+
+
 @flow(name="股票资金流数据采集流程")
 def moneyflow_flow():
     """资金流数据采集主流程"""
@@ -132,12 +175,15 @@ def moneyflow_flow():
     logger.info(f"执行时间: {datetime.now()}")
     logger.info("=" * 50)
     
-    today = '20260211'
+    today = '20260212'
     # collect_and_save_moneyflow(today)
     # collect_and_save_moneyflow_ths(today)
     # collect_and_save_moneyflow_dc(today)
     # collect_and_save_moneyflow_cnt_ths(today)
-    collect_and_save_moneyflow_ind_ths(today)
+    # collect_and_save_moneyflow_ind_ths(today)
+    # collect_and_save_moneyflow_ind_dc(today)    
+    # collect_and_save_moneyflow_mkt_dc(today)
+    collect_and_save_moneyflow_hsgt(today)
 
     logger.info("=" * 50)
     logger.info("定时任务完成")

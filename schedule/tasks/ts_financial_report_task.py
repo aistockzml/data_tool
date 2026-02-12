@@ -4,18 +4,6 @@
 
 使用 Prefect 3.0 调度,采集 Tushare 财务报表数据
 
-表名对照表:
-| 中文名           | 英文表名                        |
-|-----------------|--------------------------------|
-| 利润表           | aistockzml_tushare_income      |
-| 资产负债表       | aistockzml_tushare_balancesheet|
-| 现金流量表       | aistockzml_tushare_cashflow    |
-| 业绩预告         | aistockzml_tushare_forecast    |
-| 业绩快报         | aistockzml_tushare_express     |
-| 财务指标         | aistockzml_tushare_fina_indicator|
-| 主营业务构成     | aistockzml_tushare_fina_mainbz |
-| 财报披露日期     | aistockzml_tushare_disclosure_date|
-| 分红送股         | aistockzml_tushare_dividend    |
 """
 
 import sys

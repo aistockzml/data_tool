@@ -39,6 +39,7 @@ pro._DataApi__http_url = 'http://lianghua.9vvn.com'
 - 字段名直接作为MySQL表的列名
 - 字段的中文注释从接口文档的「输出参数-描述」中获取
 - 额外添加`etl_time`字段记录数据加载时间，类型为`datetime`
+- **MySQL保留关键字处理**：如果字段名是MySQL保留关键字（如RANK、ORDER、GROUP、KEY、VALUE等），必须用反引号包裹，例如：`` `RANK` ``
 
 ## 表命名规范
 
