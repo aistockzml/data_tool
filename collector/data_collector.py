@@ -169,7 +169,7 @@ class DataCollector(ABC):
                 if insert_mode == 'overwrite':
                     self.logger.info(f"覆盖模式：清空表 {target_table}")
                     self.db_conn.execute(f"TRUNCATE TABLE {target_table}")
-                
+
                 if conflict_columns:
                     affected = self.db_conn.batch_upsert(
                         target_table,
@@ -183,11 +183,7 @@ class DataCollector(ABC):
                         data_list
                     )
             else:
-                self._create_table_from_df(target_table, data)
-                affected = self.db_conn.batch_insert(
-                    target_table,
-                    data_list
-                )
+                raise DataCollectorError(f"目标表 {target_table} 不存在，请先创建表")
             
             self.logger.info(f"保存 {affected} 条数据到{target_table}，模式: {insert_mode}")
             return affected > 0

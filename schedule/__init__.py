@@ -3,6 +3,8 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from .utils import get_quarter_end_dates, get_date_range_list
+
 from logger import LoggerManager
 from config import ConfigParser
 from collector import TushareConnector, TushareDataCollector
