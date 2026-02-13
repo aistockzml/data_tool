@@ -210,3 +210,36 @@
 [2026-02-13 17:39:08] [INFO] [tushare-collect] ==================================================
 [2026-02-13 17:39:08] [INFO] [tushare-collect] 财务报表采集任务完成
 [2026-02-13 17:39:08] [INFO] [tushare-collect] ==================================================
+[2026-02-13 22:05:53] [INFO] [tushare-collect] ==================================================
+[2026-02-13 22:05:53] [INFO] [tushare-collect] 开始执行财务报表采集任务
+[2026-02-13 22:05:53] [INFO] [tushare-collect] 执行时间: 2026-02-13 22:05:53.256644
+[2026-02-13 22:05:53] [INFO] [tushare-collect] ==================================================
+[2026-02-13 22:05:53] [INFO] [tushare-collect] 当前季度及前3季度末日期列表: ['20250630', '20250930', '20251231', '20260331']
+[2026-02-13 22:05:53] [INFO] [tushare-collect] [express] 采集参数: {'method': 'express_vip', 'fields': '*', 'period': '20250630'}
+[2026-02-13 22:05:53] [INFO] [tushare-collect] 开始采集Tushare数据: express_vip
+[2026-02-13 22:05:53] [INFO] [tushare-collect] 成功采集79条express_vip数据
+[2026-02-13 22:05:53] [INFO] [tushare-collect] [express] 去重后数据: 78 条
+[2026-02-13 22:05:54] [INFO] [tushare-collect] upsert 受影响 78 行
+[2026-02-13 22:05:54] [INFO] [tushare-collect] 保存 78 条数据到aistockzml_tushare_express，模式: incremental
+[2026-02-13 22:05:54] [INFO] [tushare-collect] [express] 数据保存成功
+[2026-02-13 22:05:54] [INFO] [tushare-collect] [express] 采集参数: {'method': 'express_vip', 'fields': '*', 'period': '20250930'}
+[2026-02-13 22:05:54] [INFO] [tushare-collect] 开始采集Tushare数据: express_vip
+[2026-02-13 22:05:54] [INFO] [tushare-collect] 成功采集9条express_vip数据
+[2026-02-13 22:05:54] [INFO] [tushare-collect] [express] 去重后数据: 9 条
+[2026-02-13 22:05:54] [INFO] [tushare-collect] upsert 受影响 9 行
+[2026-02-13 22:05:54] [INFO] [tushare-collect] 保存 9 条数据到aistockzml_tushare_express，模式: incremental
+[2026-02-13 22:05:54] [INFO] [tushare-collect] [express] 数据保存成功
+[2026-02-13 22:05:54] [INFO] [tushare-collect] [express] 采集参数: {'method': 'express_vip', 'fields': '*', 'period': '20251231'}
+[2026-02-13 22:05:54] [INFO] [tushare-collect] 开始采集Tushare数据: express_vip
+[2026-02-13 22:05:54] [INFO] [tushare-collect] 成功采集168条express_vip数据
+[2026-02-13 22:05:54] [INFO] [tushare-collect] [express] 去重后数据: 168 条
+[2026-02-13 22:05:55] [INFO] [tushare-collect] upsert 受影响 168 行
+[2026-02-13 22:05:55] [INFO] [tushare-collect] 保存 168 条数据到aistockzml_tushare_express，模式: incremental
+[2026-02-13 22:05:55] [INFO] [tushare-collect] [express] 数据保存成功
+[2026-02-13 22:05:55] [INFO] [tushare-collect] [express] 采集参数: {'method': 'express_vip', 'fields': '*', 'period': '20260331'}
+[2026-02-13 22:05:55] [INFO] [tushare-collect] 开始采集Tushare数据: express_vip
+[2026-02-13 22:05:55] [INFO] [tushare-collect] 成功采集express_vip数据，数据为空
+[2026-02-13 22:05:55] [INFO] [tushare-collect] [express] 无数据需要保存
+[2026-02-13 22:05:55] [INFO] [tushare-collect] ==================================================
+[2026-02-13 22:05:55] [INFO] [tushare-collect] 财务报表采集任务完成
+[2026-02-13 22:05:55] [INFO] [tushare-collect] ==================================================

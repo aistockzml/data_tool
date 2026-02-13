@@ -4,6 +4,7 @@
 
 使用 Prefect 3.0 调度,采集 Tushare 财务报表数据
 
+注意:进行去重和upsert操作，一个报告期的财务报表数据只保存一条记录
 """
 
 import sys
@@ -175,17 +176,6 @@ def collect_and_save_fina_indicator(period: str):
     )
 
 
-@task(name="collect_and_save_fina_mainbz")
-def collect_and_save_fina_mainbz(period: str):
-    """采集主营业务构成并保存到数据库"""
-    collect_and_save_financial_report(
-        method='fina_mainbz_vip',
-        report_name='fina_mainbz',
-        target_table='aistockzml_tushare_fina_mainbz',
-        period=period
-    )
-
-
 @task(name="collect_and_save_disclosure_date")
 def collect_and_save_disclosure_date(end_date: str):
     """采集财务报表披露日期并保存到数据库"""
@@ -223,13 +213,12 @@ def financial_report_flow():
     quarter_end_dates = get_quarter_end_dates(today, periods=4)
     logger.info(f"当前季度及前3季度末日期列表: {quarter_end_dates}")
     for period in quarter_end_dates:
-        # collect_and_save_income(period)   
+        collect_and_save_income(period)   
         # collect_and_save_balancesheet(period)
         # collect_and_save_cashflow(period)
         # collect_and_save_forecast(period)
-        collect_and_save_express(period)
+        # collect_and_save_express(period)
     #     collect_and_save_fina_indicator(period)   
-    #     collect_and_save_fina_mainbz(period)   
     #     collect_and_save_disclosure_date(end_date=period)
 
     # dividend_dates = get_date_range_list(today, start_days_ago=10, end_days_ago=0)

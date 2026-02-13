@@ -1,0 +1,33 @@
+[2026-02-14 00:26:49] [INFO] [tushare-collect] ==================================================
+[2026-02-14 00:26:49] [INFO] [tushare-collect] 开始执行财务报表采集任务
+[2026-02-14 00:26:49] [INFO] [tushare-collect] 执行时间: 2026-02-14 00:26:49.016704
+[2026-02-14 00:26:49] [INFO] [tushare-collect] ==================================================
+[2026-02-14 00:26:49] [INFO] [tushare-collect] 当前季度及前3季度末日期列表: ['20250630', '20250930', '20251231', '20260331']
+[2026-02-14 00:26:49] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20250630', 'report_type': '1'}
+[2026-02-14 00:26:49] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 00:26:58] [INFO] [tushare-collect] 成功采集7382条income_vip数据
+[2026-02-14 00:26:58] [INFO] [tushare-collect] [income] 去重后数据: 6116 条
+[2026-02-14 00:27:01] [INFO] [tushare-collect] upsert 受影响 6116 行
+[2026-02-14 00:27:01] [INFO] [tushare-collect] 保存 6116 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 00:27:01] [INFO] [tushare-collect] [income] 数据保存成功
+[2026-02-14 00:27:01] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20250930', 'report_type': '1'}
+[2026-02-14 00:27:01] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 00:27:08] [INFO] [tushare-collect] 成功采集6727条income_vip数据
+[2026-02-14 00:27:08] [INFO] [tushare-collect] [income] 去重后数据: 5539 条
+[2026-02-14 00:27:10] [INFO] [tushare-collect] upsert 受影响 5539 行
+[2026-02-14 00:27:10] [INFO] [tushare-collect] 保存 5539 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 00:27:10] [INFO] [tushare-collect] [income] 数据保存成功
+[2026-02-14 00:27:10] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20251231', 'report_type': '1'}
+[2026-02-14 00:27:10] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 00:27:11] [INFO] [tushare-collect] 成功采集58条income_vip数据
+[2026-02-14 00:27:11] [INFO] [tushare-collect] [income] 去重后数据: 58 条
+[2026-02-14 00:27:11] [INFO] [tushare-collect] upsert 受影响 58 行
+[2026-02-14 00:27:11] [INFO] [tushare-collect] 保存 58 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 00:27:11] [INFO] [tushare-collect] [income] 数据保存成功
+[2026-02-14 00:27:11] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20260331', 'report_type': '1'}
+[2026-02-14 00:27:11] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 00:27:11] [INFO] [tushare-collect] 成功采集income_vip数据，数据为空
+[2026-02-14 00:27:11] [INFO] [tushare-collect] [income] 无数据需要保存
+[2026-02-14 00:27:11] [INFO] [tushare-collect] ==================================================
+[2026-02-14 00:27:11] [INFO] [tushare-collect] 财务报表采集任务完成
+[2026-02-14 00:27:12] [INFO] [tushare-collect] ==================================================
