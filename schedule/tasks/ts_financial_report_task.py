@@ -31,7 +31,7 @@ def prefix_log_print(report_name: str, level: str, message: str):
 
 
 def _deduplicate_data(data: pd.DataFrame, conflict_columns: List[str]) -> pd.DataFrame:
-    data['_UPDATE_TIME_DT'] = pd.to_datetime(data['UPDATE_TIME'], format='%Y-%m-%d %H:%M:%S')
+    data = data.assign(_UPDATE_TIME_DT=pd.to_datetime(data['UPDATE_TIME'], format='%Y-%m-%d %H:%M:%S'))
     data = data.sort_values('_UPDATE_TIME_DT', ascending=False).drop_duplicates(
         subset=conflict_columns, keep='first'
     )
@@ -71,6 +71,7 @@ def collect_and_save_financial_report(
     params = {'method': method, 'fields': '*', **kwargs}
     prefix_log_print(report_name, 'info', f"采集参数: {params}")
 
+    all_data = []
     total_count = 0
     offset = 0
     
@@ -82,22 +83,32 @@ def collect_and_save_financial_report(
                 
                 if data is None or data.empty:
                     prefix_log_print(report_name, 'info', f"分页采集完成,共采集 {total_count} 条数据")
-                    return True
+                    
+                    if not all_data:
+                        prefix_log_print(report_name, 'info', "无数据需要保存")
+                        return True
+                    
+                    combined_data = pd.concat(all_data, ignore_index=True)
+                    prefix_log_print(report_name, 'info', f"合并后数据: {len(combined_data)} 条")
+                    
+                    if dedup:
+                        combined_data = _deduplicate_data(combined_data, conflict_columns)
+                        prefix_log_print(report_name, 'info', f"去重后数据: {len(combined_data)} 条")
+                    
+                    if ts_collector.save(combined_data, target_table=target_table, conflict_columns=conflict_columns, insert_mode='incremental'):
+                        prefix_log_print(report_name, 'info', f"数据保存成功,共保存 {len(combined_data)} 条")
+                        return True
+                    
+                    prefix_log_print(report_name, 'error', "数据保存失败")
+                    return False
                 
                 page_count = len(data)
                 prefix_log_print(report_name, 'info', f"第{offset//page_size + 1}页,获取 {page_count} 条数据")
                 
-                if dedup:
-                    data = _deduplicate_data(data, conflict_columns)
-                    prefix_log_print(report_name, 'info', f"去重后数据: {len(data)} 条")
-                
-                if ts_collector.save(data, target_table=target_table, conflict_columns=conflict_columns, insert_mode='incremental'):
-                    prefix_log_print(report_name, 'info', f"第{offset//page_size + 1}页数据保存成功")
-                    total_count += page_count
-                    offset += page_size
-                    break
-                
-                prefix_log_print(report_name, 'warning', "数据保存返回失败,准备重试")
+                all_data.append(data)
+                total_count += page_count
+                offset += page_size
+                break
                 
             except Exception as e:
                 prefix_log_print(report_name, 'error', f"第{attempt}次尝试失败: {e}")
@@ -184,7 +195,8 @@ def collect_and_save_fina_indicator(period: str):
         method='fina_indicator_vip',
         report_name='fina_indicator',
         target_table='aistockzml_tushare_fina_indicator',
-        period=period
+        period=period,
+        conflict_columns=['TS_CODE', 'END_DATE']
     )
 
 
@@ -195,19 +207,20 @@ def collect_and_save_disclosure_date(end_date: str):
         method='disclosure_date',
         report_name='disclosure_date',
         target_table='aistockzml_tushare_disclosure_date',
-        end_date=end_date
+        end_date=end_date, # 注意，接口参数不是period
+        conflict_columns=['TS_CODE', 'END_DATE']
     )
 
 @task(name="collect_and_save_financial_dividend")
 def collect_and_save_financial_dividend(ann_date: str):
-    """采集分红送股并保存到数据库"""
+    """采集分红送股并保存到数据库，按照每个公告日期采集"""
     collect_and_save_financial_report(
         method='dividend_vip',
         report_name='dividend',
         target_table='aistockzml_tushare_dividend', 
         ann_date=ann_date,
         dedup=False,
-        conflict_columns=['ID']
+        conflict_columns=['TS_CODE', 'DIV_PROC', 'ANN_DATE']
     )
     time.sleep(0.2)
 
@@ -222,22 +235,22 @@ def financial_report_flow():
     
     today = datetime.now().strftime('%Y%m%d')
 
-    quarter_end_dates = get_quarter_end_dates(today, periods=4)
-    logger.info(f"当前季度及前3季度末日期列表: {quarter_end_dates}")
-    for period in quarter_end_dates:
-        collect_and_save_income(period)   
-        # collect_and_save_balancesheet(period)
-        # collect_and_save_cashflow(period)
-        collect_and_save_forecast(period)
-        # collect_and_save_express(period)
+    # quarter_end_dates = get_quarter_end_dates(today, periods=40)
+    # logger.info(f"当前季度及前3季度末日期列表: {quarter_end_dates}")
+    # for period in quarter_end_dates:
+    #     collect_and_save_income(period)   
+    #     collect_and_save_balancesheet(period)
+    #     collect_and_save_cashflow(period)
+    #     collect_and_save_forecast(period)
+    #     collect_and_save_express(period)
     #     collect_and_save_fina_indicator(period)   
     #     collect_and_save_disclosure_date(end_date=period)
 
-    # dividend_dates = get_date_range_list(today, start_days_ago=10, end_days_ago=0)
-    # logger.info(f"近10天分红公告日期列表: {dividend_dates}")
+    dividend_dates = get_date_range_list(today, start_days_ago=1825, end_days_ago=0)
+    logger.info(f"近10天分红公告日期列表: {dividend_dates}")
 
-    # for ann_date in dividend_dates:
-    #     collect_and_save_financial_dividend(ann_date)
+    for ann_date in dividend_dates:
+        collect_and_save_financial_dividend(ann_date)
 
     logger.info("=" * 50)
     logger.info("财务报表采集任务完成")

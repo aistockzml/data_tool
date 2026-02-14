@@ -22,7 +22,7 @@ from prefect.task_runners import ThreadPoolTaskRunner
 from schedule import logger, ts_collector
 
 
-@task(name="get_trade_dates")
+@task(name="get_trade_dates", retries=3, retry_delay_seconds=10)
 def get_trade_dates(start_date=None, end_date=None):
     """获取上交所近一周的交易日期，深圳交易所一般和上交所同步"""
     if start_date is None:
@@ -49,7 +49,7 @@ def get_trade_dates(start_date=None, end_date=None):
     return trade_cal
 
 
-@task(name="check_is_trading_day")
+@task(name="check_is_trading_day", retries=3, retry_delay_seconds=10)
 def check_is_trading_day(trade_cal: list):
     """检查今天是否为交易日（仅检查上交所）"""
     today = datetime.now().strftime("%Y%m%d")
@@ -64,7 +64,7 @@ def check_is_trading_day(trade_cal: list):
     return is_trading_day, today  
 
 
-@task(name="collect_and_save_stock_basic")
+@task(name="collect_and_save_stock_basic", retries=3, retry_delay_seconds=10)
 def collect_and_save_stock_basic():
     """采集股票列表并保存到数据库"""
     data = ts_collector.collect(
@@ -82,7 +82,7 @@ def collect_and_save_stock_basic():
         logger.warning(f"无数据需要保存(stock_basic)")
 
 
-@task(name="collect_and_save_stock_hsgt")
+@task(name="collect_and_save_stock_hsgt", retries=3, retry_delay_seconds=10)
 def collect_and_save_stock_hsgt(today):
     """采集沪深港通股票列表并保存到数据库"""
 
@@ -110,7 +110,7 @@ def collect_and_save_stock_hsgt(today):
             logger.warning(f"无数据需要保存(stock_hsgt)({es_type})")   
 
 
-@task(name="collect_and_save_stock_company")
+@task(name="collect_and_save_stock_company", retries=3, retry_delay_seconds=10)
 def collect_and_save_stock_company():
     """采集上市公司基本信息并保存到数据库"""
 
