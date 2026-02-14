@@ -46,6 +46,7 @@ def collect_and_save_financial_report(
     retry_interval: int = 5,
     dedup: bool = True,
     conflict_columns: List[str] = None,
+    page_size: int = 2000,
     **kwargs
 ) -> bool:
     """采集并保存财务报表数据
@@ -58,6 +59,7 @@ def collect_and_save_financial_report(
         retry_interval: 重试间隔秒数(默认5秒)
         dedup: 是否去重(默认True),按conflict_columns分组后取UPDATE_TIME最新的记录
         conflict_columns: 冲突判断列名列表,用于去重和upsert(默认None则使用TS_CODE, END_DATE)
+        page_size: 分页大小(默认5000)
         **kwargs: 动态参数
         
     Returns:
@@ -69,33 +71,43 @@ def collect_and_save_financial_report(
     params = {'method': method, 'fields': '*', **kwargs}
     prefix_log_print(report_name, 'info', f"采集参数: {params}")
 
-    for attempt in range(1, max_retries + 1):
-        try:
-            data = ts_collector.collect(**params)
-            
-            if data is None or data.empty:
-                prefix_log_print(report_name, 'info', "无数据需要保存")
-                return True
-            
-            if dedup:
-                data = _deduplicate_data(data, conflict_columns)
-                prefix_log_print(report_name, 'info', f"去重后数据: {len(data)} 条")
-            
-            if ts_collector.save(data, target_table=target_table, conflict_columns=conflict_columns, insert_mode='incremental'):
-                prefix_log_print(report_name, 'info', "数据保存成功")
-                return True
-            
-            prefix_log_print(report_name, 'warning', "数据保存返回失败,准备重试")
-            
-        except Exception as e:
-            prefix_log_print(report_name, 'error', f"第{attempt}次尝试失败: {e}")
-        
-        if attempt < max_retries:
-            prefix_log_print(report_name, 'info', f"等待{retry_interval}秒后进行第{attempt + 1}次重试...")
-            time.sleep(retry_interval)
+    total_count = 0
+    offset = 0
     
-    prefix_log_print(report_name, 'error', f"已达到最大重试次数({max_retries}),任务失败")
-    return False
+    while True:
+        for attempt in range(1, max_retries + 1):
+            try:
+                page_params = {**params, 'limit': page_size, 'offset': offset}
+                data = ts_collector.collect(**page_params)
+                
+                if data is None or data.empty:
+                    prefix_log_print(report_name, 'info', f"分页采集完成,共采集 {total_count} 条数据")
+                    return True
+                
+                page_count = len(data)
+                prefix_log_print(report_name, 'info', f"第{offset//page_size + 1}页,获取 {page_count} 条数据")
+                
+                if dedup:
+                    data = _deduplicate_data(data, conflict_columns)
+                    prefix_log_print(report_name, 'info', f"去重后数据: {len(data)} 条")
+                
+                if ts_collector.save(data, target_table=target_table, conflict_columns=conflict_columns, insert_mode='incremental'):
+                    prefix_log_print(report_name, 'info', f"第{offset//page_size + 1}页数据保存成功")
+                    total_count += page_count
+                    offset += page_size
+                    break
+                
+                prefix_log_print(report_name, 'warning', "数据保存返回失败,准备重试")
+                
+            except Exception as e:
+                prefix_log_print(report_name, 'error', f"第{attempt}次尝试失败: {e}")
+            
+            if attempt < max_retries:
+                prefix_log_print(report_name, 'info', f"等待{retry_interval}秒后进行第{attempt + 1}次重试...")
+                time.sleep(retry_interval)
+        else:
+            prefix_log_print(report_name, 'error', f"已达到最大重试次数({max_retries}),任务失败")
+            return False
 
 
 @task(name="collect_and_save_income")
@@ -213,7 +225,7 @@ def financial_report_flow():
     quarter_end_dates = get_quarter_end_dates(today, periods=4)
     logger.info(f"当前季度及前3季度末日期列表: {quarter_end_dates}")
     for period in quarter_end_dates:
-        # collect_and_save_income(period)   
+        collect_and_save_income(period)   
         # collect_and_save_balancesheet(period)
         # collect_and_save_cashflow(period)
         collect_and_save_forecast(period)
