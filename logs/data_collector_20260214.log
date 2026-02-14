@@ -31,3 +31,271 @@
 [2026-02-14 00:27:11] [INFO] [tushare-collect] ==================================================
 [2026-02-14 00:27:11] [INFO] [tushare-collect] 财务报表采集任务完成
 [2026-02-14 00:27:12] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:28:52] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:28:52] [INFO] [tushare-collect] 开始执行财务报表采集任务
+[2026-02-14 09:28:52] [INFO] [tushare-collect] 执行时间: 2026-02-14 09:28:52.339084
+[2026-02-14 09:28:52] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:28:52] [INFO] [tushare-collect] 当前季度及前3季度末日期列表: ['20250630', '20250930', '20251231', '20260331']
+[2026-02-14 09:28:52] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20250630', 'report_type': '1'}
+[2026-02-14 09:28:52] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:28:55] [INFO] [tushare-collect] 成功采集2000条income_vip数据
+[2026-02-14 09:28:55] [INFO] [tushare-collect] [income] 第1页,获取 2000 条数据
+[2026-02-14 09:28:55] [INFO] [tushare-collect] [income] 去重后数据: 1941 条
+[2026-02-14 09:28:57] [INFO] [tushare-collect] upsert 受影响 1941 行
+[2026-02-14 09:28:57] [INFO] [tushare-collect] 保存 1941 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:28:57] [INFO] [tushare-collect] [income] 第1页数据保存成功
+[2026-02-14 09:28:57] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:28:59] [INFO] [tushare-collect] 成功采集2000条income_vip数据
+[2026-02-14 09:28:59] [INFO] [tushare-collect] [income] 第2页,获取 2000 条数据
+[2026-02-14 09:28:59] [INFO] [tushare-collect] [income] 去重后数据: 1718 条
+[2026-02-14 09:29:00] [INFO] [tushare-collect] upsert 受影响 1718 行
+[2026-02-14 09:29:00] [INFO] [tushare-collect] 保存 1718 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:00] [INFO] [tushare-collect] [income] 第2页数据保存成功
+[2026-02-14 09:29:00] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:06] [INFO] [tushare-collect] 成功采集2000条income_vip数据
+[2026-02-14 09:29:06] [INFO] [tushare-collect] [income] 第3页,获取 2000 条数据
+[2026-02-14 09:29:06] [INFO] [tushare-collect] [income] 去重后数据: 1778 条
+[2026-02-14 09:29:07] [INFO] [tushare-collect] upsert 受影响 1778 行
+[2026-02-14 09:29:07] [INFO] [tushare-collect] 保存 1778 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:07] [INFO] [tushare-collect] [income] 第3页数据保存成功
+[2026-02-14 09:29:07] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:09] [INFO] [tushare-collect] 成功采集1382条income_vip数据
+[2026-02-14 09:29:09] [INFO] [tushare-collect] [income] 第4页,获取 1382 条数据
+[2026-02-14 09:29:09] [INFO] [tushare-collect] [income] 去重后数据: 1192 条
+[2026-02-14 09:29:10] [INFO] [tushare-collect] upsert 受影响 1192 行
+[2026-02-14 09:29:10] [INFO] [tushare-collect] 保存 1192 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:10] [INFO] [tushare-collect] [income] 第4页数据保存成功
+[2026-02-14 09:29:10] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:11] [INFO] [tushare-collect] 成功采集income_vip数据，数据为空
+[2026-02-14 09:29:11] [INFO] [tushare-collect] [income] 分页采集完成,共采集 7382 条数据
+[2026-02-14 09:29:11] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20250930', 'report_type': '1'}
+[2026-02-14 09:29:11] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:13] [INFO] [tushare-collect] 成功采集2000条income_vip数据
+[2026-02-14 09:29:13] [INFO] [tushare-collect] [income] 第1页,获取 2000 条数据
+[2026-02-14 09:29:13] [INFO] [tushare-collect] [income] 去重后数据: 1861 条
+[2026-02-14 09:29:14] [INFO] [tushare-collect] upsert 受影响 1861 行
+[2026-02-14 09:29:14] [INFO] [tushare-collect] 保存 1861 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:14] [INFO] [tushare-collect] [income] 第1页数据保存成功
+[2026-02-14 09:29:14] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:20] [INFO] [tushare-collect] 成功采集2000条income_vip数据
+[2026-02-14 09:29:20] [INFO] [tushare-collect] [income] 第2页,获取 2000 条数据
+[2026-02-14 09:29:20] [INFO] [tushare-collect] [income] 去重后数据: 1599 条
+[2026-02-14 09:29:21] [INFO] [tushare-collect] upsert 受影响 1599 行
+[2026-02-14 09:29:21] [INFO] [tushare-collect] 保存 1599 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:21] [INFO] [tushare-collect] [income] 第2页数据保存成功
+[2026-02-14 09:29:21] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:23] [INFO] [tushare-collect] 成功采集2000条income_vip数据
+[2026-02-14 09:29:23] [INFO] [tushare-collect] [income] 第3页,获取 2000 条数据
+[2026-02-14 09:29:23] [INFO] [tushare-collect] [income] 去重后数据: 1958 条
+[2026-02-14 09:29:25] [INFO] [tushare-collect] upsert 受影响 1958 行
+[2026-02-14 09:29:25] [INFO] [tushare-collect] 保存 1958 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:25] [INFO] [tushare-collect] [income] 第3页数据保存成功
+[2026-02-14 09:29:25] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:26] [INFO] [tushare-collect] 成功采集727条income_vip数据
+[2026-02-14 09:29:26] [INFO] [tushare-collect] [income] 第4页,获取 727 条数据
+[2026-02-14 09:29:26] [INFO] [tushare-collect] [income] 去重后数据: 657 条
+[2026-02-14 09:29:26] [INFO] [tushare-collect] upsert 受影响 657 行
+[2026-02-14 09:29:26] [INFO] [tushare-collect] 保存 657 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:26] [INFO] [tushare-collect] [income] 第4页数据保存成功
+[2026-02-14 09:29:26] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:27] [INFO] [tushare-collect] 成功采集income_vip数据，数据为空
+[2026-02-14 09:29:27] [INFO] [tushare-collect] [income] 分页采集完成,共采集 6727 条数据
+[2026-02-14 09:29:27] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20251231', 'report_type': '1'}
+[2026-02-14 09:29:27] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:28] [INFO] [tushare-collect] 成功采集58条income_vip数据
+[2026-02-14 09:29:28] [INFO] [tushare-collect] [income] 第1页,获取 58 条数据
+[2026-02-14 09:29:28] [INFO] [tushare-collect] [income] 去重后数据: 58 条
+[2026-02-14 09:29:28] [INFO] [tushare-collect] upsert 受影响 58 行
+[2026-02-14 09:29:28] [INFO] [tushare-collect] 保存 58 条数据到aistockzml_tushare_income，模式: incremental
+[2026-02-14 09:29:28] [INFO] [tushare-collect] [income] 第1页数据保存成功
+[2026-02-14 09:29:28] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:28] [INFO] [tushare-collect] 成功采集income_vip数据，数据为空
+[2026-02-14 09:29:28] [INFO] [tushare-collect] [income] 分页采集完成,共采集 58 条数据
+[2026-02-14 09:29:28] [INFO] [tushare-collect] [income] 采集参数: {'method': 'income_vip', 'fields': '*', 'period': '20260331', 'report_type': '1'}
+[2026-02-14 09:29:28] [INFO] [tushare-collect] 开始采集Tushare数据: income_vip
+[2026-02-14 09:29:29] [INFO] [tushare-collect] 成功采集income_vip数据，数据为空
+[2026-02-14 09:29:29] [INFO] [tushare-collect] [income] 分页采集完成,共采集 0 条数据
+[2026-02-14 09:29:29] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:29:29] [INFO] [tushare-collect] 财务报表采集任务完成
+[2026-02-14 09:29:29] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:34:36] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:34:36] [INFO] [tushare-collect] 开始执行财务报表采集任务
+[2026-02-14 09:34:36] [INFO] [tushare-collect] 执行时间: 2026-02-14 09:34:36.713882
+[2026-02-14 09:34:36] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:34:36] [INFO] [tushare-collect] 当前季度及前3季度末日期列表: ['20250630', '20250930', '20251231', '20260331']
+[2026-02-14 09:34:36] [INFO] [tushare-collect] [cashflow] 采集参数: {'method': 'cashflow_vip', 'fields': '*', 'period': '20250630', 'report_type': '1'}
+[2026-02-14 09:34:36] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:34:39] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:34:39] [INFO] [tushare-collect] [cashflow] 第1页,获取 2000 条数据
+[2026-02-14 09:34:39] [INFO] [tushare-collect] [cashflow] 去重后数据: 1632 条
+[2026-02-14 09:34:41] [INFO] [tushare-collect] upsert 受影响 1632 行
+[2026-02-14 09:34:41] [INFO] [tushare-collect] 保存 1632 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:34:41] [INFO] [tushare-collect] [cashflow] 第1页数据保存成功
+[2026-02-14 09:34:41] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:34:44] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:34:44] [INFO] [tushare-collect] [cashflow] 第2页,获取 2000 条数据
+[2026-02-14 09:34:44] [INFO] [tushare-collect] [cashflow] 去重后数据: 1470 条
+[2026-02-14 09:34:45] [INFO] [tushare-collect] upsert 受影响 1470 行
+[2026-02-14 09:34:45] [INFO] [tushare-collect] 保存 1470 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:34:45] [INFO] [tushare-collect] [cashflow] 第2页数据保存成功
+[2026-02-14 09:34:45] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:34:48] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:34:48] [INFO] [tushare-collect] [cashflow] 第3页,获取 2000 条数据
+[2026-02-14 09:34:48] [INFO] [tushare-collect] [cashflow] 去重后数据: 1733 条
+[2026-02-14 09:34:49] [INFO] [tushare-collect] upsert 受影响 1733 行
+[2026-02-14 09:34:49] [INFO] [tushare-collect] 保存 1733 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:34:49] [INFO] [tushare-collect] [cashflow] 第3页数据保存成功
+[2026-02-14 09:34:49] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:34:52] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:34:52] [INFO] [tushare-collect] [cashflow] 第4页,获取 2000 条数据
+[2026-02-14 09:34:52] [INFO] [tushare-collect] [cashflow] 去重后数据: 1631 条
+[2026-02-14 09:34:53] [INFO] [tushare-collect] upsert 受影响 1631 行
+[2026-02-14 09:34:53] [INFO] [tushare-collect] 保存 1631 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:34:53] [INFO] [tushare-collect] [cashflow] 第4页数据保存成功
+[2026-02-14 09:34:53] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:34:56] [INFO] [tushare-collect] 成功采集1506条cashflow_vip数据
+[2026-02-14 09:34:56] [INFO] [tushare-collect] [cashflow] 第5页,获取 1506 条数据
+[2026-02-14 09:34:56] [INFO] [tushare-collect] [cashflow] 去重后数据: 1404 条
+[2026-02-14 09:34:57] [INFO] [tushare-collect] upsert 受影响 1404 行
+[2026-02-14 09:34:57] [INFO] [tushare-collect] 保存 1404 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:34:57] [INFO] [tushare-collect] [cashflow] 第5页数据保存成功
+[2026-02-14 09:34:57] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:34:58] [INFO] [tushare-collect] 成功采集cashflow_vip数据，数据为空
+[2026-02-14 09:34:58] [INFO] [tushare-collect] [cashflow] 分页采集完成,共采集 9506 条数据
+[2026-02-14 09:34:58] [INFO] [tushare-collect] [cashflow] 采集参数: {'method': 'cashflow_vip', 'fields': '*', 'period': '20250930', 'report_type': '1'}
+[2026-02-14 09:34:58] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:00] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:35:00] [INFO] [tushare-collect] [cashflow] 第1页,获取 2000 条数据
+[2026-02-14 09:35:00] [INFO] [tushare-collect] [cashflow] 去重后数据: 1779 条
+[2026-02-14 09:35:01] [INFO] [tushare-collect] upsert 受影响 1779 行
+[2026-02-14 09:35:01] [INFO] [tushare-collect] 保存 1779 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:35:01] [INFO] [tushare-collect] [cashflow] 第1页数据保存成功
+[2026-02-14 09:35:01] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:02] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:35:02] [INFO] [tushare-collect] [cashflow] 第2页,获取 2000 条数据
+[2026-02-14 09:35:02] [INFO] [tushare-collect] [cashflow] 去重后数据: 1607 条
+[2026-02-14 09:35:04] [INFO] [tushare-collect] upsert 受影响 1607 行
+[2026-02-14 09:35:04] [INFO] [tushare-collect] 保存 1607 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:35:04] [INFO] [tushare-collect] [cashflow] 第2页数据保存成功
+[2026-02-14 09:35:04] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:08] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:35:08] [INFO] [tushare-collect] [cashflow] 第3页,获取 2000 条数据
+[2026-02-14 09:35:08] [INFO] [tushare-collect] [cashflow] 去重后数据: 1780 条
+[2026-02-14 09:35:10] [INFO] [tushare-collect] upsert 受影响 1780 行
+[2026-02-14 09:35:10] [INFO] [tushare-collect] 保存 1780 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:35:10] [INFO] [tushare-collect] [cashflow] 第3页数据保存成功
+[2026-02-14 09:35:10] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:13] [INFO] [tushare-collect] 成功采集2000条cashflow_vip数据
+[2026-02-14 09:35:13] [INFO] [tushare-collect] [cashflow] 第4页,获取 2000 条数据
+[2026-02-14 09:35:13] [INFO] [tushare-collect] [cashflow] 去重后数据: 2000 条
+[2026-02-14 09:35:14] [INFO] [tushare-collect] upsert 受影响 2000 行
+[2026-02-14 09:35:14] [INFO] [tushare-collect] 保存 2000 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:35:14] [INFO] [tushare-collect] [cashflow] 第4页数据保存成功
+[2026-02-14 09:35:14] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:16] [INFO] [tushare-collect] 成功采集1099条cashflow_vip数据
+[2026-02-14 09:35:16] [INFO] [tushare-collect] [cashflow] 第5页,获取 1099 条数据
+[2026-02-14 09:35:16] [INFO] [tushare-collect] [cashflow] 去重后数据: 1089 条
+[2026-02-14 09:35:16] [INFO] [tushare-collect] upsert 受影响 1089 行
+[2026-02-14 09:35:16] [INFO] [tushare-collect] 保存 1089 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:35:16] [INFO] [tushare-collect] [cashflow] 第5页数据保存成功
+[2026-02-14 09:35:16] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:17] [INFO] [tushare-collect] 成功采集cashflow_vip数据，数据为空
+[2026-02-14 09:35:17] [INFO] [tushare-collect] [cashflow] 分页采集完成,共采集 9099 条数据
+[2026-02-14 09:35:17] [INFO] [tushare-collect] [cashflow] 采集参数: {'method': 'cashflow_vip', 'fields': '*', 'period': '20251231', 'report_type': '1'}
+[2026-02-14 09:35:17] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:18] [INFO] [tushare-collect] 成功采集62条cashflow_vip数据
+[2026-02-14 09:35:18] [INFO] [tushare-collect] [cashflow] 第1页,获取 62 条数据
+[2026-02-14 09:35:18] [INFO] [tushare-collect] [cashflow] 去重后数据: 56 条
+[2026-02-14 09:35:18] [INFO] [tushare-collect] upsert 受影响 56 行
+[2026-02-14 09:35:18] [INFO] [tushare-collect] 保存 56 条数据到aistockzml_tushare_cashflow，模式: incremental
+[2026-02-14 09:35:18] [INFO] [tushare-collect] [cashflow] 第1页数据保存成功
+[2026-02-14 09:35:18] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:18] [INFO] [tushare-collect] 成功采集cashflow_vip数据，数据为空
+[2026-02-14 09:35:18] [INFO] [tushare-collect] [cashflow] 分页采集完成,共采集 62 条数据
+[2026-02-14 09:35:18] [INFO] [tushare-collect] [cashflow] 采集参数: {'method': 'cashflow_vip', 'fields': '*', 'period': '20260331', 'report_type': '1'}
+[2026-02-14 09:35:18] [INFO] [tushare-collect] 开始采集Tushare数据: cashflow_vip
+[2026-02-14 09:35:19] [INFO] [tushare-collect] 成功采集cashflow_vip数据，数据为空
+[2026-02-14 09:35:19] [INFO] [tushare-collect] [cashflow] 分页采集完成,共采集 0 条数据
+[2026-02-14 09:35:19] [INFO] [tushare-collect] ==================================================
+[2026-02-14 09:35:19] [INFO] [tushare-collect] 财务报表采集任务完成
+[2026-02-14 09:35:19] [INFO] [tushare-collect] ==================================================
+[2026-02-14 10:34:01] [INFO] [tushare-collect] ==================================================
+[2026-02-14 10:34:01] [INFO] [tushare-collect] 开始执行财务报表采集任务
+[2026-02-14 10:34:01] [INFO] [tushare-collect] 执行时间: 2026-02-14 10:34:01.998882
+[2026-02-14 10:34:01] [INFO] [tushare-collect] ==================================================
+[2026-02-14 10:34:01] [INFO] [tushare-collect] 当前季度及前3季度末日期列表: ['20250630', '20250930', '20251231', '20260331']
+[2026-02-14 10:34:02] [INFO] [tushare-collect] [balancesheet] 采集参数: {'method': 'balancesheet_vip', 'fields': '*', 'period': '20250630', 'report_type': '1'}
+[2026-02-14 10:34:02] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:11] [INFO] [tushare-collect] 成功采集2000条balancesheet_vip数据
+[2026-02-14 10:34:11] [INFO] [tushare-collect] [balancesheet] 第1页,获取 2000 条数据
+[2026-02-14 10:34:11] [INFO] [tushare-collect] [balancesheet] 去重后数据: 1973 条
+[2026-02-14 10:34:13] [INFO] [tushare-collect] upsert 受影响 1973 行
+[2026-02-14 10:34:13] [INFO] [tushare-collect] 保存 1973 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:13] [INFO] [tushare-collect] [balancesheet] 第1页数据保存成功
+[2026-02-14 10:34:13] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:15] [INFO] [tushare-collect] 成功采集2000条balancesheet_vip数据
+[2026-02-14 10:34:15] [INFO] [tushare-collect] [balancesheet] 第2页,获取 2000 条数据
+[2026-02-14 10:34:15] [INFO] [tushare-collect] [balancesheet] 去重后数据: 1952 条
+[2026-02-14 10:34:17] [INFO] [tushare-collect] upsert 受影响 1952 行
+[2026-02-14 10:34:17] [INFO] [tushare-collect] 保存 1952 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:17] [INFO] [tushare-collect] [balancesheet] 第2页数据保存成功
+[2026-02-14 10:34:17] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:23] [INFO] [tushare-collect] 成功采集2000条balancesheet_vip数据
+[2026-02-14 10:34:23] [INFO] [tushare-collect] [balancesheet] 第3页,获取 2000 条数据
+[2026-02-14 10:34:23] [INFO] [tushare-collect] [balancesheet] 去重后数据: 1957 条
+[2026-02-14 10:34:25] [INFO] [tushare-collect] upsert 受影响 1957 行
+[2026-02-14 10:34:25] [INFO] [tushare-collect] 保存 1957 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:25] [INFO] [tushare-collect] [balancesheet] 第3页数据保存成功
+[2026-02-14 10:34:25] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:26] [INFO] [tushare-collect] 成功采集633条balancesheet_vip数据
+[2026-02-14 10:34:26] [INFO] [tushare-collect] [balancesheet] 第4页,获取 633 条数据
+[2026-02-14 10:34:26] [INFO] [tushare-collect] [balancesheet] 去重后数据: 613 条
+[2026-02-14 10:34:27] [INFO] [tushare-collect] upsert 受影响 613 行
+[2026-02-14 10:34:27] [INFO] [tushare-collect] 保存 613 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:27] [INFO] [tushare-collect] [balancesheet] 第4页数据保存成功
+[2026-02-14 10:34:27] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:27] [INFO] [tushare-collect] 成功采集balancesheet_vip数据，数据为空
+[2026-02-14 10:34:27] [INFO] [tushare-collect] [balancesheet] 分页采集完成,共采集 6633 条数据
+[2026-02-14 10:34:27] [INFO] [tushare-collect] [balancesheet] 采集参数: {'method': 'balancesheet_vip', 'fields': '*', 'period': '20250930', 'report_type': '1'}
+[2026-02-14 10:34:27] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:31] [INFO] [tushare-collect] 成功采集2000条balancesheet_vip数据
+[2026-02-14 10:34:31] [INFO] [tushare-collect] [balancesheet] 第1页,获取 2000 条数据
+[2026-02-14 10:34:31] [INFO] [tushare-collect] [balancesheet] 去重后数据: 1906 条
+[2026-02-14 10:34:32] [INFO] [tushare-collect] upsert 受影响 1906 行
+[2026-02-14 10:34:32] [INFO] [tushare-collect] 保存 1906 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:32] [INFO] [tushare-collect] [balancesheet] 第1页数据保存成功
+[2026-02-14 10:34:32] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:38] [INFO] [tushare-collect] 成功采集2000条balancesheet_vip数据
+[2026-02-14 10:34:38] [INFO] [tushare-collect] [balancesheet] 第2页,获取 2000 条数据
+[2026-02-14 10:34:38] [INFO] [tushare-collect] [balancesheet] 去重后数据: 1958 条
+[2026-02-14 10:34:39] [INFO] [tushare-collect] upsert 受影响 1958 行
+[2026-02-14 10:34:39] [INFO] [tushare-collect] 保存 1958 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:39] [INFO] [tushare-collect] [balancesheet] 第2页数据保存成功
+[2026-02-14 10:34:39] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:46] [INFO] [tushare-collect] 成功采集1918条balancesheet_vip数据
+[2026-02-14 10:34:46] [INFO] [tushare-collect] [balancesheet] 第3页,获取 1918 条数据
+[2026-02-14 10:34:46] [INFO] [tushare-collect] [balancesheet] 去重后数据: 1814 条
+[2026-02-14 10:34:47] [INFO] [tushare-collect] upsert 受影响 1814 行
+[2026-02-14 10:34:47] [INFO] [tushare-collect] 保存 1814 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:47] [INFO] [tushare-collect] [balancesheet] 第3页数据保存成功
+[2026-02-14 10:34:47] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:48] [INFO] [tushare-collect] 成功采集balancesheet_vip数据，数据为空
+[2026-02-14 10:34:48] [INFO] [tushare-collect] [balancesheet] 分页采集完成,共采集 5918 条数据
+[2026-02-14 10:34:48] [INFO] [tushare-collect] [balancesheet] 采集参数: {'method': 'balancesheet_vip', 'fields': '*', 'period': '20251231', 'report_type': '1'}
+[2026-02-14 10:34:48] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:48] [INFO] [tushare-collect] 成功采集57条balancesheet_vip数据
+[2026-02-14 10:34:48] [INFO] [tushare-collect] [balancesheet] 第1页,获取 57 条数据
+[2026-02-14 10:34:48] [INFO] [tushare-collect] [balancesheet] 去重后数据: 56 条
+[2026-02-14 10:34:49] [INFO] [tushare-collect] upsert 受影响 56 行
+[2026-02-14 10:34:49] [INFO] [tushare-collect] 保存 56 条数据到aistockzml_tushare_balancesheet，模式: incremental
+[2026-02-14 10:34:49] [INFO] [tushare-collect] [balancesheet] 第1页数据保存成功
+[2026-02-14 10:34:49] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:49] [INFO] [tushare-collect] 成功采集balancesheet_vip数据，数据为空
+[2026-02-14 10:34:49] [INFO] [tushare-collect] [balancesheet] 分页采集完成,共采集 57 条数据
+[2026-02-14 10:34:49] [INFO] [tushare-collect] [balancesheet] 采集参数: {'method': 'balancesheet_vip', 'fields': '*', 'period': '20260331', 'report_type': '1'}
+[2026-02-14 10:34:49] [INFO] [tushare-collect] 开始采集Tushare数据: balancesheet_vip
+[2026-02-14 10:34:49] [INFO] [tushare-collect] 成功采集balancesheet_vip数据，数据为空
+[2026-02-14 10:34:49] [INFO] [tushare-collect] [balancesheet] 分页采集完成,共采集 0 条数据
+[2026-02-14 10:34:49] [INFO] [tushare-collect] ==================================================
+[2026-02-14 10:34:49] [INFO] [tushare-collect] 财务报表采集任务完成
+[2026-02-14 10:34:49] [INFO] [tushare-collect] ==================================================
