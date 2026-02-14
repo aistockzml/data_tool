@@ -213,10 +213,10 @@ def financial_report_flow():
     quarter_end_dates = get_quarter_end_dates(today, periods=4)
     logger.info(f"当前季度及前3季度末日期列表: {quarter_end_dates}")
     for period in quarter_end_dates:
-        collect_and_save_income(period)   
+        # collect_and_save_income(period)   
         # collect_and_save_balancesheet(period)
         # collect_and_save_cashflow(period)
-        # collect_and_save_forecast(period)
+        collect_and_save_forecast(period)
         # collect_and_save_express(period)
     #     collect_and_save_fina_indicator(period)   
     #     collect_and_save_disclosure_date(end_date=period)
