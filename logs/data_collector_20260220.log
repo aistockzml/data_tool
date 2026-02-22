@@ -1,0 +1,1720 @@
+[2026-02-20 16:50:55] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 16:50:55] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 16:50:55] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 16:50:55.879955
+[2026-02-20 16:50:55] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260130'}
+[2026-02-20 16:50:55] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:50:56] [INFO] [tushare-collect] 成功采集560条moneyflow_ind_dc数据
+[2026-02-20 16:50:56] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 560 条数据
+[2026-02-20 16:50:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:50:56] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 16:50:56] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 560 条数据, 去重后 560 条
+[2026-02-20 16:50:57] [INFO] [tushare-collect] upsert 受影响 560 行
+[2026-02-20 16:50:57] [INFO] [tushare-collect] 保存 560 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 16:50:57] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 560 条
+[2026-02-20 16:51:15] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 16:51:15] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 16:51:15] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 16:51:15.383569
+[2026-02-20 16:51:15] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 16:51:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:51:16] [INFO] [tushare-collect] 成功采集1007条moneyflow_ind_dc数据
+[2026-02-20 16:51:16] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 1007 条数据
+[2026-02-20 16:51:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:51:16] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 16:51:16] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 1007 条数据, 去重后 1007 条
+[2026-02-20 16:51:16] [INFO] [tushare-collect] upsert 受影响 1007 行
+[2026-02-20 16:51:16] [INFO] [tushare-collect] 保存 1007 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 16:51:16] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 1007 条
+[2026-02-20 16:53:23] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 16:53:23] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 16:53:23] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 16:53:23.077130
+[2026-02-20 16:53:23] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 16:53:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:53:23] [INFO] [tushare-collect] 成功采集1007条moneyflow_ind_dc数据
+[2026-02-20 16:53:23] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 1007 条数据
+[2026-02-20 16:53:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:53:24] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 16:53:24] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 1007 条数据, 去重后 995 条
+[2026-02-20 16:53:24] [INFO] [tushare-collect] upsert 受影响 995 行
+[2026-02-20 16:53:24] [INFO] [tushare-collect] 保存 995 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 16:53:24] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 995 条
+[2026-02-20 16:53:42] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 16:53:42] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 16:53:42] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 16:53:42.930093
+[2026-02-20 16:53:42] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 16:53:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:53:43] [INFO] [tushare-collect] 成功采集1007条moneyflow_ind_dc数据
+[2026-02-20 16:53:43] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 1007 条数据
+[2026-02-20 16:53:43] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:53:43] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 16:53:43] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 1007 条数据, 去重后 995 条
+[2026-02-20 16:53:44] [INFO] [tushare-collect] upsert 受影响 995 行
+[2026-02-20 16:53:44] [INFO] [tushare-collect] 保存 995 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 16:53:44] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 995 条
+[2026-02-20 16:59:06] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 16:59:06] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 16:59:06] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 16:59:06.069837
+[2026-02-20 16:59:06] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 16:59:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:59:06] [INFO] [tushare-collect] 成功采集1007条moneyflow_ind_dc数据
+[2026-02-20 16:59:06] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 1007 条数据
+[2026-02-20 16:59:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 16:59:07] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 16:59:07] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 1007 条数据, 去重后 995 条
+[2026-02-20 16:59:07] [INFO] [tushare-collect] upsert 受影响 995 行
+[2026-02-20 16:59:07] [INFO] [tushare-collect] 保存 995 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 16:59:07] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 995 条
+[2026-02-20 23:13:39] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:13:39] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:13:39] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:13:39.903505
+[2026-02-20 23:13:39] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:13:39] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:13:40] [INFO] [tushare-collect] 成功采集1007条moneyflow_ind_dc数据
+[2026-02-20 23:13:40] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 1007 条数据
+[2026-02-20 23:13:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:13:40] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:13:40] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 1007 条数据, 去重后 995 条
+[2026-02-20 23:13:41] [INFO] [tushare-collect] upsert 受影响 995 行
+[2026-02-20 23:13:41] [INFO] [tushare-collect] 保存 995 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:13:41] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 995 条
+[2026-02-20 23:14:30] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:14:30] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:14:30] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:14:30.346286
+[2026-02-20 23:14:30] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:14:30] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:14:31] [INFO] [tushare-collect] 成功采集1007条moneyflow_ind_dc数据
+[2026-02-20 23:14:31] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 1007 条数据
+[2026-02-20 23:14:31] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:14:31] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:14:31] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 1007 条数据, 去重后 1007 条
+[2026-02-20 23:14:32] [INFO] [tushare-collect] upsert 受影响 1007 行
+[2026-02-20 23:14:32] [INFO] [tushare-collect] 保存 1007 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:14:32] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 1007 条
+[2026-02-20 23:23:03] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:23:03] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:23:03] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:23:03.331195
+[2026-02-20 23:23:03] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:23:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:23:03] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:23:03] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:23:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:23:03] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:23:03] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:23:04] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:23:04] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:23:04] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:25:23] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:25:23] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:25:23] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:25:23.606900
+[2026-02-20 23:25:23] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:25:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:25:24] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:25:24] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:25:24] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:25:24] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:25:24] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:25:24] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:25:24] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:25:24] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:29:14] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:29:14] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:29:14] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:29:14.947421
+[2026-02-20 23:29:46] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:29:46] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:29:46] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:29:46.160630
+[2026-02-20 23:30:08] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:30:08] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:30:08] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:30:08.836019
+[2026-02-20 23:30:20] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:30:20] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:30:20] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:30:20.069000
+[2026-02-20 23:30:20] [INFO] [tushare-collect] [moneyflow] 日期范围: ['20260114', '20260115', '20260116', '20260117', '20260118', '20260119', '20260120', '20260121', '20260122', '20260123', '20260124', '20260125', '20260126', '20260127', '20260128', '20260129', '20260130', '20260131', '20260201', '20260202', '20260203', '20260204', '20260205', '20260206', '20260207', '20260208', '20260209', '20260210', '20260211', '20260212', '20260213']
+[2026-02-20 23:30:55] [INFO] [tushare-collect] [moneyflow] ==================================================
+[2026-02-20 23:30:55] [INFO] [tushare-collect] [moneyflow] 开始执行定时任务
+[2026-02-20 23:30:55] [INFO] [tushare-collect] [moneyflow] 执行时间: 2026-02-20 23:30:55.864449
+[2026-02-20 23:30:55] [INFO] [tushare-collect] [moneyflow] 日期范围: ['20260114', '20260115', '20260116', '20260117', '20260118', '20260119', '20260120', '20260121', '20260122', '20260123', '20260124', '20260125', '20260126', '20260127', '20260128', '20260129', '20260130', '20260131', '20260201', '20260202', '20260203', '20260204', '20260205', '20260206', '20260207', '20260208', '20260209', '20260210', '20260211', '20260212', '20260213']
+[2026-02-20 23:30:55] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260114'}
+[2026-02-20 23:30:55] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:30:57] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:30:57] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:30:57] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:30:58] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:30:58] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:30:58] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:30:59] [INFO] [tushare-collect] 成功采集1167条moneyflow数据
+[2026-02-20 23:30:59] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1167 条数据
+[2026-02-20 23:30:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:30:59] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:30:59] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5167 条数据, 去重后 5167 条
+[2026-02-20 23:31:00] [INFO] [tushare-collect] upsert 受影响 5167 行
+[2026-02-20 23:31:00] [INFO] [tushare-collect] 保存 5167 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:31:00] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5167 条
+[2026-02-20 23:31:00] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260114'}
+[2026-02-20 23:31:00] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:01] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:01] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:31:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:05] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:05] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:31:05] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:06] [INFO] [tushare-collect] 成功采集1902条moneyflow_dc数据
+[2026-02-20 23:31:06] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1902 条数据
+[2026-02-20 23:31:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:06] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:31:06] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5902 条数据, 去重后 5902 条
+[2026-02-20 23:31:07] [INFO] [tushare-collect] upsert 受影响 5902 行
+[2026-02-20 23:31:07] [INFO] [tushare-collect] 保存 5902 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:31:07] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5902 条
+[2026-02-20 23:31:07] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260114'}
+[2026-02-20 23:31:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:07] [INFO] [tushare-collect] 成功采集558条moneyflow_ind_dc数据
+[2026-02-20 23:31:07] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 558 条数据
+[2026-02-20 23:31:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:08] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:31:08] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 558 条数据, 去重后 558 条
+[2026-02-20 23:31:08] [INFO] [tushare-collect] upsert 受影响 558 行
+[2026-02-20 23:31:08] [INFO] [tushare-collect] 保存 558 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:31:08] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 558 条
+[2026-02-20 23:31:08] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260114'}
+[2026-02-20 23:31:08] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:10] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:31:10] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:31:10] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:10] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:31:10] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:31:10] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:31:10] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:31:10] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:31:10] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260114'}
+[2026-02-20 23:31:10] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:11] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:31:11] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:31:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:11] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:31:11] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:31:11] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:31:11] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:31:11] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:31:11] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260115'}
+[2026-02-20 23:31:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:12] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:31:12] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:31:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:14] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:31:14] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:31:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:16] [INFO] [tushare-collect] 成功采集1170条moneyflow数据
+[2026-02-20 23:31:16] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1170 条数据
+[2026-02-20 23:31:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:17] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:31:18] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5170 条数据, 去重后 5170 条
+[2026-02-20 23:31:18] [INFO] [tushare-collect] upsert 受影响 5170 行
+[2026-02-20 23:31:18] [INFO] [tushare-collect] 保存 5170 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:31:18] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5170 条
+[2026-02-20 23:31:18] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260115'}
+[2026-02-20 23:31:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:19] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:19] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:31:19] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:21] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:21] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:31:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:22] [INFO] [tushare-collect] 成功采集1903条moneyflow_dc数据
+[2026-02-20 23:31:22] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1903 条数据
+[2026-02-20 23:31:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:22] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:31:22] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5903 条数据, 去重后 5903 条
+[2026-02-20 23:31:23] [INFO] [tushare-collect] upsert 受影响 5903 行
+[2026-02-20 23:31:23] [INFO] [tushare-collect] 保存 5903 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:31:23] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5903 条
+[2026-02-20 23:31:23] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260115'}
+[2026-02-20 23:31:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:25] [INFO] [tushare-collect] 成功采集558条moneyflow_ind_dc数据
+[2026-02-20 23:31:25] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 558 条数据
+[2026-02-20 23:31:25] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:25] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:31:25] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 558 条数据, 去重后 558 条
+[2026-02-20 23:31:26] [INFO] [tushare-collect] upsert 受影响 558 行
+[2026-02-20 23:31:26] [INFO] [tushare-collect] 保存 558 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:31:26] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 558 条
+[2026-02-20 23:31:26] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260115'}
+[2026-02-20 23:31:26] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:26] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:31:26] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:31:26] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:26] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:31:26] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:31:27] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:31:27] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:31:27] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:31:27] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260115'}
+[2026-02-20 23:31:27] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:27] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:31:27] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:31:27] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:27] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:31:27] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:31:28] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:31:28] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:31:28] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:31:28] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260116'}
+[2026-02-20 23:31:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:29] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:31:29] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:31:29] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:30] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:31:30] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:31:30] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:31] [INFO] [tushare-collect] 成功采集1172条moneyflow数据
+[2026-02-20 23:31:31] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1172 条数据
+[2026-02-20 23:31:31] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:32] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:31:32] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5172 条数据, 去重后 5172 条
+[2026-02-20 23:31:33] [INFO] [tushare-collect] upsert 受影响 5172 行
+[2026-02-20 23:31:33] [INFO] [tushare-collect] 保存 5172 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:31:33] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5172 条
+[2026-02-20 23:31:33] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260116'}
+[2026-02-20 23:31:33] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:34] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:34] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:31:34] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:35] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:35] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:31:35] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:37] [INFO] [tushare-collect] 成功采集1905条moneyflow_dc数据
+[2026-02-20 23:31:37] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1905 条数据
+[2026-02-20 23:31:37] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:38] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:31:38] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5905 条数据, 去重后 5905 条
+[2026-02-20 23:31:39] [INFO] [tushare-collect] upsert 受影响 5905 行
+[2026-02-20 23:31:39] [INFO] [tushare-collect] 保存 5905 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:31:39] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5905 条
+[2026-02-20 23:31:39] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260116'}
+[2026-02-20 23:31:39] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:40] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:31:40] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:31:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:41] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:31:41] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:31:41] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:31:41] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:31:41] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:31:41] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260116'}
+[2026-02-20 23:31:41] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:41] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:31:41] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:31:41] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:41] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:31:41] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:31:42] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:31:42] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:31:42] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:31:42] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260116'}
+[2026-02-20 23:31:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:42] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:31:42] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:31:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:42] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:31:42] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:31:42] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:31:42] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:31:42] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:31:42] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260117'}
+[2026-02-20 23:31:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:43] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:31:43] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:31:43] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260117'}
+[2026-02-20 23:31:43] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:44] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:31:44] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:31:44] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260117'}
+[2026-02-20 23:31:44] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:45] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:31:45] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:31:45] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260117'}
+[2026-02-20 23:31:45] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:45] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:31:45] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:31:45] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260117'}
+[2026-02-20 23:31:45] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:45] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:31:45] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:31:45] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260118'}
+[2026-02-20 23:31:45] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:46] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:31:46] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:31:46] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260118'}
+[2026-02-20 23:31:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:46] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:31:46] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:31:46] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260118'}
+[2026-02-20 23:31:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:31:46] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:31:46] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:31:46] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260118'}
+[2026-02-20 23:31:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:31:47] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:31:47] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:31:47] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260118'}
+[2026-02-20 23:31:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:31:47] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:31:47] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:31:47] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260119'}
+[2026-02-20 23:31:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:49] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:31:49] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:31:49] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:50] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:31:50] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:31:50] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:51] [INFO] [tushare-collect] 成功采集1173条moneyflow数据
+[2026-02-20 23:31:51] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1173 条数据
+[2026-02-20 23:31:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:31:52] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:31:52] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5173 条数据, 去重后 5173 条
+[2026-02-20 23:31:52] [INFO] [tushare-collect] upsert 受影响 5173 行
+[2026-02-20 23:31:52] [INFO] [tushare-collect] 保存 5173 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:31:52] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5173 条
+[2026-02-20 23:31:52] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260119'}
+[2026-02-20 23:31:52] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:54] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:54] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:31:54] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:56] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:31:56] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:31:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:31:59] [INFO] [tushare-collect] 成功采集1905条moneyflow_dc数据
+[2026-02-20 23:31:59] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1905 条数据
+[2026-02-20 23:31:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:00] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:32:00] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5905 条数据, 去重后 5905 条
+[2026-02-20 23:32:01] [INFO] [tushare-collect] upsert 受影响 5905 行
+[2026-02-20 23:32:01] [INFO] [tushare-collect] 保存 5905 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:32:01] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5905 条
+[2026-02-20 23:32:01] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260119'}
+[2026-02-20 23:32:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:01] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:32:01] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:32:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:02] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:32:02] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:32:02] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:32:02] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:32:02] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:32:02] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260119'}
+[2026-02-20 23:32:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:02] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:32:02] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:32:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:02] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:32:02] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:03] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:03] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:32:03] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:03] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260119'}
+[2026-02-20 23:32:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:03] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:32:03] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:32:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:04] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:32:04] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:04] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:04] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:32:04] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:04] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260120'}
+[2026-02-20 23:32:04] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:06] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:06] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:32:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:07] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:07] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:32:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:08] [INFO] [tushare-collect] 成功采集1179条moneyflow数据
+[2026-02-20 23:32:08] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1179 条数据
+[2026-02-20 23:32:08] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:08] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:32:08] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5179 条数据, 去重后 5179 条
+[2026-02-20 23:32:09] [INFO] [tushare-collect] upsert 受影响 5179 行
+[2026-02-20 23:32:09] [INFO] [tushare-collect] 保存 5179 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:32:09] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5179 条
+[2026-02-20 23:32:09] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260120'}
+[2026-02-20 23:32:09] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:10] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:10] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:32:10] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:11] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:11] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:32:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:12] [INFO] [tushare-collect] 成功采集1905条moneyflow_dc数据
+[2026-02-20 23:32:12] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1905 条数据
+[2026-02-20 23:32:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:12] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:32:12] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5905 条数据, 去重后 5905 条
+[2026-02-20 23:32:13] [INFO] [tushare-collect] upsert 受影响 5905 行
+[2026-02-20 23:32:13] [INFO] [tushare-collect] 保存 5905 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:32:13] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5905 条
+[2026-02-20 23:32:13] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260120'}
+[2026-02-20 23:32:13] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:13] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:32:13] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:32:13] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:14] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:32:14] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:32:14] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:32:14] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:32:14] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:32:14] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260120'}
+[2026-02-20 23:32:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:14] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:32:14] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:32:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:15] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:32:15] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:15] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:15] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:32:15] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:15] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260120'}
+[2026-02-20 23:32:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:15] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:32:15] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:32:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:15] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:32:15] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:16] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:16] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:32:16] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:16] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260121'}
+[2026-02-20 23:32:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:18] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:18] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:32:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:19] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:19] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:32:19] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:19] [INFO] [tushare-collect] 成功采集1176条moneyflow数据
+[2026-02-20 23:32:19] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1176 条数据
+[2026-02-20 23:32:19] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:20] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:32:20] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5176 条数据, 去重后 5176 条
+[2026-02-20 23:32:21] [INFO] [tushare-collect] upsert 受影响 5176 行
+[2026-02-20 23:32:21] [INFO] [tushare-collect] 保存 5176 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:32:21] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5176 条
+[2026-02-20 23:32:21] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260121'}
+[2026-02-20 23:32:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:22] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:22] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:32:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:23] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:23] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:32:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:24] [INFO] [tushare-collect] 成功采集1906条moneyflow_dc数据
+[2026-02-20 23:32:24] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1906 条数据
+[2026-02-20 23:32:24] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:24] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:32:24] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5906 条数据, 去重后 5906 条
+[2026-02-20 23:32:25] [INFO] [tushare-collect] upsert 受影响 5906 行
+[2026-02-20 23:32:25] [INFO] [tushare-collect] 保存 5906 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:32:25] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5906 条
+[2026-02-20 23:32:25] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260121'}
+[2026-02-20 23:32:25] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:26] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:32:26] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:32:26] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:26] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:32:26] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:32:26] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:32:26] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:32:26] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:32:26] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260121'}
+[2026-02-20 23:32:26] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:27] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:32:27] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:32:27] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:27] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:32:27] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:27] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:27] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:32:27] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:27] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260121'}
+[2026-02-20 23:32:27] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:28] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:32:28] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:32:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:28] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:32:28] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:28] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:28] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:32:28] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:28] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260122'}
+[2026-02-20 23:32:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:29] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:29] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:32:29] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:31] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:31] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:32:31] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:32] [INFO] [tushare-collect] 成功采集1176条moneyflow数据
+[2026-02-20 23:32:32] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1176 条数据
+[2026-02-20 23:32:32] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:33] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:32:33] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5176 条数据, 去重后 5176 条
+[2026-02-20 23:32:34] [INFO] [tushare-collect] upsert 受影响 5176 行
+[2026-02-20 23:32:34] [INFO] [tushare-collect] 保存 5176 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:32:34] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5176 条
+[2026-02-20 23:32:34] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260122'}
+[2026-02-20 23:32:34] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:36] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:36] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:32:36] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:36] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:36] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:32:36] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:37] [INFO] [tushare-collect] 成功采集1909条moneyflow_dc数据
+[2026-02-20 23:32:37] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1909 条数据
+[2026-02-20 23:32:37] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:37] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:32:37] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5909 条数据, 去重后 5909 条
+[2026-02-20 23:32:38] [INFO] [tushare-collect] upsert 受影响 5909 行
+[2026-02-20 23:32:38] [INFO] [tushare-collect] 保存 5909 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:32:38] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5909 条
+[2026-02-20 23:32:38] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260122'}
+[2026-02-20 23:32:38] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:39] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:32:39] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:32:39] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:39] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:32:39] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:32:40] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:32:40] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:32:40] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:32:40] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260122'}
+[2026-02-20 23:32:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:40] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:32:40] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:32:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:40] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:32:40] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:40] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:40] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:32:40] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:40] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260122'}
+[2026-02-20 23:32:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:41] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:32:41] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:32:41] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:41] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:32:41] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:41] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:41] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:32:41] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:41] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260123'}
+[2026-02-20 23:32:41] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:45] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:45] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:32:45] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:46] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:46] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:32:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:47] [INFO] [tushare-collect] 成功采集1177条moneyflow数据
+[2026-02-20 23:32:47] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1177 条数据
+[2026-02-20 23:32:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:47] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:32:47] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5177 条数据, 去重后 5177 条
+[2026-02-20 23:32:48] [INFO] [tushare-collect] upsert 受影响 5177 行
+[2026-02-20 23:32:48] [INFO] [tushare-collect] 保存 5177 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:32:48] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5177 条
+[2026-02-20 23:32:48] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260123'}
+[2026-02-20 23:32:48] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:49] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:49] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:32:49] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:49] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:32:49] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:32:49] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:51] [INFO] [tushare-collect] 成功采集1910条moneyflow_dc数据
+[2026-02-20 23:32:51] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1910 条数据
+[2026-02-20 23:32:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:51] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:32:51] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5910 条数据, 去重后 5910 条
+[2026-02-20 23:32:52] [INFO] [tushare-collect] upsert 受影响 5910 行
+[2026-02-20 23:32:52] [INFO] [tushare-collect] 保存 5910 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:32:52] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5910 条
+[2026-02-20 23:32:52] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260123'}
+[2026-02-20 23:32:52] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:52] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:32:52] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:32:52] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:53] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:32:53] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:32:53] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:32:53] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:32:53] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:32:53] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260123'}
+[2026-02-20 23:32:53] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:53] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:32:53] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:32:53] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:54] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:32:54] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:54] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:54] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:32:54] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:54] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260123'}
+[2026-02-20 23:32:54] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:54] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:32:54] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:32:54] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:55] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:32:55] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:32:55] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:32:55] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:32:55] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:32:55] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260124'}
+[2026-02-20 23:32:55] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:55] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:32:55] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:32:55] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260124'}
+[2026-02-20 23:32:55] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:56] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:32:56] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:32:56] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260124'}
+[2026-02-20 23:32:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:56] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:32:56] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:32:56] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260124'}
+[2026-02-20 23:32:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:56] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:32:56] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:32:56] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260124'}
+[2026-02-20 23:32:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:57] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:32:57] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:32:57] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260125'}
+[2026-02-20 23:32:57] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:57] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:32:57] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:32:57] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260125'}
+[2026-02-20 23:32:57] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:32:57] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:32:57] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:32:57] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260125'}
+[2026-02-20 23:32:57] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:32:58] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:32:58] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:32:58] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260125'}
+[2026-02-20 23:32:58] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:32:58] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:32:58] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:32:58] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260125'}
+[2026-02-20 23:32:58] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:32:58] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:32:58] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:32:58] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260126'}
+[2026-02-20 23:32:58] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:32:59] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:32:59] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:32:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:01] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:01] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:33:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:01] [INFO] [tushare-collect] 成功采集1173条moneyflow数据
+[2026-02-20 23:33:01] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1173 条数据
+[2026-02-20 23:33:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:02] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:33:02] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5173 条数据, 去重后 5173 条
+[2026-02-20 23:33:03] [INFO] [tushare-collect] upsert 受影响 5173 行
+[2026-02-20 23:33:03] [INFO] [tushare-collect] 保存 5173 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:33:03] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5173 条
+[2026-02-20 23:33:03] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260126'}
+[2026-02-20 23:33:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:03] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:03] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:33:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:07] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:07] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:33:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:08] [INFO] [tushare-collect] 成功采集1910条moneyflow_dc数据
+[2026-02-20 23:33:08] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1910 条数据
+[2026-02-20 23:33:08] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:08] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:33:08] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5910 条数据, 去重后 5910 条
+[2026-02-20 23:33:09] [INFO] [tushare-collect] upsert 受影响 5910 行
+[2026-02-20 23:33:09] [INFO] [tushare-collect] 保存 5910 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:33:09] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5910 条
+[2026-02-20 23:33:09] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260126'}
+[2026-02-20 23:33:09] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:10] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:33:10] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:33:10] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:10] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:33:10] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:33:10] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:33:10] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:33:10] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:33:10] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260126'}
+[2026-02-20 23:33:10] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:11] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:33:11] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:33:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:11] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:33:11] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:11] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:11] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:33:11] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:11] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260126'}
+[2026-02-20 23:33:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:12] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:33:12] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:33:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:12] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:33:12] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:12] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:12] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:33:12] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:12] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260127'}
+[2026-02-20 23:33:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:13] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:13] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:33:13] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:14] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:14] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:33:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:15] [INFO] [tushare-collect] 成功采集1173条moneyflow数据
+[2026-02-20 23:33:15] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1173 条数据
+[2026-02-20 23:33:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:15] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:33:15] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5173 条数据, 去重后 5173 条
+[2026-02-20 23:33:16] [INFO] [tushare-collect] upsert 受影响 5173 行
+[2026-02-20 23:33:16] [INFO] [tushare-collect] 保存 5173 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:33:16] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5173 条
+[2026-02-20 23:33:16] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260127'}
+[2026-02-20 23:33:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:17] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:17] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:33:17] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:18] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:18] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:33:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:19] [INFO] [tushare-collect] 成功采集1910条moneyflow_dc数据
+[2026-02-20 23:33:19] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1910 条数据
+[2026-02-20 23:33:19] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:19] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:33:19] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5910 条数据, 去重后 5910 条
+[2026-02-20 23:33:20] [INFO] [tushare-collect] upsert 受影响 5910 行
+[2026-02-20 23:33:20] [INFO] [tushare-collect] 保存 5910 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:33:20] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5910 条
+[2026-02-20 23:33:20] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260127'}
+[2026-02-20 23:33:20] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:21] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:33:21] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:33:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:21] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:33:21] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:33:21] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:33:21] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:33:21] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:33:21] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260127'}
+[2026-02-20 23:33:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:21] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:33:21] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:33:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:22] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:33:22] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:22] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:22] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:33:22] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:22] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260127'}
+[2026-02-20 23:33:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:22] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:33:22] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:33:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:23] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:33:23] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:23] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:23] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:33:23] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:23] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260128'}
+[2026-02-20 23:33:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:24] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:24] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:33:24] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:25] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:25] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:33:25] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:25] [INFO] [tushare-collect] 成功采集1173条moneyflow数据
+[2026-02-20 23:33:25] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1173 条数据
+[2026-02-20 23:33:25] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:26] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:33:26] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5173 条数据, 去重后 5173 条
+[2026-02-20 23:33:27] [INFO] [tushare-collect] upsert 受影响 5173 行
+[2026-02-20 23:33:27] [INFO] [tushare-collect] 保存 5173 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:33:27] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5173 条
+[2026-02-20 23:33:27] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260128'}
+[2026-02-20 23:33:27] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:28] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:28] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:33:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:29] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:29] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:33:29] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:30] [INFO] [tushare-collect] 成功采集1911条moneyflow_dc数据
+[2026-02-20 23:33:30] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1911 条数据
+[2026-02-20 23:33:30] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:31] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:33:31] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5911 条数据, 去重后 5911 条
+[2026-02-20 23:33:32] [INFO] [tushare-collect] upsert 受影响 5911 行
+[2026-02-20 23:33:32] [INFO] [tushare-collect] 保存 5911 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:33:32] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5911 条
+[2026-02-20 23:33:32] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260128'}
+[2026-02-20 23:33:32] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:35] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:33:35] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:33:35] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:35] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:33:35] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:33:36] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:33:36] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:33:36] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:33:36] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260128'}
+[2026-02-20 23:33:36] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:36] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:33:36] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:33:36] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:36] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:33:36] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:36] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:36] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:33:36] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:36] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260128'}
+[2026-02-20 23:33:36] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:37] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:33:37] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:33:37] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:37] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:33:37] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:37] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:37] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:33:37] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:37] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260129'}
+[2026-02-20 23:33:37] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:40] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:40] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:33:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:42] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:42] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:33:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:42] [INFO] [tushare-collect] 成功采集1174条moneyflow数据
+[2026-02-20 23:33:42] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1174 条数据
+[2026-02-20 23:33:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:43] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:33:43] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5174 条数据, 去重后 5174 条
+[2026-02-20 23:33:44] [INFO] [tushare-collect] upsert 受影响 5174 行
+[2026-02-20 23:33:44] [INFO] [tushare-collect] 保存 5174 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:33:44] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5174 条
+[2026-02-20 23:33:44] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260129'}
+[2026-02-20 23:33:44] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:45] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:45] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:33:45] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:46] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:46] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:33:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:47] [INFO] [tushare-collect] 成功采集1911条moneyflow_dc数据
+[2026-02-20 23:33:47] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1911 条数据
+[2026-02-20 23:33:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:48] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:33:48] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5911 条数据, 去重后 5911 条
+[2026-02-20 23:33:49] [INFO] [tushare-collect] upsert 受影响 5911 行
+[2026-02-20 23:33:49] [INFO] [tushare-collect] 保存 5911 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:33:49] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5911 条
+[2026-02-20 23:33:49] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260129'}
+[2026-02-20 23:33:49] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:50] [INFO] [tushare-collect] 成功采集559条moneyflow_ind_dc数据
+[2026-02-20 23:33:50] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 559 条数据
+[2026-02-20 23:33:50] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:33:50] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:33:50] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 559 条数据, 去重后 559 条
+[2026-02-20 23:33:50] [INFO] [tushare-collect] upsert 受影响 559 行
+[2026-02-20 23:33:50] [INFO] [tushare-collect] 保存 559 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:33:50] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 559 条
+[2026-02-20 23:33:50] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260129'}
+[2026-02-20 23:33:50] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:51] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:33:51] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:33:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:33:51] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:33:51] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:51] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:51] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:33:51] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:51] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260129'}
+[2026-02-20 23:33:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:51] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:33:51] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:33:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:33:52] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:33:52] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:33:52] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:33:52] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:33:52] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:33:52] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260130'}
+[2026-02-20 23:33:52] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:53] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:53] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:33:53] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:54] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:33:54] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:33:54] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:55] [INFO] [tushare-collect] 成功采集1171条moneyflow数据
+[2026-02-20 23:33:55] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1171 条数据
+[2026-02-20 23:33:55] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:33:55] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:33:55] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5171 条数据, 去重后 5171 条
+[2026-02-20 23:33:56] [INFO] [tushare-collect] upsert 受影响 5171 行
+[2026-02-20 23:33:56] [INFO] [tushare-collect] 保存 5171 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:33:56] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5171 条
+[2026-02-20 23:33:56] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260130'}
+[2026-02-20 23:33:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:57] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:57] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:33:57] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:58] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:33:58] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:33:58] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:33:59] [INFO] [tushare-collect] 成功采集1911条moneyflow_dc数据
+[2026-02-20 23:33:59] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1911 条数据
+[2026-02-20 23:33:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:00] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:34:00] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5911 条数据, 去重后 5911 条
+[2026-02-20 23:34:01] [INFO] [tushare-collect] upsert 受影响 5911 行
+[2026-02-20 23:34:01] [INFO] [tushare-collect] 保存 5911 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:34:01] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5911 条
+[2026-02-20 23:34:01] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260130'}
+[2026-02-20 23:34:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:02] [INFO] [tushare-collect] 成功采集560条moneyflow_ind_dc数据
+[2026-02-20 23:34:02] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 560 条数据
+[2026-02-20 23:34:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:02] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:34:02] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 560 条数据, 去重后 560 条
+[2026-02-20 23:34:02] [INFO] [tushare-collect] upsert 受影响 560 行
+[2026-02-20 23:34:02] [INFO] [tushare-collect] 保存 560 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:34:02] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 560 条
+[2026-02-20 23:34:02] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260130'}
+[2026-02-20 23:34:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:03] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:34:03] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:34:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:03] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:34:03] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:03] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:03] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:34:03] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:03] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260130'}
+[2026-02-20 23:34:03] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:04] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:34:04] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:34:04] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:04] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:34:04] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:04] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:04] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:34:04] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:04] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260131'}
+[2026-02-20 23:34:04] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:04] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:34:04] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:34:04] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260131'}
+[2026-02-20 23:34:04] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:05] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:34:05] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:34:05] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260131'}
+[2026-02-20 23:34:05] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:05] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:34:05] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:34:05] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260131'}
+[2026-02-20 23:34:05] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:05] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:34:05] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:34:05] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260131'}
+[2026-02-20 23:34:05] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:06] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:34:06] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:34:06] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260201'}
+[2026-02-20 23:34:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:06] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:34:06] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:34:06] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260201'}
+[2026-02-20 23:34:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:06] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:34:06] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:34:06] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260201'}
+[2026-02-20 23:34:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:07] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:34:07] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:34:07] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260201'}
+[2026-02-20 23:34:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:07] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:34:07] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:34:07] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260201'}
+[2026-02-20 23:34:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:07] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:34:07] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:34:07] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260202'}
+[2026-02-20 23:34:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:08] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:08] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:34:08] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:09] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:09] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:34:09] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:12] [INFO] [tushare-collect] 成功采集1173条moneyflow数据
+[2026-02-20 23:34:12] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1173 条数据
+[2026-02-20 23:34:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:12] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:34:12] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5173 条数据, 去重后 5173 条
+[2026-02-20 23:34:13] [INFO] [tushare-collect] upsert 受影响 5173 行
+[2026-02-20 23:34:13] [INFO] [tushare-collect] 保存 5173 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:34:13] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5173 条
+[2026-02-20 23:34:13] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260202'}
+[2026-02-20 23:34:13] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:14] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:14] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:34:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:15] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:15] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:34:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:16] [INFO] [tushare-collect] 成功采集1911条moneyflow_dc数据
+[2026-02-20 23:34:16] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1911 条数据
+[2026-02-20 23:34:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:16] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:34:16] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5911 条数据, 去重后 5911 条
+[2026-02-20 23:34:18] [INFO] [tushare-collect] upsert 受影响 5911 行
+[2026-02-20 23:34:18] [INFO] [tushare-collect] 保存 5911 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:34:18] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5911 条
+[2026-02-20 23:34:18] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260202'}
+[2026-02-20 23:34:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:20] [INFO] [tushare-collect] 成功采集564条moneyflow_ind_dc数据
+[2026-02-20 23:34:20] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 564 条数据
+[2026-02-20 23:34:20] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:20] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:34:20] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 564 条数据, 去重后 564 条
+[2026-02-20 23:34:20] [INFO] [tushare-collect] upsert 受影响 564 行
+[2026-02-20 23:34:20] [INFO] [tushare-collect] 保存 564 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:34:20] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 564 条
+[2026-02-20 23:34:20] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260202'}
+[2026-02-20 23:34:20] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:21] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:34:21] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:34:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:21] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:34:21] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:21] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:21] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:34:21] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:21] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260202'}
+[2026-02-20 23:34:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:22] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:34:22] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:34:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:22] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:34:22] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:22] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:22] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:34:22] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:22] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260203'}
+[2026-02-20 23:34:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:23] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:23] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:34:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:24] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:24] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:34:24] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:25] [INFO] [tushare-collect] 成功采集1174条moneyflow数据
+[2026-02-20 23:34:25] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1174 条数据
+[2026-02-20 23:34:25] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:25] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:34:25] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5174 条数据, 去重后 5174 条
+[2026-02-20 23:34:26] [INFO] [tushare-collect] upsert 受影响 5174 行
+[2026-02-20 23:34:26] [INFO] [tushare-collect] 保存 5174 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:34:26] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5174 条
+[2026-02-20 23:34:26] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260203'}
+[2026-02-20 23:34:26] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:27] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:27] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:34:27] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:28] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:28] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:34:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:29] [INFO] [tushare-collect] 成功采集1911条moneyflow_dc数据
+[2026-02-20 23:34:29] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1911 条数据
+[2026-02-20 23:34:29] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:29] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:34:29] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5911 条数据, 去重后 5911 条
+[2026-02-20 23:34:31] [INFO] [tushare-collect] upsert 受影响 5911 行
+[2026-02-20 23:34:31] [INFO] [tushare-collect] 保存 5911 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:34:31] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5911 条
+[2026-02-20 23:34:31] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260203'}
+[2026-02-20 23:34:31] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:31] [INFO] [tushare-collect] 成功采集568条moneyflow_ind_dc数据
+[2026-02-20 23:34:31] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 568 条数据
+[2026-02-20 23:34:31] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:32] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:34:32] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 568 条数据, 去重后 568 条
+[2026-02-20 23:34:32] [INFO] [tushare-collect] upsert 受影响 568 行
+[2026-02-20 23:34:32] [INFO] [tushare-collect] 保存 568 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:34:32] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 568 条
+[2026-02-20 23:34:32] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260203'}
+[2026-02-20 23:34:32] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:32] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:34:32] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:34:32] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:33] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:34:33] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:33] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:33] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:34:33] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:33] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260203'}
+[2026-02-20 23:34:33] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:33] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:34:33] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:34:33] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:33] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:34:33] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:34] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:34] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:34:34] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:34] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260204'}
+[2026-02-20 23:34:34] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:35] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:35] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:34:35] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:37] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:37] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:34:37] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:38] [INFO] [tushare-collect] 成功采集1177条moneyflow数据
+[2026-02-20 23:34:38] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1177 条数据
+[2026-02-20 23:34:38] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:38] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:34:38] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5177 条数据, 去重后 5177 条
+[2026-02-20 23:34:40] [INFO] [tushare-collect] upsert 受影响 5177 行
+[2026-02-20 23:34:40] [INFO] [tushare-collect] 保存 5177 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:34:40] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5177 条
+[2026-02-20 23:34:40] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260204'}
+[2026-02-20 23:34:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:40] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:40] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:34:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:42] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:42] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:34:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:44] [INFO] [tushare-collect] 成功采集1911条moneyflow_dc数据
+[2026-02-20 23:34:44] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1911 条数据
+[2026-02-20 23:34:44] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:44] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:34:44] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5911 条数据, 去重后 5911 条
+[2026-02-20 23:34:45] [INFO] [tushare-collect] upsert 受影响 5911 行
+[2026-02-20 23:34:45] [INFO] [tushare-collect] 保存 5911 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:34:45] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5911 条
+[2026-02-20 23:34:45] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260204'}
+[2026-02-20 23:34:45] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:46] [INFO] [tushare-collect] 成功采集572条moneyflow_ind_dc数据
+[2026-02-20 23:34:46] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 572 条数据
+[2026-02-20 23:34:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:34:46] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:34:46] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 572 条数据, 去重后 572 条
+[2026-02-20 23:34:47] [INFO] [tushare-collect] upsert 受影响 572 行
+[2026-02-20 23:34:47] [INFO] [tushare-collect] 保存 572 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:34:47] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 572 条
+[2026-02-20 23:34:47] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260204'}
+[2026-02-20 23:34:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:47] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:34:47] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:34:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:34:47] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:34:47] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:48] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:48] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:34:48] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:48] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260204'}
+[2026-02-20 23:34:48] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:48] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:34:48] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:34:48] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:34:49] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:34:49] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:34:49] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:34:49] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:34:49] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:34:49] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260205'}
+[2026-02-20 23:34:49] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:50] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:50] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:34:50] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:51] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:34:51] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:34:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:52] [INFO] [tushare-collect] 成功采集1177条moneyflow数据
+[2026-02-20 23:34:52] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1177 条数据
+[2026-02-20 23:34:52] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:34:52] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:34:52] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5177 条数据, 去重后 5177 条
+[2026-02-20 23:34:53] [INFO] [tushare-collect] upsert 受影响 5177 行
+[2026-02-20 23:34:53] [INFO] [tushare-collect] 保存 5177 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:34:53] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5177 条
+[2026-02-20 23:34:53] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260205'}
+[2026-02-20 23:34:53] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:55] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:55] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:34:55] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:56] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:34:56] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:34:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:57] [INFO] [tushare-collect] 成功采集1910条moneyflow_dc数据
+[2026-02-20 23:34:57] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1910 条数据
+[2026-02-20 23:34:57] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:34:57] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:34:57] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5910 条数据, 去重后 5910 条
+[2026-02-20 23:34:59] [INFO] [tushare-collect] upsert 受影响 5910 行
+[2026-02-20 23:34:59] [INFO] [tushare-collect] 保存 5910 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:34:59] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5910 条
+[2026-02-20 23:34:59] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260205'}
+[2026-02-20 23:34:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:00] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-20 23:35:00] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 571 条数据
+[2026-02-20 23:35:00] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:00] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:35:00] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 571 条数据, 去重后 571 条
+[2026-02-20 23:35:01] [INFO] [tushare-collect] upsert 受影响 571 行
+[2026-02-20 23:35:01] [INFO] [tushare-collect] 保存 571 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:35:01] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 571 条
+[2026-02-20 23:35:01] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260205'}
+[2026-02-20 23:35:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:01] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:35:01] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:35:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:01] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:35:01] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:02] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:02] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:35:02] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:02] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260205'}
+[2026-02-20 23:35:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:02] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:35:02] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:35:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:02] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:35:02] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:02] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:02] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:35:02] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:02] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260206'}
+[2026-02-20 23:35:02] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:04] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:04] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:35:04] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:04] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:04] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:35:04] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:06] [INFO] [tushare-collect] 成功采集1175条moneyflow数据
+[2026-02-20 23:35:06] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1175 条数据
+[2026-02-20 23:35:06] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:06] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:35:06] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5175 条数据, 去重后 5175 条
+[2026-02-20 23:35:07] [INFO] [tushare-collect] upsert 受影响 5175 行
+[2026-02-20 23:35:07] [INFO] [tushare-collect] 保存 5175 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:35:07] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5175 条
+[2026-02-20 23:35:07] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260206'}
+[2026-02-20 23:35:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:10] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:10] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:35:10] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:11] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:11] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:35:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:12] [INFO] [tushare-collect] 成功采集1912条moneyflow_dc数据
+[2026-02-20 23:35:12] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1912 条数据
+[2026-02-20 23:35:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:12] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:35:12] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5912 条数据, 去重后 5912 条
+[2026-02-20 23:35:14] [INFO] [tushare-collect] upsert 受影响 5912 行
+[2026-02-20 23:35:14] [INFO] [tushare-collect] 保存 5912 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:35:14] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5912 条
+[2026-02-20 23:35:14] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260206'}
+[2026-02-20 23:35:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:14] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-20 23:35:14] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 571 条数据
+[2026-02-20 23:35:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:14] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:35:14] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 571 条数据, 去重后 571 条
+[2026-02-20 23:35:15] [INFO] [tushare-collect] upsert 受影响 571 行
+[2026-02-20 23:35:15] [INFO] [tushare-collect] 保存 571 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:35:15] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 571 条
+[2026-02-20 23:35:15] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260206'}
+[2026-02-20 23:35:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:15] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:35:15] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:35:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:15] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:35:15] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:15] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:15] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:35:15] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:15] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260206'}
+[2026-02-20 23:35:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:16] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:35:16] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:35:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:16] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:35:16] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:16] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:16] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:35:16] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:16] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260207'}
+[2026-02-20 23:35:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:17] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:35:17] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:35:17] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260207'}
+[2026-02-20 23:35:17] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:17] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:35:17] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:35:17] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260207'}
+[2026-02-20 23:35:17] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:17] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:35:17] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:35:17] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260207'}
+[2026-02-20 23:35:17] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:18] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:35:18] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:35:18] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260207'}
+[2026-02-20 23:35:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:18] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:35:18] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:35:18] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260208'}
+[2026-02-20 23:35:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:18] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:35:18] [INFO] [tushare-collect] [moneyflow] 无数据需要保存
+[2026-02-20 23:35:18] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260208'}
+[2026-02-20 23:35:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:19] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:35:19] [INFO] [tushare-collect] [moneyflow_dc] 无数据需要保存
+[2026-02-20 23:35:19] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260208'}
+[2026-02-20 23:35:19] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:19] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:35:19] [INFO] [tushare-collect] [moneyflow_ind_dc] 无数据需要保存
+[2026-02-20 23:35:19] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260208'}
+[2026-02-20 23:35:19] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:19] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:35:19] [INFO] [tushare-collect] [moneyflow_mkt_dc] 无数据需要保存
+[2026-02-20 23:35:19] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260208'}
+[2026-02-20 23:35:19] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:20] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:35:20] [INFO] [tushare-collect] [moneyflow_hsgt] 无数据需要保存
+[2026-02-20 23:35:20] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260209'}
+[2026-02-20 23:35:20] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:21] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:21] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:35:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:21] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:21] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:35:21] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:22] [INFO] [tushare-collect] 成功采集1174条moneyflow数据
+[2026-02-20 23:35:22] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1174 条数据
+[2026-02-20 23:35:22] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:22] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:35:22] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5174 条数据, 去重后 5174 条
+[2026-02-20 23:35:24] [INFO] [tushare-collect] upsert 受影响 5174 行
+[2026-02-20 23:35:24] [INFO] [tushare-collect] 保存 5174 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:35:24] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5174 条
+[2026-02-20 23:35:24] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260209'}
+[2026-02-20 23:35:24] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:24] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:24] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:35:24] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:25] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:25] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:35:25] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:28] [INFO] [tushare-collect] 成功采集1912条moneyflow_dc数据
+[2026-02-20 23:35:28] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1912 条数据
+[2026-02-20 23:35:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:28] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:35:28] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5912 条数据, 去重后 5912 条
+[2026-02-20 23:35:29] [INFO] [tushare-collect] upsert 受影响 5912 行
+[2026-02-20 23:35:29] [INFO] [tushare-collect] 保存 5912 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:35:29] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5912 条
+[2026-02-20 23:35:29] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260209'}
+[2026-02-20 23:35:29] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:30] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-20 23:35:30] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 571 条数据
+[2026-02-20 23:35:30] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:30] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:35:30] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 571 条数据, 去重后 571 条
+[2026-02-20 23:35:30] [INFO] [tushare-collect] upsert 受影响 571 行
+[2026-02-20 23:35:30] [INFO] [tushare-collect] 保存 571 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:35:30] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 571 条
+[2026-02-20 23:35:30] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260209'}
+[2026-02-20 23:35:30] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:31] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:35:31] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:35:31] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:31] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:35:31] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:31] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:31] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:35:31] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:31] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260209'}
+[2026-02-20 23:35:31] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:32] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:35:32] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:35:32] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:32] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:35:32] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:32] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:32] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:35:32] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:32] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260210'}
+[2026-02-20 23:35:32] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:36] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:36] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:35:36] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:37] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:37] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:35:37] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:38] [INFO] [tushare-collect] 成功采集1178条moneyflow数据
+[2026-02-20 23:35:38] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1178 条数据
+[2026-02-20 23:35:38] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:38] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:35:38] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5178 条数据, 去重后 5178 条
+[2026-02-20 23:35:39] [INFO] [tushare-collect] upsert 受影响 5178 行
+[2026-02-20 23:35:39] [INFO] [tushare-collect] 保存 5178 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:35:39] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5178 条
+[2026-02-20 23:35:39] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260210'}
+[2026-02-20 23:35:39] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:40] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:40] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:35:40] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:41] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:41] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:35:41] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:42] [INFO] [tushare-collect] 成功采集1913条moneyflow_dc数据
+[2026-02-20 23:35:42] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1913 条数据
+[2026-02-20 23:35:42] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:42] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:35:42] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5913 条数据, 去重后 5913 条
+[2026-02-20 23:35:43] [INFO] [tushare-collect] upsert 受影响 5913 行
+[2026-02-20 23:35:43] [INFO] [tushare-collect] 保存 5913 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:35:43] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5913 条
+[2026-02-20 23:35:43] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260210'}
+[2026-02-20 23:35:43] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:45] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-20 23:35:45] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 571 条数据
+[2026-02-20 23:35:45] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:45] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:35:45] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 571 条数据, 去重后 571 条
+[2026-02-20 23:35:46] [INFO] [tushare-collect] upsert 受影响 571 行
+[2026-02-20 23:35:46] [INFO] [tushare-collect] 保存 571 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:35:46] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 571 条
+[2026-02-20 23:35:46] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260210'}
+[2026-02-20 23:35:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:46] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:35:46] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:35:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:46] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:35:46] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:46] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:46] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:35:46] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:46] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260210'}
+[2026-02-20 23:35:46] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:47] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:35:47] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:35:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:35:47] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:35:47] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:47] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:47] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:35:47] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:47] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260211'}
+[2026-02-20 23:35:47] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:49] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:49] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:35:49] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:51] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:35:51] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:35:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:51] [INFO] [tushare-collect] 成功采集1178条moneyflow数据
+[2026-02-20 23:35:51] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1178 条数据
+[2026-02-20 23:35:51] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:35:52] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:35:52] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5178 条数据, 去重后 5178 条
+[2026-02-20 23:35:53] [INFO] [tushare-collect] upsert 受影响 5178 行
+[2026-02-20 23:35:53] [INFO] [tushare-collect] 保存 5178 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:35:53] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5178 条
+[2026-02-20 23:35:53] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260211'}
+[2026-02-20 23:35:53] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:54] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:54] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:35:54] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:55] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:35:55] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:35:55] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:56] [INFO] [tushare-collect] 成功采集1913条moneyflow_dc数据
+[2026-02-20 23:35:56] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1913 条数据
+[2026-02-20 23:35:56] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:35:56] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:35:56] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5913 条数据, 去重后 5913 条
+[2026-02-20 23:35:57] [INFO] [tushare-collect] upsert 受影响 5913 行
+[2026-02-20 23:35:57] [INFO] [tushare-collect] 保存 5913 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:35:57] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5913 条
+[2026-02-20 23:35:57] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260211'}
+[2026-02-20 23:35:57] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:58] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-20 23:35:58] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 571 条数据
+[2026-02-20 23:35:58] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:35:58] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:35:58] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 571 条数据, 去重后 571 条
+[2026-02-20 23:35:59] [INFO] [tushare-collect] upsert 受影响 571 行
+[2026-02-20 23:35:59] [INFO] [tushare-collect] 保存 571 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:35:59] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 571 条
+[2026-02-20 23:35:59] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260211'}
+[2026-02-20 23:35:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:59] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:35:59] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:35:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:35:59] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:35:59] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:35:59] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:35:59] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:35:59] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:35:59] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260211'}
+[2026-02-20 23:35:59] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:36:00] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:36:00] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:36:00] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:36:00] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:36:00] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:36:00] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:36:00] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:36:00] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:36:00] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260212'}
+[2026-02-20 23:36:00] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:01] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:36:01] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:36:01] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:04] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:36:04] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:36:04] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:05] [INFO] [tushare-collect] 成功采集1182条moneyflow数据
+[2026-02-20 23:36:05] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1182 条数据
+[2026-02-20 23:36:05] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:05] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:36:05] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5182 条数据, 去重后 5182 条
+[2026-02-20 23:36:06] [INFO] [tushare-collect] upsert 受影响 5182 行
+[2026-02-20 23:36:06] [INFO] [tushare-collect] 保存 5182 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:36:06] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5182 条
+[2026-02-20 23:36:07] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260212'}
+[2026-02-20 23:36:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:07] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:36:07] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:36:07] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:08] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:36:08] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:36:08] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:09] [INFO] [tushare-collect] 成功采集1915条moneyflow_dc数据
+[2026-02-20 23:36:09] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1915 条数据
+[2026-02-20 23:36:09] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:09] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:36:09] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5915 条数据, 去重后 5915 条
+[2026-02-20 23:36:11] [INFO] [tushare-collect] upsert 受影响 5915 行
+[2026-02-20 23:36:11] [INFO] [tushare-collect] 保存 5915 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:36:11] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5915 条
+[2026-02-20 23:36:11] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260212'}
+[2026-02-20 23:36:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:36:11] [INFO] [tushare-collect] 成功采集571条moneyflow_ind_dc数据
+[2026-02-20 23:36:11] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 571 条数据
+[2026-02-20 23:36:11] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:36:12] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:36:12] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 571 条数据, 去重后 571 条
+[2026-02-20 23:36:12] [INFO] [tushare-collect] upsert 受影响 571 行
+[2026-02-20 23:36:12] [INFO] [tushare-collect] 保存 571 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:36:12] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 571 条
+[2026-02-20 23:36:12] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260212'}
+[2026-02-20 23:36:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:36:12] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:36:12] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:36:12] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:36:12] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:36:12] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:36:13] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:36:13] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:36:13] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:36:13] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260212'}
+[2026-02-20 23:36:13] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:36:13] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:36:13] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:36:13] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:36:13] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:36:13] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:36:14] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:36:14] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:36:14] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:36:14] [INFO] [tushare-collect] [moneyflow] 采集参数: {'method': 'moneyflow', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:36:14] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:15] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:36:15] [INFO] [tushare-collect] [moneyflow] 第1页,获取 2000 条数据
+[2026-02-20 23:36:15] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:16] [INFO] [tushare-collect] 成功采集2000条moneyflow数据
+[2026-02-20 23:36:16] [INFO] [tushare-collect] [moneyflow] 第2页,获取 2000 条数据
+[2026-02-20 23:36:16] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:17] [INFO] [tushare-collect] 成功采集1180条moneyflow数据
+[2026-02-20 23:36:17] [INFO] [tushare-collect] [moneyflow] 第3页,获取 1180 条数据
+[2026-02-20 23:36:17] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow
+[2026-02-20 23:36:17] [INFO] [tushare-collect] 成功采集moneyflow数据，数据为空
+[2026-02-20 23:36:17] [INFO] [tushare-collect] [moneyflow] 采集完成,共 5180 条数据, 去重后 5180 条
+[2026-02-20 23:36:18] [INFO] [tushare-collect] upsert 受影响 5180 行
+[2026-02-20 23:36:18] [INFO] [tushare-collect] 保存 5180 条数据到aistockzml_tushare_moneyflow，模式: incremental
+[2026-02-20 23:36:18] [INFO] [tushare-collect] [moneyflow] 数据保存成功(incremental),共 5180 条
+[2026-02-20 23:36:18] [INFO] [tushare-collect] [moneyflow_dc] 采集参数: {'method': 'moneyflow_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:36:18] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:20] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:36:20] [INFO] [tushare-collect] [moneyflow_dc] 第1页,获取 2000 条数据
+[2026-02-20 23:36:20] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:23] [INFO] [tushare-collect] 成功采集2000条moneyflow_dc数据
+[2026-02-20 23:36:23] [INFO] [tushare-collect] [moneyflow_dc] 第2页,获取 2000 条数据
+[2026-02-20 23:36:23] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:24] [INFO] [tushare-collect] 成功采集1915条moneyflow_dc数据
+[2026-02-20 23:36:24] [INFO] [tushare-collect] [moneyflow_dc] 第3页,获取 1915 条数据
+[2026-02-20 23:36:24] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_dc
+[2026-02-20 23:36:25] [INFO] [tushare-collect] 成功采集moneyflow_dc数据，数据为空
+[2026-02-20 23:36:25] [INFO] [tushare-collect] [moneyflow_dc] 采集完成,共 5915 条数据, 去重后 5915 条
+[2026-02-20 23:36:26] [INFO] [tushare-collect] upsert 受影响 5915 行
+[2026-02-20 23:36:26] [INFO] [tushare-collect] 保存 5915 条数据到aistockzml_tushare_moneyflow_dc，模式: incremental
+[2026-02-20 23:36:26] [INFO] [tushare-collect] [moneyflow_dc] 数据保存成功(incremental),共 5915 条
+[2026-02-20 23:36:26] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集参数: {'method': 'moneyflow_ind_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:36:26] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:36:27] [INFO] [tushare-collect] 成功采集1007条moneyflow_ind_dc数据
+[2026-02-20 23:36:27] [INFO] [tushare-collect] [moneyflow_ind_dc] 第1页,获取 1007 条数据
+[2026-02-20 23:36:27] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_ind_dc
+[2026-02-20 23:36:27] [INFO] [tushare-collect] 成功采集moneyflow_ind_dc数据，数据为空
+[2026-02-20 23:36:27] [INFO] [tushare-collect] [moneyflow_ind_dc] 采集完成,共 1007 条数据, 去重后 1007 条
+[2026-02-20 23:36:28] [INFO] [tushare-collect] upsert 受影响 1007 行
+[2026-02-20 23:36:28] [INFO] [tushare-collect] 保存 1007 条数据到aistockzml_tushare_moneyflow_ind_dc，模式: incremental
+[2026-02-20 23:36:28] [INFO] [tushare-collect] [moneyflow_ind_dc] 数据保存成功(incremental),共 1007 条
+[2026-02-20 23:36:28] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集参数: {'method': 'moneyflow_mkt_dc', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:36:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:36:28] [INFO] [tushare-collect] 成功采集1条moneyflow_mkt_dc数据
+[2026-02-20 23:36:28] [INFO] [tushare-collect] [moneyflow_mkt_dc] 第1页,获取 1 条数据
+[2026-02-20 23:36:28] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_mkt_dc
+[2026-02-20 23:36:28] [INFO] [tushare-collect] 成功采集moneyflow_mkt_dc数据，数据为空
+[2026-02-20 23:36:28] [INFO] [tushare-collect] [moneyflow_mkt_dc] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:36:29] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:36:29] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_mkt_dc，模式: incremental
+[2026-02-20 23:36:29] [INFO] [tushare-collect] [moneyflow_mkt_dc] 数据保存成功(incremental),共 1 条
+[2026-02-20 23:36:29] [INFO] [tushare-collect] [moneyflow_hsgt] 采集参数: {'method': 'moneyflow_hsgt', 'fields': '*', 'trade_date': '20260213'}
+[2026-02-20 23:36:29] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:36:29] [INFO] [tushare-collect] 成功采集1条moneyflow_hsgt数据
+[2026-02-20 23:36:29] [INFO] [tushare-collect] [moneyflow_hsgt] 第1页,获取 1 条数据
+[2026-02-20 23:36:29] [INFO] [tushare-collect] 开始采集Tushare数据: moneyflow_hsgt
+[2026-02-20 23:36:29] [INFO] [tushare-collect] 成功采集moneyflow_hsgt数据，数据为空
+[2026-02-20 23:36:29] [INFO] [tushare-collect] [moneyflow_hsgt] 采集完成,共 1 条数据, 去重后 1 条
+[2026-02-20 23:36:29] [INFO] [tushare-collect] upsert 受影响 1 行
+[2026-02-20 23:36:29] [INFO] [tushare-collect] 保存 1 条数据到aistockzml_tushare_moneyflow_hsgt，模式: incremental
+[2026-02-20 23:36:29] [INFO] [tushare-collect] [moneyflow_hsgt] 数据保存成功(incremental),共 1 条

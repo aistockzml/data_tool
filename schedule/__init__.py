@@ -3,7 +3,7 @@ import os
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from .utils import get_quarter_end_dates, get_date_range_list
+from .utils import get_quarter_end_dates, get_date_range_list, get_week_friday, get_month_last_day
 
 from logger import LoggerManager
 from config import ConfigParser

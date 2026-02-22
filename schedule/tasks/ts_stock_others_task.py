@@ -5,7 +5,6 @@
 
 import sys
 import os
-import time
 import pandas as pd
 from datetime import datetime, timedelta
 from typing import List
@@ -22,18 +21,20 @@ from prefect.task_runners import ThreadPoolTaskRunner
 from schedule import logger, ts_collector
 
 
-def collect_and_save_others_public(method: str, target_table: str, quotes_name: str, 
-                           max_retries: int = 100, retry_interval: int = 5,
-                           conflict_columns: List[str] = None, **kwargs):
+def prefix_log_print(report_name: str, level: str, message: str):
+    getattr(logger, level)(f"[{report_name}] {message}")
+
+
+def collect_and_save_others_public(method: str, target_table: str, quotes_name: str,
+                           conflict_columns: List[str] = None, page_size: int = 2000, **kwargs):
     """采集股票其他数据并保存到数据库（公共函数）   
     
     Args:
         method: Tushare API 方法名
         target_table: 目标数据库表名
         quotes_name: 行情名称(用于日志)
-        max_retries: 最大重试次数(默认100次)
-        retry_interval: 重试间隔秒数(默认5秒)
         conflict_columns: 冲突判断列名列表(默认None则使用TS_CODE, TRADE_DATE)
+        page_size: 分页大小(默认2000)
         **kwargs: 动态参数
     """
     if conflict_columns is None:
@@ -44,92 +45,88 @@ def collect_and_save_others_public(method: str, target_table: str, quotes_name: 
         'fields': '*'
     }
     params.update(kwargs)
-    logger.info(f"采集参数: {params}")
+    prefix_log_print(quotes_name, 'info', f"采集参数: {params}")
 
-    for attempt in range(1, max_retries + 1):
-        try:
-            data = ts_collector.collect(**params)
-
-            if data is not None and not data.empty:
-                result = ts_collector.save(
-                    data,
-                    target_table=target_table,
-                    insert_mode='incremental',
-                    conflict_columns=conflict_columns
-                )
-                
-                return result is not None and result > 0
-            else:
+    all_data = []
+    offset = 0
+    
+    while True:
+        page_params = {**params, 'limit': page_size, 'offset': offset}
+        
+        data = ts_collector.collect(**page_params)
+        
+        if data is None or data.empty:
+            if not all_data:
+                prefix_log_print(quotes_name, 'info', "无数据需要保存")
                 return True
-                
-        except Exception as e:
-            logger.error(f"[{quotes_name}] 第{attempt}次尝试失败: {e}")
             
-        if attempt < max_retries:
-            logger.info(f"[{quotes_name}] 等待{retry_interval}秒后进行第{attempt + 1}次重试...")
-            time.sleep(retry_interval)
-    
-    logger.error(f"[{quotes_name}] 已达到最大重试次数({max_retries})，任务失败")
-    return False
+            combined_data = pd.concat(all_data, ignore_index=True)
+            before_dedup = len(combined_data)
+            if 'UPDATE_TIME' in combined_data.columns:
+                combined_data = combined_data.sort_values('UPDATE_TIME', ascending=False)
+            combined_data = combined_data.drop_duplicates(subset=conflict_columns, keep='first')
+            after_dedup = len(combined_data)
+            prefix_log_print(quotes_name, 'info', f"采集完成,共 {before_dedup} 条数据, 去重后 {after_dedup} 条")
+            
+            if ts_collector.save(combined_data, target_table=target_table, insert_mode='incremental', conflict_columns=conflict_columns):
+                prefix_log_print(quotes_name, 'info', f"数据保存成功(incremental),共 {len(combined_data)} 条")
+                return True
+            
+            prefix_log_print(quotes_name, 'error', "数据保存失败")
+            return False
+        
+        page_count = len(data)
+        prefix_log_print(quotes_name, 'info', f"第{offset//page_size + 1}页,获取 {page_count} 条数据")
+        
+        all_data.append(data)
+        offset += page_size
 
 
-@task(name="collect_and_save_repurchase")
-def collect_and_save_repurchase(trade_date: str, days: int = 30):
-    """采集股票回购交易数据并保存到数据库（查询近days天数据）"""
-    start_date = (datetime.strptime(trade_date, '%Y%m%d') - timedelta(days=days)).strftime('%Y%m%d')
-    
+@task(name="collect_and_save_repurchase", retries=100, retry_delay_seconds=5)
+def collect_and_save_repurchase(trade_date: str):
+    """采集股票回购并保存到数据库"""
     return collect_and_save_others_public(
         method='repurchase',
         target_table='aistockzml_tushare_repurchase',
         quotes_name='repurchase',
-        start_date=start_date,
-        end_date=trade_date,
-        conflict_columns=['ID']
+        ann_date=trade_date,
+        conflict_columns=['TS_CODE', 'ANN_DATE', 'PROC']
     )
 
 
-@task(name="collect_and_save_block_trade")
-def collect_and_save_block_trade(trade_date: str, days: int = 30):
-    """采集大宗交易数据并保存到数据库（查询近days天数据）"""
-    start_date = (datetime.strptime(trade_date, '%Y%m%d') - timedelta(days=days)).strftime('%Y%m%d')
-    
+@task(name="collect_and_save_block_trade", retries=100, retry_delay_seconds=5)
+def collect_and_save_block_trade(trade_date: str):
+    """采集大宗交易并保存到数据库"""
     return collect_and_save_others_public(
         method='block_trade',
         target_table='aistockzml_tushare_block_trade',
         quotes_name='block_trade',
-        start_date=start_date,
-        end_date=trade_date,
+        trade_date=trade_date,
         conflict_columns=['ID']
     )
 
 
-@task(name="collect_and_save_stk_holdernumber")
-def collect_and_save_stk_holdernumber(trade_date: str, days: int = 30):
-    """采集股东人数并保存到数据库（查询近days天数据）"""
-    start_date = (datetime.strptime(trade_date, '%Y%m%d') - timedelta(days=days)).strftime('%Y%m%d')
-    
+@task(name="collect_and_save_stk_holdernumber", retries=100, retry_delay_seconds=5)
+def collect_and_save_stk_holdernumber(trade_date: str):
+    """采集股东人数并保存到数据库"""
     return collect_and_save_others_public(
         method='stk_holdernumber',
         target_table='aistockzml_tushare_stk_holdernumber',
         quotes_name='stk_holdernumber',
-        start_date=start_date,
-        end_date=trade_date,
-        conflict_columns=['ID']
+        ann_date=trade_date,
+        conflict_columns=['TS_CODE', 'ANN_DATE', 'END_DATE']
     )
 
 
-@task(name="collect_and_save_stk_holdertrade")
-def collect_and_save__stk_holdertrade(trade_date: str, days: int = 30):
-    """采集股东增减持并保存到数据库（查询近days天数据）"""
-    start_date = (datetime.strptime(trade_date, '%Y%m%d') - timedelta(days=days)).strftime('%Y%m%d')
-    
+@task(name="collect_and_save_stk_holdertrade", retries=100, retry_delay_seconds=5)
+def collect_and_save_stk_holdertrade(trade_date: str):
+    """采集股东增减持并保存到数据库"""
     return collect_and_save_others_public(
         method='stk_holdertrade',
         target_table='aistockzml_tushare_stk_holdertrade',
         quotes_name='stk_holdertrade',
-        start_date=start_date,
-        end_date=trade_date,
-        conflict_columns=['ID']
+        ann_date=trade_date,
+        conflict_columns=['TS_CODE', 'ANN_DATE', 'HOLDER_NAME', 'IN_DE', 'BEGIN_DATE', 'CLOSE_DATE']
     )
 
 
@@ -142,10 +139,10 @@ def others_flow():
     logger.info("=" * 50)
     
     today = '20260212'
-    # collect_and_save_repurchase(today, days=5)
-    # collect_and_save_block_trade(today, days=1)
-    # collect_and_save_stk_holdernumber(today, days=1)
-    collect_and_save__stk_holdertrade(today, days=3)
+    collect_and_save_repurchase(today)
+    collect_and_save_block_trade(today)
+    collect_and_save_stk_holdernumber(today)
+    collect_and_save_stk_holdertrade(today)
 
     logger.info("=" * 50)
     logger.info("定时任务完成")

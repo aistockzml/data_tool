@@ -43,7 +43,7 @@ class LoggerManager:
         'datefmt': '%Y-%m-%d %H:%M:%S',
         'encoding': 'utf-8',
         'max_bytes': 10485760,
-        'backup_days': 7,
+        'backup_count': 7,
         'console_level': 'INFO',
         'file_level': 'DEBUG',
         'prefect_enabled': True
@@ -130,7 +130,7 @@ class LoggerManager:
         file_handler = ConcurrentRotatingFileHandler(
             filename=log_filename,
             maxBytes=self._config.get('max_bytes', 10485760),
-            backupCount=self._config.get('backup_days', 7),
+            backupCount=self._config.get('backup_count', 7),
             encoding=self._config.get('encoding', 'utf-8')
         )
         file_handler.setLevel(self._get_log_level(self._config.get('file_level', 'DEBUG')))

@@ -1,0 +1,393 @@
+[2026-02-17 12:58:05] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 12:58:05] [INFO] [tushare-collect] [stock_basic] 开始执行定时任务
+[2026-02-17 12:58:05] [INFO] [tushare-collect] [stock_basic] 执行时间: 2026-02-17 12:58:05.345613
+[2026-02-17 12:58:05] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 12:58:05] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-17 12:58:06] [INFO] [tushare-collect] 成功采集4条trade_cal数据
+[2026-02-17 12:58:06] [INFO] [tushare-collect] [stock_basic] (20260217) 是否为交易日: False
+[2026-02-17 12:58:06] [INFO] [tushare-collect] [stock_basic] 采集参数: {'method': 'stock_basic', 'fields': '*'}
+[2026-02-17 12:58:06] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 12:58:07] [INFO] [tushare-collect] 成功采集2000条stock_basic数据
+[2026-02-17 12:58:07] [INFO] [tushare-collect] [stock_basic] 第1页,获取 2000 条数据
+[2026-02-17 12:58:07] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 12:58:08] [INFO] [tushare-collect] 成功采集2000条stock_basic数据
+[2026-02-17 12:58:08] [INFO] [tushare-collect] [stock_basic] 第2页,获取 2000 条数据
+[2026-02-17 12:58:08] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 12:58:09] [INFO] [tushare-collect] 成功采集1484条stock_basic数据
+[2026-02-17 12:58:09] [INFO] [tushare-collect] [stock_basic] 第3页,获取 1484 条数据
+[2026-02-17 12:58:09] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 12:58:09] [INFO] [tushare-collect] 成功采集stock_basic数据，数据为空
+[2026-02-17 12:58:09] [INFO] [tushare-collect] [stock_basic] 采集完成,共 5484 条数据
+[2026-02-17 12:58:10] [ERROR] [tushare-collect] 保存数据失败: 批量插入失败: (1062, "Duplicate entry '000001.SZ' for key 'aistockzml_tushare_stock_basic.PRIMARY'")
+[2026-02-17 12:58:10] [ERROR] [tushare-collect] [stock_basic] 数据保存失败
+[2026-02-17 12:58:10] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'HK_SZ'}
+[2026-02-17 12:58:10] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:11] [INFO] [tushare-collect] 成功采集1726条stock_hsgt数据
+[2026-02-17 12:58:11] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 第1页,获取 1726 条数据
+[2026-02-17 12:58:11] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:11] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 12:58:11] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 采集完成,共 1726 条数据
+[2026-02-17 12:58:11] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_hsgt
+[2026-02-17 12:58:11] [INFO] [tushare-collect] 保存 1726 条数据到aistockzml_tushare_stock_hsgt，模式: overwrite
+[2026-02-17 12:58:11] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 数据保存成功,共 1726 条，插入模式: overwrite
+[2026-02-17 12:58:11] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'SZ_HK'}
+[2026-02-17 12:58:11] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:12] [INFO] [tushare-collect] 成功采集569条stock_hsgt数据
+[2026-02-17 12:58:12] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 第1页,获取 569 条数据
+[2026-02-17 12:58:12] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:12] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 12:58:12] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 采集完成,共 569 条数据
+[2026-02-17 12:58:12] [INFO] [tushare-collect] 保存 569 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 12:58:12] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 数据保存成功,共 569 条，插入模式: incremental
+[2026-02-17 12:58:12] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'HK_SH'}
+[2026-02-17 12:58:12] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:13] [INFO] [tushare-collect] 成功采集1539条stock_hsgt数据
+[2026-02-17 12:58:13] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 第1页,获取 1539 条数据
+[2026-02-17 12:58:13] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:13] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 12:58:13] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 采集完成,共 1539 条数据
+[2026-02-17 12:58:14] [INFO] [tushare-collect] 保存 1539 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 12:58:14] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 数据保存成功,共 1539 条，插入模式: incremental
+[2026-02-17 12:58:14] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'SH_HK'}
+[2026-02-17 12:58:14] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:14] [INFO] [tushare-collect] 成功采集569条stock_hsgt数据
+[2026-02-17 12:58:14] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 第1页,获取 569 条数据
+[2026-02-17 12:58:14] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 12:58:14] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 12:58:14] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 采集完成,共 569 条数据
+[2026-02-17 12:58:15] [INFO] [tushare-collect] 保存 569 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 12:58:15] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 数据保存成功,共 569 条，插入模式: incremental
+[2026-02-17 12:58:15] [INFO] [tushare-collect] [stock_company_SSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'SSE'}
+[2026-02-17 12:58:15] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:58:30] [INFO] [tushare-collect] 成功采集2000条stock_company数据
+[2026-02-17 12:58:30] [INFO] [tushare-collect] [stock_company_SSE] 第1页,获取 2000 条数据
+[2026-02-17 12:58:30] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:58:33] [INFO] [tushare-collect] 成功采集439条stock_company数据
+[2026-02-17 12:58:33] [INFO] [tushare-collect] [stock_company_SSE] 第2页,获取 439 条数据
+[2026-02-17 12:58:33] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:58:34] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 12:58:34] [INFO] [tushare-collect] [stock_company_SSE] 采集完成,共 2439 条数据
+[2026-02-17 12:58:34] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_company
+[2026-02-17 12:58:36] [INFO] [tushare-collect] 保存 2439 条数据到aistockzml_tushare_stock_company，模式: overwrite
+[2026-02-17 12:58:36] [INFO] [tushare-collect] [stock_company_SSE] 数据保存成功,共 2439 条，插入模式: overwrite
+[2026-02-17 12:58:36] [INFO] [tushare-collect] [stock_company_SZSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'SZSE'}
+[2026-02-17 12:58:36] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:58:57] [INFO] [tushare-collect] 成功采集2000条stock_company数据
+[2026-02-17 12:58:57] [INFO] [tushare-collect] [stock_company_SZSE] 第1页,获取 2000 条数据
+[2026-02-17 12:58:57] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:59:00] [INFO] [tushare-collect] 成功采集1066条stock_company数据
+[2026-02-17 12:59:00] [INFO] [tushare-collect] [stock_company_SZSE] 第2页,获取 1066 条数据
+[2026-02-17 12:59:00] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:59:01] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 12:59:01] [INFO] [tushare-collect] [stock_company_SZSE] 采集完成,共 3066 条数据
+[2026-02-17 12:59:04] [INFO] [tushare-collect] 保存 3066 条数据到aistockzml_tushare_stock_company，模式: incremental
+[2026-02-17 12:59:04] [INFO] [tushare-collect] [stock_company_SZSE] 数据保存成功,共 3066 条，插入模式: incremental
+[2026-02-17 12:59:04] [INFO] [tushare-collect] [stock_company_BSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'BSE'}
+[2026-02-17 12:59:04] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:59:07] [INFO] [tushare-collect] 成功采集707条stock_company数据
+[2026-02-17 12:59:07] [INFO] [tushare-collect] [stock_company_BSE] 第1页,获取 707 条数据
+[2026-02-17 12:59:07] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 12:59:07] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 12:59:07] [INFO] [tushare-collect] [stock_company_BSE] 采集完成,共 707 条数据
+[2026-02-17 12:59:08] [INFO] [tushare-collect] 保存 707 条数据到aistockzml_tushare_stock_company，模式: incremental
+[2026-02-17 12:59:08] [INFO] [tushare-collect] [stock_company_BSE] 数据保存成功,共 707 条，插入模式: incremental
+[2026-02-17 12:59:08] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 12:59:08] [INFO] [tushare-collect] [stock_basic] 定时任务完成
+[2026-02-17 12:59:08] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:32:11] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:32:11] [INFO] [tushare-collect] [stock_basic] 开始执行定时任务
+[2026-02-17 20:32:11] [INFO] [tushare-collect] [stock_basic] 执行时间: 2026-02-17 20:32:11.859570
+[2026-02-17 20:32:11] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:32:11] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-17 20:32:12] [INFO] [tushare-collect] 成功采集4条trade_cal数据
+[2026-02-17 20:32:12] [INFO] [tushare-collect] [stock_basic] (20260217) 是否为交易日: False
+[2026-02-17 20:32:12] [INFO] [tushare-collect] [stock_basic] 采集参数: {'method': 'stock_basic', 'fields': '*'}
+[2026-02-17 20:32:12] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:32:13] [INFO] [tushare-collect] 成功采集2000条stock_basic数据
+[2026-02-17 20:32:13] [INFO] [tushare-collect] [stock_basic] 第1页,获取 2000 条数据
+[2026-02-17 20:32:13] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:32:14] [INFO] [tushare-collect] 成功采集2000条stock_basic数据
+[2026-02-17 20:32:14] [INFO] [tushare-collect] [stock_basic] 第2页,获取 2000 条数据
+[2026-02-17 20:32:14] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:32:15] [INFO] [tushare-collect] 成功采集1484条stock_basic数据
+[2026-02-17 20:32:15] [INFO] [tushare-collect] [stock_basic] 第3页,获取 1484 条数据
+[2026-02-17 20:32:15] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:32:15] [INFO] [tushare-collect] 成功采集stock_basic数据，数据为空
+[2026-02-17 20:32:15] [INFO] [tushare-collect] [stock_basic] 采集完成,共 5484 条数据
+[2026-02-17 20:32:15] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-17 20:32:16] [INFO] [tushare-collect] 保存 5484 条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-17 20:32:16] [INFO] [tushare-collect] [stock_basic] 数据保存成功,共 5484 条，插入模式: overwrite
+[2026-02-17 20:32:17] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'HK_SZ'}
+[2026-02-17 20:32:17] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:18] [INFO] [tushare-collect] 成功采集1726条stock_hsgt数据
+[2026-02-17 20:32:18] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 第1页,获取 1726 条数据
+[2026-02-17 20:32:18] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:18] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:32:18] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 采集完成,共 1726 条数据
+[2026-02-17 20:32:18] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_hsgt
+[2026-02-17 20:32:19] [INFO] [tushare-collect] 保存 1726 条数据到aistockzml_tushare_stock_hsgt，模式: overwrite
+[2026-02-17 20:32:19] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 数据保存成功,共 1726 条，插入模式: overwrite
+[2026-02-17 20:32:19] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'SZ_HK'}
+[2026-02-17 20:32:19] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:19] [INFO] [tushare-collect] 成功采集569条stock_hsgt数据
+[2026-02-17 20:32:19] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 第1页,获取 569 条数据
+[2026-02-17 20:32:19] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:20] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:32:20] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 采集完成,共 569 条数据
+[2026-02-17 20:32:20] [INFO] [tushare-collect] 保存 569 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 20:32:20] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 数据保存成功,共 569 条，插入模式: incremental
+[2026-02-17 20:32:20] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'HK_SH'}
+[2026-02-17 20:32:20] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:20] [INFO] [tushare-collect] 成功采集1539条stock_hsgt数据
+[2026-02-17 20:32:20] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 第1页,获取 1539 条数据
+[2026-02-17 20:32:20] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:21] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:32:21] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 采集完成,共 1539 条数据
+[2026-02-17 20:32:21] [INFO] [tushare-collect] 保存 1539 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 20:32:21] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 数据保存成功,共 1539 条，插入模式: incremental
+[2026-02-17 20:32:21] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'SH_HK'}
+[2026-02-17 20:32:21] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:22] [INFO] [tushare-collect] 成功采集569条stock_hsgt数据
+[2026-02-17 20:32:22] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 第1页,获取 569 条数据
+[2026-02-17 20:32:22] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:32:22] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:32:22] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 采集完成,共 569 条数据
+[2026-02-17 20:32:22] [INFO] [tushare-collect] 保存 569 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 20:32:22] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 数据保存成功,共 569 条，插入模式: incremental
+[2026-02-17 20:32:22] [INFO] [tushare-collect] [stock_company_SSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'SSE'}
+[2026-02-17 20:32:22] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:32:46] [INFO] [tushare-collect] 成功采集2000条stock_company数据
+[2026-02-17 20:32:46] [INFO] [tushare-collect] [stock_company_SSE] 第1页,获取 2000 条数据
+[2026-02-17 20:32:46] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:32:48] [INFO] [tushare-collect] 成功采集439条stock_company数据
+[2026-02-17 20:32:48] [INFO] [tushare-collect] [stock_company_SSE] 第2页,获取 439 条数据
+[2026-02-17 20:32:48] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:32:48] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 20:32:48] [INFO] [tushare-collect] [stock_company_SSE] 采集完成,共 2439 条数据
+[2026-02-17 20:32:48] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_company
+[2026-02-17 20:32:53] [INFO] [tushare-collect] 保存 2439 条数据到aistockzml_tushare_stock_company，模式: overwrite
+[2026-02-17 20:32:53] [INFO] [tushare-collect] [stock_company_SSE] 数据保存成功,共 2439 条，插入模式: overwrite
+[2026-02-17 20:32:53] [INFO] [tushare-collect] [stock_company_SZSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'SZSE'}
+[2026-02-17 20:32:53] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:33:03] [INFO] [tushare-collect] 成功采集2000条stock_company数据
+[2026-02-17 20:33:03] [INFO] [tushare-collect] [stock_company_SZSE] 第1页,获取 2000 条数据
+[2026-02-17 20:33:03] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:33:07] [INFO] [tushare-collect] 成功采集1066条stock_company数据
+[2026-02-17 20:33:07] [INFO] [tushare-collect] [stock_company_SZSE] 第2页,获取 1066 条数据
+[2026-02-17 20:33:07] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:33:08] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 20:33:08] [INFO] [tushare-collect] [stock_company_SZSE] 采集完成,共 3066 条数据
+[2026-02-17 20:33:11] [INFO] [tushare-collect] 保存 3066 条数据到aistockzml_tushare_stock_company，模式: incremental
+[2026-02-17 20:33:11] [INFO] [tushare-collect] [stock_company_SZSE] 数据保存成功,共 3066 条，插入模式: incremental
+[2026-02-17 20:33:11] [INFO] [tushare-collect] [stock_company_BSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'BSE'}
+[2026-02-17 20:33:11] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:33:12] [INFO] [tushare-collect] 成功采集707条stock_company数据
+[2026-02-17 20:33:12] [INFO] [tushare-collect] [stock_company_BSE] 第1页,获取 707 条数据
+[2026-02-17 20:33:12] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:33:12] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 20:33:12] [INFO] [tushare-collect] [stock_company_BSE] 采集完成,共 707 条数据
+[2026-02-17 20:33:13] [INFO] [tushare-collect] 保存 707 条数据到aistockzml_tushare_stock_company，模式: incremental
+[2026-02-17 20:33:13] [INFO] [tushare-collect] [stock_company_BSE] 数据保存成功,共 707 条，插入模式: incremental
+[2026-02-17 20:33:13] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:33:13] [INFO] [tushare-collect] [stock_basic] 定时任务完成
+[2026-02-17 20:33:13] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:53:01] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:53:01] [INFO] [tushare-collect] [stock_basic] 开始执行定时任务
+[2026-02-17 20:53:01] [INFO] [tushare-collect] [stock_basic] 执行时间: 2026-02-17 20:53:01.764458
+[2026-02-17 20:53:01] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:53:01] [INFO] [tushare-collect] 开始采集Tushare数据: trade_cal
+[2026-02-17 20:53:02] [INFO] [tushare-collect] 成功采集4条trade_cal数据
+[2026-02-17 20:53:02] [INFO] [tushare-collect] [stock_basic] (20260217) 是否为交易日: False
+[2026-02-17 20:53:02] [INFO] [tushare-collect] [stock_basic] 采集参数: {'method': 'stock_basic', 'fields': '*'}
+[2026-02-17 20:53:02] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:53:03] [INFO] [tushare-collect] 成功采集2000条stock_basic数据
+[2026-02-17 20:53:03] [INFO] [tushare-collect] [stock_basic] 第1页,获取 2000 条数据
+[2026-02-17 20:53:03] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:53:04] [INFO] [tushare-collect] 成功采集2000条stock_basic数据
+[2026-02-17 20:53:04] [INFO] [tushare-collect] [stock_basic] 第2页,获取 2000 条数据
+[2026-02-17 20:53:04] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:53:05] [INFO] [tushare-collect] 成功采集1484条stock_basic数据
+[2026-02-17 20:53:05] [INFO] [tushare-collect] [stock_basic] 第3页,获取 1484 条数据
+[2026-02-17 20:53:05] [INFO] [tushare-collect] 开始采集Tushare数据: stock_basic
+[2026-02-17 20:53:05] [INFO] [tushare-collect] 成功采集stock_basic数据，数据为空
+[2026-02-17 20:53:05] [INFO] [tushare-collect] [stock_basic] 采集完成,共 5484 条数据
+[2026-02-17 20:53:06] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_basic
+[2026-02-17 20:53:07] [INFO] [tushare-collect] 保存 5484 条数据到aistockzml_tushare_stock_basic，模式: overwrite
+[2026-02-17 20:53:07] [INFO] [tushare-collect] [stock_basic] 数据保存成功,共 5484 条，插入模式: overwrite
+[2026-02-17 20:53:07] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'HK_SZ'}
+[2026-02-17 20:53:07] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:08] [INFO] [tushare-collect] 成功采集1726条stock_hsgt数据
+[2026-02-17 20:53:08] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 第1页,获取 1726 条数据
+[2026-02-17 20:53:08] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:08] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:53:08] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 采集完成,共 1726 条数据
+[2026-02-17 20:53:08] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_hsgt
+[2026-02-17 20:53:09] [INFO] [tushare-collect] 保存 1726 条数据到aistockzml_tushare_stock_hsgt，模式: overwrite
+[2026-02-17 20:53:09] [INFO] [tushare-collect] [stock_hsgt_HK_SZ] 数据保存成功,共 1726 条，插入模式: overwrite
+[2026-02-17 20:53:09] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'SZ_HK'}
+[2026-02-17 20:53:09] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:10] [INFO] [tushare-collect] 成功采集569条stock_hsgt数据
+[2026-02-17 20:53:10] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 第1页,获取 569 条数据
+[2026-02-17 20:53:10] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:10] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:53:10] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 采集完成,共 569 条数据
+[2026-02-17 20:53:10] [INFO] [tushare-collect] 保存 569 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 20:53:10] [INFO] [tushare-collect] [stock_hsgt_SZ_HK] 数据保存成功,共 569 条，插入模式: incremental
+[2026-02-17 20:53:10] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'HK_SH'}
+[2026-02-17 20:53:10] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:11] [INFO] [tushare-collect] 成功采集1539条stock_hsgt数据
+[2026-02-17 20:53:11] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 第1页,获取 1539 条数据
+[2026-02-17 20:53:11] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:11] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:53:11] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 采集完成,共 1539 条数据
+[2026-02-17 20:53:12] [INFO] [tushare-collect] 保存 1539 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 20:53:12] [INFO] [tushare-collect] [stock_hsgt_HK_SH] 数据保存成功,共 1539 条，插入模式: incremental
+[2026-02-17 20:53:12] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 采集参数: {'method': 'stock_hsgt', 'fields': '*', 'trade_date': '20260213', 'type': 'SH_HK'}
+[2026-02-17 20:53:12] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:12] [INFO] [tushare-collect] 成功采集569条stock_hsgt数据
+[2026-02-17 20:53:12] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 第1页,获取 569 条数据
+[2026-02-17 20:53:12] [INFO] [tushare-collect] 开始采集Tushare数据: stock_hsgt
+[2026-02-17 20:53:12] [INFO] [tushare-collect] 成功采集stock_hsgt数据，数据为空
+[2026-02-17 20:53:12] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 采集完成,共 569 条数据
+[2026-02-17 20:53:13] [INFO] [tushare-collect] 保存 569 条数据到aistockzml_tushare_stock_hsgt，模式: incremental
+[2026-02-17 20:53:13] [INFO] [tushare-collect] [stock_hsgt_SH_HK] 数据保存成功,共 569 条，插入模式: incremental
+[2026-02-17 20:53:13] [INFO] [tushare-collect] [stock_company_SSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'SSE'}
+[2026-02-17 20:53:13] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:19] [INFO] [tushare-collect] 成功采集2000条stock_company数据
+[2026-02-17 20:53:19] [INFO] [tushare-collect] [stock_company_SSE] 第1页,获取 2000 条数据
+[2026-02-17 20:53:19] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:22] [INFO] [tushare-collect] 成功采集439条stock_company数据
+[2026-02-17 20:53:22] [INFO] [tushare-collect] [stock_company_SSE] 第2页,获取 439 条数据
+[2026-02-17 20:53:22] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:22] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 20:53:22] [INFO] [tushare-collect] [stock_company_SSE] 采集完成,共 2439 条数据
+[2026-02-17 20:53:22] [INFO] [tushare-collect] 覆盖模式：清空表 aistockzml_tushare_stock_company
+[2026-02-17 20:53:25] [INFO] [tushare-collect] 保存 2439 条数据到aistockzml_tushare_stock_company，模式: overwrite
+[2026-02-17 20:53:25] [INFO] [tushare-collect] [stock_company_SSE] 数据保存成功,共 2439 条，插入模式: overwrite
+[2026-02-17 20:53:25] [INFO] [tushare-collect] [stock_company_SZSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'SZSE'}
+[2026-02-17 20:53:25] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:32] [INFO] [tushare-collect] 成功采集2000条stock_company数据
+[2026-02-17 20:53:32] [INFO] [tushare-collect] [stock_company_SZSE] 第1页,获取 2000 条数据
+[2026-02-17 20:53:32] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:40] [INFO] [tushare-collect] 成功采集1066条stock_company数据
+[2026-02-17 20:53:40] [INFO] [tushare-collect] [stock_company_SZSE] 第2页,获取 1066 条数据
+[2026-02-17 20:53:40] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:41] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 20:53:41] [INFO] [tushare-collect] [stock_company_SZSE] 采集完成,共 3066 条数据
+[2026-02-17 20:53:43] [INFO] [tushare-collect] 保存 3066 条数据到aistockzml_tushare_stock_company，模式: incremental
+[2026-02-17 20:53:43] [INFO] [tushare-collect] [stock_company_SZSE] 数据保存成功,共 3066 条，插入模式: incremental
+[2026-02-17 20:53:43] [INFO] [tushare-collect] [stock_company_BSE] 采集参数: {'method': 'stock_company', 'fields': '*', 'exchange': 'BSE'}
+[2026-02-17 20:53:43] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:45] [INFO] [tushare-collect] 成功采集707条stock_company数据
+[2026-02-17 20:53:45] [INFO] [tushare-collect] [stock_company_BSE] 第1页,获取 707 条数据
+[2026-02-17 20:53:45] [INFO] [tushare-collect] 开始采集Tushare数据: stock_company
+[2026-02-17 20:53:46] [INFO] [tushare-collect] 成功采集stock_company数据，数据为空
+[2026-02-17 20:53:46] [INFO] [tushare-collect] [stock_company_BSE] 采集完成,共 707 条数据
+[2026-02-17 20:53:47] [INFO] [tushare-collect] 保存 707 条数据到aistockzml_tushare_stock_company，模式: incremental
+[2026-02-17 20:53:47] [INFO] [tushare-collect] [stock_company_BSE] 数据保存成功,共 707 条，插入模式: incremental
+[2026-02-17 20:53:47] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 20:53:47] [INFO] [tushare-collect] [stock_basic] 定时任务完成
+[2026-02-17 20:53:47] [INFO] [tushare-collect] [stock_basic] ==================================================
+[2026-02-17 22:44:40] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:44:40] [INFO] [tushare-collect] [quotes] 开始执行定时任务
+[2026-02-17 22:44:40] [INFO] [tushare-collect] [quotes] 执行时间: 2026-02-17 22:44:40.307414
+[2026-02-17 22:44:40] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:44:40] [INFO] [tushare-collect] [daily] 采集参数: {'method': 'daily', 'trade_date': '20260213', 'fields': '*'}
+[2026-02-17 22:44:40] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:44:42] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:44:42] [INFO] [tushare-collect] [daily] 第1页,获取 2000 条数据
+[2026-02-17 22:44:42] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:44:43] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:44:43] [INFO] [tushare-collect] [daily] 第2页,获取 2000 条数据
+[2026-02-17 22:44:43] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:44:58] [INFO] [tushare-collect] 成功采集1474条daily数据
+[2026-02-17 22:44:58] [INFO] [tushare-collect] [daily] 第3页,获取 1474 条数据
+[2026-02-17 22:44:58] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:44:58] [INFO] [tushare-collect] 成功采集daily数据，数据为空
+[2026-02-17 22:44:58] [INFO] [tushare-collect] [daily] 采集完成,共 5474 条数据
+[2026-02-17 22:44:59] [INFO] [tushare-collect] upsert 受影响 5474 行
+[2026-02-17 22:44:59] [INFO] [tushare-collect] 保存 5474 条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-17 22:44:59] [INFO] [tushare-collect] [daily] 数据保存成功(incremental),共 5474 条
+[2026-02-17 22:44:59] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:44:59] [INFO] [tushare-collect] [quotes] 定时任务完成
+[2026-02-17 22:44:59] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:46:18] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:46:18] [INFO] [tushare-collect] [quotes] 开始执行定时任务
+[2026-02-17 22:46:18] [INFO] [tushare-collect] [quotes] 执行时间: 2026-02-17 22:46:18.099371
+[2026-02-17 22:46:18] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:46:18] [INFO] [tushare-collect] [daily] 采集参数: {'method': 'daily', 'trade_date': '20260213', 'fields': '*'}
+[2026-02-17 22:46:18] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:46:21] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:46:21] [INFO] [tushare-collect] [daily] 第1页,获取 2000 条数据
+[2026-02-17 22:46:21] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:46:21] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:46:21] [INFO] [tushare-collect] [daily] 第2页,获取 2000 条数据
+[2026-02-17 22:46:21] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:46:22] [INFO] [tushare-collect] 成功采集1474条daily数据
+[2026-02-17 22:46:22] [INFO] [tushare-collect] [daily] 第3页,获取 1474 条数据
+[2026-02-17 22:46:22] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:46:22] [INFO] [tushare-collect] 成功采集daily数据，数据为空
+[2026-02-17 22:46:22] [INFO] [tushare-collect] [daily] 采集完成,共 5474 条数据
+[2026-02-17 22:46:23] [INFO] [tushare-collect] upsert 受影响 5474 行
+[2026-02-17 22:46:23] [INFO] [tushare-collect] 保存 5474 条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-17 22:46:23] [INFO] [tushare-collect] [daily] 数据保存成功(incremental),共 5474 条
+[2026-02-17 22:46:23] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:46:23] [INFO] [tushare-collect] [quotes] 定时任务完成
+[2026-02-17 22:46:23] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:53:30] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:53:30] [INFO] [tushare-collect] [quotes] 开始执行定时任务
+[2026-02-17 22:53:30] [INFO] [tushare-collect] [quotes] 执行时间: 2026-02-17 22:53:30.671616
+[2026-02-17 22:53:30] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:53:30] [INFO] [tushare-collect] [daily] 采集参数: {'method': 'daily', 'trade_date': '20260212', 'fields': '*'}
+[2026-02-17 22:53:30] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:53:31] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:53:31] [INFO] [tushare-collect] [daily] 第1页,获取 2000 条数据
+[2026-02-17 22:53:31] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:53:31] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:53:31] [INFO] [tushare-collect] [daily] 第2页,获取 2000 条数据
+[2026-02-17 22:53:31] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:53:34] [INFO] [tushare-collect] 成功采集1476条daily数据
+[2026-02-17 22:53:34] [INFO] [tushare-collect] [daily] 第3页,获取 1476 条数据
+[2026-02-17 22:53:34] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:53:35] [INFO] [tushare-collect] 成功采集daily数据，数据为空
+[2026-02-17 22:53:35] [INFO] [tushare-collect] [daily] 采集完成,共 5476 条数据
+[2026-02-17 22:53:36] [INFO] [tushare-collect] upsert 受影响 5476 行
+[2026-02-17 22:53:36] [INFO] [tushare-collect] 保存 5476 条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-17 22:53:36] [INFO] [tushare-collect] [daily] 数据保存成功(incremental),共 5476 条
+[2026-02-17 22:53:36] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:53:36] [INFO] [tushare-collect] [quotes] 定时任务完成
+[2026-02-17 22:53:36] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:54:58] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:54:58] [INFO] [tushare-collect] [quotes] 开始执行定时任务
+[2026-02-17 22:54:58] [INFO] [tushare-collect] [quotes] 执行时间: 2026-02-17 22:54:58.687785
+[2026-02-17 22:54:58] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:54:58] [INFO] [tushare-collect] [daily] 采集参数: {'method': 'daily', 'trade_date': '20260212', 'fields': '*'}
+[2026-02-17 22:54:58] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:55:03] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:55:03] [INFO] [tushare-collect] [daily] 第1页,获取 2000 条数据
+[2026-02-17 22:55:03] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:55:06] [INFO] [tushare-collect] 成功采集2000条daily数据
+[2026-02-17 22:55:06] [INFO] [tushare-collect] [daily] 第2页,获取 2000 条数据
+[2026-02-17 22:55:06] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:55:07] [INFO] [tushare-collect] 成功采集1476条daily数据
+[2026-02-17 22:55:07] [INFO] [tushare-collect] [daily] 第3页,获取 1476 条数据
+[2026-02-17 22:55:07] [INFO] [tushare-collect] 开始采集Tushare数据: daily
+[2026-02-17 22:55:07] [INFO] [tushare-collect] 成功采集daily数据，数据为空
+[2026-02-17 22:55:07] [INFO] [tushare-collect] [daily] 采集完成,共 5476 条数据
+[2026-02-17 22:55:08] [INFO] [tushare-collect] upsert 受影响 5476 行
+[2026-02-17 22:55:08] [INFO] [tushare-collect] 保存 5476 条数据到aistockzml_tushare_daily，模式: incremental
+[2026-02-17 22:55:08] [INFO] [tushare-collect] [daily] 数据保存成功(incremental),共 5476 条
+[2026-02-17 22:55:08] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:55:08] [INFO] [tushare-collect] [quotes] 定时任务完成
+[2026-02-17 22:55:08] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [quotes] 开始执行定时任务
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [quotes] 执行时间: 2026-02-17 22:57:10.607954
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [weekly] 采集参数: {'method': 'weekly', 'trade_date': '20260212', 'fields': '*'}
+[2026-02-17 22:57:10] [INFO] [tushare-collect] 开始采集Tushare数据: weekly
+[2026-02-17 22:57:10] [INFO] [tushare-collect] 成功采集weekly数据，数据为空
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [weekly] 无数据需要保存
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [quotes] ==================================================
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [quotes] 定时任务完成
+[2026-02-17 22:57:10] [INFO] [tushare-collect] [quotes] ==================================================

@@ -162,7 +162,7 @@ class DataCollector(ABC):
             insert_mode = 'incremental'
         
         try:
-            data['etl_time'] = datetime.now()
+            data = data.assign(etl_time=datetime.now())
             data_list = data.to_dict('records')
             
             if self.db_conn.table_exists(target_table):

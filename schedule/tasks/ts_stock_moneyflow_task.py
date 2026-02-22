@@ -5,7 +5,6 @@
 
 import sys
 import os
-import time
 import pandas as pd
 from datetime import datetime, timedelta
 from typing import List
@@ -19,63 +18,69 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspa
 
 from prefect import flow, task
 from prefect.task_runners import ThreadPoolTaskRunner
-from schedule import logger, ts_collector
+from schedule import logger, ts_collector, get_date_range_list
 
 
-def collect_and_save_moneyflow_public(method: str, target_table: str, quotes_name: str, trade_date: str, 
-                           max_retries: int = 100, retry_interval: int = 5,
-                           conflict_columns: List[str] = None, **kwargs):
+def prefix_log_print(report_name: str, level: str, message: str):
+    getattr(logger, level)(f"[{report_name}] {message}")
+
+
+def collect_and_save_moneyflow_public(method: str, target_table: str, quotes_name: str,
+                           conflict_columns: List[str] = None, page_size: int = 2000, **kwargs):
     """采集股票资金流数据并保存到数据库（公共函数）
     
     Args:
         method: Tushare API 方法名
         target_table: 目标数据库表名
         quotes_name: 行情名称(用于日志)
-        trade_date: 交易日期
-        max_retries: 最大重试次数(默认100次)
-        retry_interval: 重试间隔秒数(默认5秒)
         conflict_columns: 冲突判断列名列表(默认None则使用TS_CODE, TRADE_DATE)
-        **kwargs: 动态参数
+        page_size: 分页大小(默认2000)
+        **kwargs: 动态参数(包括trade_date等)
     """
     if conflict_columns is None:
         conflict_columns = ['TS_CODE', 'TRADE_DATE']
     
     params = {
         'method': method,
-        'trade_date': trade_date,
         'fields': '*'
     }
     params.update(kwargs)
-    logger.info(f"采集参数: {params}")
+    prefix_log_print(quotes_name, 'info', f"采集参数: {params}")
 
-    for attempt in range(1, max_retries + 1):
-        try:
-            data = ts_collector.collect(**params)
-
-            if data is not None and not data.empty:
-                result = ts_collector.save(
-                    data,
-                    target_table=target_table,
-                    insert_mode='incremental',
-                    conflict_columns=conflict_columns
-                )
-                
-                return result is not None and result > 0
-            else:
-                return True
-                
-        except Exception as e:
-            logger.error(f"[{quotes_name}] 第{attempt}次尝试失败: {e}")
-            
-        if attempt < max_retries:
-            logger.info(f"[{quotes_name}] 等待{retry_interval}秒后进行第{attempt + 1}次重试...")
-            time.sleep(retry_interval)
+    all_data = []
+    offset = 0
     
-    logger.error(f"[{quotes_name}] 已达到最大重试次数({max_retries})，任务失败")
-    return False
+    while True:
+        page_params = {**params, 'limit': page_size, 'offset': offset}
+        
+        data = ts_collector.collect(**page_params)
+        
+        if data is None or data.empty:
+            if not all_data:
+                prefix_log_print(quotes_name, 'info', "无数据需要保存")
+                return True
+            
+            combined_data = pd.concat(all_data, ignore_index=True)
+            before_dedup = len(combined_data)
+            combined_data = combined_data.drop_duplicates(subset=conflict_columns, keep='first')
+            after_dedup = len(combined_data)
+            prefix_log_print(quotes_name, 'info', f"采集完成,共 {before_dedup} 条数据, 去重后 {after_dedup} 条")
+            
+            if ts_collector.save(combined_data, target_table=target_table, insert_mode='incremental', conflict_columns=conflict_columns):
+                prefix_log_print(quotes_name, 'info', f"数据保存成功(incremental),共 {len(combined_data)} 条")
+                return True
+            
+            prefix_log_print(quotes_name, 'error', "数据保存失败")
+            return False
+        
+        page_count = len(data)
+        prefix_log_print(quotes_name, 'info', f"第{offset//page_size + 1}页,获取 {page_count} 条数据")
+        
+        all_data.append(data)
+        offset += page_size
 
 
-@task(name="collect_and_save_moneyflow")
+@task(name="collect_and_save_moneyflow", retries=100, retry_delay_seconds=5)
 def collect_and_save_moneyflow(trade_date: str):
     """采集股票资金流数据并保存到数据库"""
     return collect_and_save_moneyflow_public(
@@ -86,18 +91,7 @@ def collect_and_save_moneyflow(trade_date: str):
     )
 
 
-@task(name="collect_and_save_moneyflow_ths")
-def collect_and_save_moneyflow_ths(trade_date: str):
-    """采集股票资金流数据_同花顺并保存到数据库"""
-    return collect_and_save_moneyflow_public(
-        method='moneyflow_ths',
-        target_table='aistockzml_tushare_moneyflow_ths',
-        quotes_name='moneyflow_ths',
-        trade_date=trade_date
-    )
-
-
-@task(name="collect_and_save_moneyflow_dc")
+@task(name="collect_and_save_moneyflow_dc", retries=100, retry_delay_seconds=5)
 def collect_and_save_moneyflow_dc(trade_date: str):
     """采集股票资金流数据_东方财富并保存到数据库"""
     return collect_and_save_moneyflow_public(
@@ -107,29 +101,8 @@ def collect_and_save_moneyflow_dc(trade_date: str):
         trade_date=trade_date
     )
 
-@task(name="collect_and_save_moneyflow_cnt_ths")
-def collect_and_save_moneyflow_cnt_ths(trade_date: str):
-    """采集同花顺概念板块资金流向(THS)并保存到数据库"""
-    return collect_and_save_moneyflow_public(
-        method='moneyflow_cnt_ths',
-        target_table='aistockzml_tushare_moneyflow_cnt_ths',
-        quotes_name='moneyflow_cnt_ths',
-        trade_date=trade_date
-    )
 
-
-@task(name="collect_and_save_moneyflow_ind_ths")
-def collect_and_save_moneyflow_ind_ths(trade_date: str):
-    """采集同花顺行业板块资金流向(THS)并保存到数据库"""
-    return collect_and_save_moneyflow_public(
-        method='moneyflow_ind_ths',
-        target_table='aistockzml_tushare_moneyflow_ind_ths',
-        quotes_name='moneyflow_ind_ths',
-        trade_date=trade_date
-    )
-
-
-@task(name="collect_and_save_moneyflow_ind_dc")
+@task(name="collect_and_save_moneyflow_ind_dc", retries=100, retry_delay_seconds=5)
 def collect_and_save_moneyflow_ind_dc(trade_date: str):
     """采集东财概念及行业板块资金流向（DC）并保存到数据库"""
     return collect_and_save_moneyflow_public(
@@ -137,11 +110,11 @@ def collect_and_save_moneyflow_ind_dc(trade_date: str):
         target_table='aistockzml_tushare_moneyflow_ind_dc',
         quotes_name='moneyflow_ind_dc',
         trade_date=trade_date,
-        conflict_columns=['INS_CODE', 'TRADE_DATE']
+        conflict_columns=['INS_CODE', 'TRADE_DATE', 'CONTENT_TYPE']
     )
     
 
-@task(name="collect_and_save_moneyflow_mkt_dc")
+@task(name="collect_and_save_moneyflow_mkt_dc", retries=100, retry_delay_seconds=5)
 def collect_and_save_moneyflow_mkt_dc(trade_date: str):
     """采集大盘资金流向（DC）并保存到数据库"""
     return collect_and_save_moneyflow_public(
@@ -149,11 +122,11 @@ def collect_and_save_moneyflow_mkt_dc(trade_date: str):
         target_table='aistockzml_tushare_moneyflow_mkt_dc',
         quotes_name='moneyflow_mkt_dc',
         trade_date=trade_date,
-        conflict_columns=['ID']
+        conflict_columns=['TRADE_DATE']
     )
 
 
-@task(name="collect_and_save_moneyflow_hsgt")
+@task(name="collect_and_save_moneyflow_hsgt", retries=100, retry_delay_seconds=5)
 def collect_and_save_moneyflow_hsgt(trade_date: str):
     """采集沪深港通资金流向并保存到数据库"""
     return collect_and_save_moneyflow_public(
@@ -165,29 +138,23 @@ def collect_and_save_moneyflow_hsgt(trade_date: str):
     )
 
 
-
-
 @flow(name="股票资金流数据采集流程")
 def moneyflow_flow():
     """资金流数据采集主流程"""
-    logger.info("=" * 50)
-    logger.info("开始执行定时任务")
-    logger.info(f"执行时间: {datetime.now()}")
-    logger.info("=" * 50)
+    prefix_log_print('moneyflow', 'info', "=" * 50)
+    prefix_log_print('moneyflow', 'info', "开始执行定时任务")
+    prefix_log_print('moneyflow', 'info', f"执行时间: {datetime.now()}")
     
-    today = '20260212'
-    # collect_and_save_moneyflow(today)
-    # collect_and_save_moneyflow_ths(today)
-    # collect_and_save_moneyflow_dc(today)
-    # collect_and_save_moneyflow_cnt_ths(today)
-    # collect_and_save_moneyflow_ind_ths(today)
-    # collect_and_save_moneyflow_ind_dc(today)    
-    # collect_and_save_moneyflow_mkt_dc(today)
-    collect_and_save_moneyflow_hsgt(today)
+    base_date = '20260213'
+    date_range_list = get_date_range_list(base_date, start_days_ago=30, end_days_after=0)
+    prefix_log_print('moneyflow', 'info', f"日期范围: {date_range_list}")
 
-    logger.info("=" * 50)
-    logger.info("定时任务完成")
-    logger.info("=" * 50)   
+    for trade_date in date_range_list:
+        collect_and_save_moneyflow(trade_date)
+        collect_and_save_moneyflow_dc(trade_date)
+        collect_and_save_moneyflow_ind_dc(trade_date)    
+        collect_and_save_moneyflow_mkt_dc(trade_date)
+        collect_and_save_moneyflow_hsgt(trade_date)
 
 
 if __name__ == "__main__":
@@ -196,4 +163,3 @@ if __name__ == "__main__":
     print("=" * 50)
     moneyflow_flow()
     print("\n测试完成!")
-

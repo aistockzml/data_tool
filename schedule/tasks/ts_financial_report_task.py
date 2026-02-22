@@ -246,7 +246,7 @@ def financial_report_flow():
     #     collect_and_save_fina_indicator(period)   
     #     collect_and_save_disclosure_date(end_date=period)
 
-    dividend_dates = get_date_range_list(today, start_days_ago=1825, end_days_ago=0)
+    dividend_dates = get_date_range_list(today, start_days_ago=1825, end_days_after=0)
     logger.info(f"近10天分红公告日期列表: {dividend_dates}")
 
     for ann_date in dividend_dates:
