@@ -14,10 +14,10 @@ description: 解析Tushare接口返回字段，自动生成带中文注释的MyS
 ```python
 import tushare as ts
 
-token = 'c26e3f2b758e67f46d3af7cb8273f20c178dc2919ee46318e837fc536f98'
+token = '85de70a887b846af557d7d89c8532be1b9120eb279c949a3689ac20135b1'
 pro = ts.pro_api(token)
 pro._DataApi__token = token
-pro._DataApi__http_url = 'http://lianghua.9vvn.com'
+pro._DataApi__http_url = 'http://lianghua.nanyangqiankun.top'
 ```
 
 ## 常用Tushare接口列表
@@ -83,10 +83,10 @@ pip install tushare
 ```python
 import tushare as ts
 
-token = 'c26e3f2b758e67f46d3af7cb8273f20c178dc2919ee46318e837fc536f98'
+token = '85de70a887b846af557d7d89c8532be1b9120eb279c949a3689ac20135b1'
 pro = ts.pro_api(token)
 pro._DataApi__token = token
-pro._DataApi__http_url = 'http://lianghua.9vvn.com'
+pro._DataApi__http_url = 'http://lianghua.nanyangqiankun.top'
 
 api_name = '接口名称'
 # 根据接口要求传入必选参数，或用户提供输入的参数值

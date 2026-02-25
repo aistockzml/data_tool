@@ -1,0 +1,115 @@
+[2026-02-26 01:26:49] [INFO] [tushare-collect] ==================================================
+[2026-02-26 01:26:49] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 01:26:49] [INFO] [tushare-collect] 执行时间: 2026-02-26 01:26:49.636714
+[2026-02-26 01:26:49] [INFO] [tushare-collect] [dc_daily] 开始采集 概念板块 数据
+[2026-02-26 01:26:49] [INFO] [tushare-collect] [dc_daily_概念板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260226', 'idx_type': '概念板块'}
+[2026-02-26 01:26:49] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:26:50] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:26:50] [INFO] [tushare-collect] [dc_daily_概念板块] 无数据需要保存
+[2026-02-26 01:26:50] [INFO] [tushare-collect] [dc_daily] 开始采集 行业板块 数据
+[2026-02-26 01:26:50] [INFO] [tushare-collect] [dc_daily_行业板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260226', 'idx_type': '行业板块'}
+[2026-02-26 01:26:50] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:26:50] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:26:50] [INFO] [tushare-collect] [dc_daily_行业板块] 无数据需要保存
+[2026-02-26 01:26:50] [INFO] [tushare-collect] [dc_daily] 开始采集 地域板块 数据
+[2026-02-26 01:26:50] [INFO] [tushare-collect] [dc_daily_地域板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260226', 'idx_type': '地域板块'}
+[2026-02-26 01:26:50] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:26:50] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:26:50] [INFO] [tushare-collect] [dc_daily_地域板块] 无数据需要保存
+[2026-02-26 01:27:21] [INFO] [tushare-collect] ==================================================
+[2026-02-26 01:27:21] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 01:27:21] [INFO] [tushare-collect] 执行时间: 2026-02-26 01:27:21.787409
+[2026-02-26 01:27:21] [INFO] [tushare-collect] [dc_daily] 开始采集 概念板块 数据
+[2026-02-26 01:27:21] [INFO] [tushare-collect] [dc_daily_概念板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260225', 'idx_type': '概念板块'}
+[2026-02-26 01:27:21] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:27:23] [INFO] [tushare-collect] 成功采集466条dc_daily数据
+[2026-02-26 01:27:23] [INFO] [tushare-collect] [dc_daily_概念板块] 第1页,获取 466 条数据
+[2026-02-26 01:27:23] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:27:23] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:27:23] [INFO] [tushare-collect] [dc_daily_概念板块] 采集完成,共 466 条数据, 去重后 466 条
+[2026-02-26 01:27:23] [INFO] [tushare-collect] upsert 受影响 466 行
+[2026-02-26 01:27:23] [INFO] [tushare-collect] 保存 466 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 01:27:23] [INFO] [tushare-collect] [dc_daily_概念板块] 数据保存成功(incremental),共 466 条
+[2026-02-26 01:27:23] [INFO] [tushare-collect] [dc_daily] 开始采集 行业板块 数据
+[2026-02-26 01:27:23] [INFO] [tushare-collect] [dc_daily_行业板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260225', 'idx_type': '行业板块'}
+[2026-02-26 01:27:23] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:27:23] [INFO] [tushare-collect] 成功采集498条dc_daily数据
+[2026-02-26 01:27:23] [INFO] [tushare-collect] [dc_daily_行业板块] 第1页,获取 498 条数据
+[2026-02-26 01:27:23] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:27:24] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:27:24] [INFO] [tushare-collect] [dc_daily_行业板块] 采集完成,共 498 条数据, 去重后 498 条
+[2026-02-26 01:27:24] [INFO] [tushare-collect] upsert 受影响 498 行
+[2026-02-26 01:27:24] [INFO] [tushare-collect] 保存 498 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 01:27:24] [INFO] [tushare-collect] [dc_daily_行业板块] 数据保存成功(incremental),共 498 条
+[2026-02-26 01:27:24] [INFO] [tushare-collect] [dc_daily] 开始采集 地域板块 数据
+[2026-02-26 01:27:24] [INFO] [tushare-collect] [dc_daily_地域板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260225', 'idx_type': '地域板块'}
+[2026-02-26 01:27:24] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:27:24] [INFO] [tushare-collect] 成功采集31条dc_daily数据
+[2026-02-26 01:27:24] [INFO] [tushare-collect] [dc_daily_地域板块] 第1页,获取 31 条数据
+[2026-02-26 01:27:24] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:27:24] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:27:24] [INFO] [tushare-collect] [dc_daily_地域板块] 采集完成,共 31 条数据, 去重后 31 条
+[2026-02-26 01:27:24] [INFO] [tushare-collect] upsert 受影响 31 行
+[2026-02-26 01:27:24] [INFO] [tushare-collect] 保存 31 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 01:27:24] [INFO] [tushare-collect] [dc_daily_地域板块] 数据保存成功(incremental),共 31 条
+[2026-02-26 01:38:43] [INFO] [tushare-collect] ==================================================
+[2026-02-26 01:38:43] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 01:38:43] [INFO] [tushare-collect] 执行时间: 2026-02-26 01:38:43.552633
+[2026-02-26 01:38:43] [INFO] [tushare-collect] [dc_daily] 开始采集 概念板块 数据
+[2026-02-26 01:38:43] [INFO] [tushare-collect] [dc_daily_概念板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260224', 'idx_type': '概念板块'}
+[2026-02-26 01:38:43] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:38:44] [INFO] [tushare-collect] 成功采集466条dc_daily数据
+[2026-02-26 01:38:44] [INFO] [tushare-collect] [dc_daily_概念板块] 第1页,获取 466 条数据
+[2026-02-26 01:38:44] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:38:45] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:38:45] [INFO] [tushare-collect] [dc_daily_概念板块] 采集完成,共 466 条数据, 去重后 466 条
+[2026-02-26 01:38:45] [INFO] [tushare-collect] upsert 受影响 466 行
+[2026-02-26 01:38:45] [INFO] [tushare-collect] 保存 466 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 01:38:45] [INFO] [tushare-collect] [dc_daily] 开始采集 行业板块 数据
+[2026-02-26 01:38:45] [INFO] [tushare-collect] [dc_daily_行业板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260224', 'idx_type': '行业板块'}
+[2026-02-26 01:38:45] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 成功采集498条dc_daily数据
+[2026-02-26 01:38:47] [INFO] [tushare-collect] [dc_daily_行业板块] 第1页,获取 498 条数据
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:38:47] [INFO] [tushare-collect] [dc_daily_行业板块] 采集完成,共 498 条数据, 去重后 498 条
+[2026-02-26 01:38:47] [INFO] [tushare-collect] upsert 受影响 498 行
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 保存 498 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 01:38:47] [INFO] [tushare-collect] [dc_daily] 开始采集 地域板块 数据
+[2026-02-26 01:38:47] [INFO] [tushare-collect] [dc_daily_地域板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260224', 'idx_type': '地域板块'}
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 成功采集31条dc_daily数据
+[2026-02-26 01:38:47] [INFO] [tushare-collect] [dc_daily_地域板块] 第1页,获取 31 条数据
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:38:47] [INFO] [tushare-collect] [dc_daily_地域板块] 采集完成,共 31 条数据, 去重后 31 条
+[2026-02-26 01:38:47] [INFO] [tushare-collect] upsert 受影响 31 行
+[2026-02-26 01:38:47] [INFO] [tushare-collect] 保存 31 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 01:40:54] [INFO] [tushare-collect] ==================================================
+[2026-02-26 01:40:54] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 01:40:54] [INFO] [tushare-collect] 执行时间: 2026-02-26 01:40:54.761390
+[2026-02-26 01:40:54] [INFO] [tushare-collect] [dc_daily] 开始采集 概念板块 数据
+[2026-02-26 01:40:54] [INFO] [tushare-collect] [dc_daily_概念板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260224', 'idx_type': '概念板块'}
+[2026-02-26 01:40:54] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:41:13] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:41:13] [INFO] [tushare-collect] [dc_daily_概念板块] 无数据需要保存
+[2026-02-26 01:41:13] [INFO] [tushare-collect] [dc_daily] 开始采集 行业板块 数据
+[2026-02-26 01:41:13] [INFO] [tushare-collect] [dc_daily_行业板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260224', 'idx_type': '行业板块'}
+[2026-02-26 01:41:13] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:41:13] [INFO] [tushare-collect] 成功采集498条dc_daily数据
+[2026-02-26 01:41:13] [INFO] [tushare-collect] [dc_daily_行业板块] 第1页,获取 498 条数据
+[2026-02-26 01:41:13] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:41:14] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:41:14] [INFO] [tushare-collect] [dc_daily_行业板块] 采集完成,共 498 条数据, 去重后 498 条
+[2026-02-26 01:41:14] [INFO] [tushare-collect] upsert 受影响 498 行
+[2026-02-26 01:41:14] [INFO] [tushare-collect] 保存 498 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 01:41:14] [INFO] [tushare-collect] [dc_daily] 开始采集 地域板块 数据
+[2026-02-26 01:41:14] [INFO] [tushare-collect] [dc_daily_地域板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260224', 'idx_type': '地域板块'}
+[2026-02-26 01:41:14] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:41:14] [INFO] [tushare-collect] 成功采集31条dc_daily数据
+[2026-02-26 01:41:14] [INFO] [tushare-collect] [dc_daily_地域板块] 第1页,获取 31 条数据
+[2026-02-26 01:41:14] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 01:41:15] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 01:41:15] [INFO] [tushare-collect] [dc_daily_地域板块] 采集完成,共 31 条数据, 去重后 31 条
+[2026-02-26 01:41:15] [INFO] [tushare-collect] upsert 受影响 31 行
+[2026-02-26 01:41:15] [INFO] [tushare-collect] 保存 31 条数据到aistockzml_tushare_dc_daily，模式: incremental

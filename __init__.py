@@ -46,7 +46,7 @@ except ImportError:
     _STORAGE_AVAILABLE = False
 
 from .collector import DataConnector, TushareConnector, AkshareConnector
-from .collector import DataCollector, TushareDataCollector, AkshareDataCollector
+from .collector import DataCollector, TushareDataCollector
 
 __all__ = [
     'ConfigParser',
@@ -58,5 +58,4 @@ __all__ = [
     'AkshareConnector',
     'DataCollector',
     'TushareDataCollector',
-    'AkshareDataCollector',
 ]

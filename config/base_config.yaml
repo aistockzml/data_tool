@@ -29,5 +29,5 @@ logger:
 # 数据源配置
 data_sources:
   tushare:
-    token: c26e3f2b758e67f46d3af7cb8273f20c178dc2919ee46318e837fc536f98
+    token: 85de70a887b846af557d7d89c8532be1b9120eb279c949a3689ac20135b1
   akshare: {}

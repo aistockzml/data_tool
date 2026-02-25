@@ -119,7 +119,7 @@ class TushareConnector(DataConnector):
             import tushare as ts
             pro_api = ts.pro_api(self.token)
             pro_api._DataApi__token = self.token
-            pro_api._DataApi__http_url = 'http://lianghua.9vvn.com'
+            pro_api._DataApi__http_url = 'http://lianghua.nanyangqiankun.top'
             return pro_api
         except ImportError:
             raise ImportError("请安装tushare: pip install tushare")
@@ -165,4 +165,3 @@ class AkshareConnector(DataConnector):
 
 from .data_collector import DataCollector
 from .tushare_collector import TushareDataCollector
-from .akshare_collector import AkshareDataCollector
