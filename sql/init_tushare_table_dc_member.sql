@@ -1,0 +1,17 @@
+-- 接口名称：dc_member
+-- 东方财富板块成分
+CREATE TABLE IF NOT EXISTS aistockzml_tushare_dc_member (
+    ID INT COMMENT '主键ID',
+    TS_CODE VARCHAR(20) COMMENT '板块指数代码',
+    CON_CODE VARCHAR(20) COMMENT '成分股票代码',
+    TRADE_DATE VARCHAR(8) COMMENT '交易日期',
+    NAME VARCHAR(100) COMMENT '成分股名称',
+    CATEGORY VARCHAR(20) COMMENT '板块类型',
+    CREATE_BY VARCHAR(50) COMMENT '创建人',
+    CREATE_TIME DATETIME COMMENT '创建时间',
+    UPDATE_BY VARCHAR(50) COMMENT '更新人',
+    UPDATE_TIME DATETIME COMMENT '更新时间',
+    INSERT_TIME VARCHAR(20) COMMENT '插入时间',
+    etl_time DATETIME COMMENT '数据加载时间',
+    PRIMARY KEY (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='东方财富板块成分';

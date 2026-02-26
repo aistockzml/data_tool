@@ -1,0 +1,162 @@
+[2026-02-27 00:13:06] [INFO] [tushare-collect] ==================================================
+[2026-02-27 00:13:06] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-27 00:13:06] [INFO] [tushare-collect] 执行时间: 2026-02-27 00:13:06.294131
+[2026-02-27 00:13:06] [INFO] [tushare-collect] [dc_index] 采集参数: {'method': 'dc_index', 'fields': '*', 'trade_date': '20260224'}
+[2026-02-27 00:13:06] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-27 00:13:11] [INFO] [tushare-collect] 成功采集995条dc_index数据
+[2026-02-27 00:13:11] [INFO] [tushare-collect] [dc_index] 第1页,获取 995 条数据
+[2026-02-27 00:13:11] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-27 00:13:11] [INFO] [tushare-collect] 成功采集dc_index数据，数据为空
+[2026-02-27 00:13:11] [INFO] [tushare-collect] [dc_index] 采集完成,共 995 条数据, 去重后 995 条
+[2026-02-27 00:13:12] [INFO] [tushare-collect] upsert 受影响 995 行
+[2026-02-27 00:13:12] [INFO] [tushare-collect] 保存 995 条数据到aistockzml_tushare_dc_index，模式: incremental
+[2026-02-27 00:29:46] [INFO] [tushare-collect] ==================================================
+[2026-02-27 00:29:46] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-27 00:29:46] [INFO] [tushare-collect] 执行时间: 2026-02-27 00:29:46.601318
+[2026-02-27 00:29:46] [INFO] [tushare-collect] [dc_member] 采集参数: {'method': 'dc_member', 'fields': '*', 'trade_date': '20260226'}
+[2026-02-27 00:29:46] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:31:56] [INFO] [tushare-collect] ==================================================
+[2026-02-27 00:31:56] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-27 00:31:56] [INFO] [tushare-collect] 执行时间: 2026-02-27 00:31:56.960457
+[2026-02-27 00:31:56] [INFO] [tushare-collect] [dc_member] 采集参数: {'method': 'dc_member', 'fields': '*', 'trade_date': '20260226'}
+[2026-02-27 00:31:56] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:32:14] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:32:14] [INFO] [tushare-collect] [dc_member] 第1页,获取 2000 条数据
+[2026-02-27 00:32:14] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:32:29] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:32:29] [INFO] [tushare-collect] [dc_member] 第2页,获取 2000 条数据
+[2026-02-27 00:32:29] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:32:44] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:32:44] [INFO] [tushare-collect] [dc_member] 第3页,获取 2000 条数据
+[2026-02-27 00:32:44] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:32:56] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:32:56] [INFO] [tushare-collect] [dc_member] 第4页,获取 2000 条数据
+[2026-02-27 00:32:56] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:33:07] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:33:07] [INFO] [tushare-collect] [dc_member] 第5页,获取 2000 条数据
+[2026-02-27 00:33:07] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:33:27] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:33:27] [INFO] [tushare-collect] [dc_member] 第6页,获取 2000 条数据
+[2026-02-27 00:33:27] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:33:41] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:33:41] [INFO] [tushare-collect] [dc_member] 第7页,获取 2000 条数据
+[2026-02-27 00:33:41] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:33:49] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:33:49] [INFO] [tushare-collect] [dc_member] 第8页,获取 2000 条数据
+[2026-02-27 00:33:49] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:33:55] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:33:55] [INFO] [tushare-collect] [dc_member] 第9页,获取 2000 条数据
+[2026-02-27 00:33:55] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:34:10] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:34:10] [INFO] [tushare-collect] [dc_member] 第10页,获取 2000 条数据
+[2026-02-27 00:34:10] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:34:19] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:34:19] [INFO] [tushare-collect] [dc_member] 第11页,获取 2000 条数据
+[2026-02-27 00:34:19] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:34:22] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:34:22] [INFO] [tushare-collect] [dc_member] 第12页,获取 2000 条数据
+[2026-02-27 00:34:22] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:34:32] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:34:32] [INFO] [tushare-collect] [dc_member] 第13页,获取 2000 条数据
+[2026-02-27 00:34:32] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:34:44] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:34:44] [INFO] [tushare-collect] [dc_member] 第14页,获取 2000 条数据
+[2026-02-27 00:34:44] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:34:56] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:34:56] [INFO] [tushare-collect] [dc_member] 第15页,获取 2000 条数据
+[2026-02-27 00:34:56] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:35:03] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:35:03] [INFO] [tushare-collect] [dc_member] 第16页,获取 2000 条数据
+[2026-02-27 00:35:03] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:35:12] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:35:12] [INFO] [tushare-collect] [dc_member] 第17页,获取 2000 条数据
+[2026-02-27 00:35:12] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:35:22] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:35:22] [INFO] [tushare-collect] [dc_member] 第18页,获取 2000 条数据
+[2026-02-27 00:35:22] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:35:27] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:35:27] [INFO] [tushare-collect] [dc_member] 第19页,获取 2000 条数据
+[2026-02-27 00:35:27] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:35:40] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:35:40] [INFO] [tushare-collect] [dc_member] 第20页,获取 2000 条数据
+[2026-02-27 00:35:40] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:36:09] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:36:09] [INFO] [tushare-collect] [dc_member] 第21页,获取 2000 条数据
+[2026-02-27 00:36:09] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:36:29] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:36:29] [INFO] [tushare-collect] [dc_member] 第22页,获取 2000 条数据
+[2026-02-27 00:36:29] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:36:37] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:36:37] [INFO] [tushare-collect] [dc_member] 第23页,获取 2000 条数据
+[2026-02-27 00:36:37] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:36:48] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:36:48] [INFO] [tushare-collect] [dc_member] 第24页,获取 2000 条数据
+[2026-02-27 00:36:48] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:37:00] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:37:00] [INFO] [tushare-collect] [dc_member] 第25页,获取 2000 条数据
+[2026-02-27 00:37:00] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:38:20] [INFO] [tushare-collect] [dc_member] 采集参数: {'method': 'dc_member', 'fields': '*', 'trade_date': '20260226'}
+[2026-02-27 00:38:20] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:38:31] [INFO] [tushare-collect] 成功采集2000条dc_member数据
+[2026-02-27 00:38:31] [INFO] [tushare-collect] [dc_member] 第1页,获取 2000 条数据
+[2026-02-27 00:38:31] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:40:10] [INFO] [tushare-collect] ==================================================
+[2026-02-27 00:40:10] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-27 00:40:10] [INFO] [tushare-collect] 执行时间: 2026-02-27 00:40:10.843805
+[2026-02-27 00:40:10] [INFO] [tushare-collect] [dc_member] 采集参数: {'method': 'dc_member', 'fields': '*', 'trade_date': '20260226'}
+[2026-02-27 00:40:10] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:41:02] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:41:02] [INFO] [tushare-collect] [dc_member] 第1页,获取 5000 条数据
+[2026-02-27 00:41:02] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:41:58] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:41:58] [INFO] [tushare-collect] [dc_member] 第2页,获取 5000 条数据
+[2026-02-27 00:41:58] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:42:33] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:42:33] [INFO] [tushare-collect] [dc_member] 第3页,获取 5000 条数据
+[2026-02-27 00:42:33] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:42:50] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:42:50] [INFO] [tushare-collect] [dc_member] 第4页,获取 5000 条数据
+[2026-02-27 00:42:50] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:43:00] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:43:00] [INFO] [tushare-collect] [dc_member] 第5页,获取 5000 条数据
+[2026-02-27 00:43:00] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:43:11] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:43:11] [INFO] [tushare-collect] [dc_member] 第6页,获取 5000 条数据
+[2026-02-27 00:43:11] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:43:28] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:43:28] [INFO] [tushare-collect] [dc_member] 第7页,获取 5000 条数据
+[2026-02-27 00:43:28] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:43:37] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:43:37] [INFO] [tushare-collect] [dc_member] 第8页,获取 5000 条数据
+[2026-02-27 00:43:37] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:43:48] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:43:48] [INFO] [tushare-collect] [dc_member] 第9页,获取 5000 条数据
+[2026-02-27 00:43:48] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:43:52] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:43:52] [INFO] [tushare-collect] [dc_member] 第10页,获取 5000 条数据
+[2026-02-27 00:43:52] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:08] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:44:08] [INFO] [tushare-collect] [dc_member] 第11页,获取 5000 条数据
+[2026-02-27 00:44:08] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:14] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:44:14] [INFO] [tushare-collect] [dc_member] 第12页,获取 5000 条数据
+[2026-02-27 00:44:14] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:21] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:44:21] [INFO] [tushare-collect] [dc_member] 第13页,获取 5000 条数据
+[2026-02-27 00:44:21] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:25] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:44:25] [INFO] [tushare-collect] [dc_member] 第14页,获取 5000 条数据
+[2026-02-27 00:44:25] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:32] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:44:32] [INFO] [tushare-collect] [dc_member] 第15页,获取 5000 条数据
+[2026-02-27 00:44:32] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:42] [INFO] [tushare-collect] 成功采集5000条dc_member数据
+[2026-02-27 00:44:42] [INFO] [tushare-collect] [dc_member] 第16页,获取 5000 条数据
+[2026-02-27 00:44:42] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:47] [INFO] [tushare-collect] 成功采集1307条dc_member数据
+[2026-02-27 00:44:47] [INFO] [tushare-collect] [dc_member] 第17页,获取 1307 条数据
+[2026-02-27 00:44:47] [INFO] [tushare-collect] 开始采集Tushare数据: dc_member
+[2026-02-27 00:44:47] [INFO] [tushare-collect] 成功采集dc_member数据，数据为空
+[2026-02-27 00:44:47] [INFO] [tushare-collect] [dc_member] 采集完成,共 81307 条数据, 去重后 81307 条
+[2026-02-27 00:45:00] [INFO] [tushare-collect] upsert 受影响 81307 行
+[2026-02-27 00:45:00] [INFO] [tushare-collect] 保存 81307 条数据到aistockzml_tushare_dc_member，模式: incremental

@@ -99,6 +99,32 @@ def collect_and_save_dc_daily(trade_date: str):
         )
 
 
+@task(name="collect_and_save_dc_index", retries=100, retry_delay_seconds=5)
+def collect_and_save_dc_index(trade_date: str):
+    """采集东方财富概念板块并保存到数据库"""
+    return collect_and_save_sectors_public(
+        method='dc_index',
+        target_table='aistockzml_tushare_dc_index',
+        quotes_name='dc_index',
+        trade_date=trade_date,
+        conflict_columns=['TS_CODE', 'TRADE_DATE']
+    )
+
+
+@task(name="collect_and_save_dc_member", retries=100, retry_delay_seconds=5)
+def collect_and_save_dc_member(trade_date: str):
+    """采集东方财富行业板块成员并保存到数据库"""
+    return collect_and_save_sectors_public(
+        method='dc_member',
+        target_table='aistockzml_tushare_dc_member',
+        quotes_name='dc_member',
+        trade_date=trade_date,
+        page_size=5000,
+        conflict_columns=['TS_CODE', 'TRADE_DATE', 'CON_CODE']
+    )
+
+
+
 @flow(name="股票板块数据采集流程")
 def sectors_flow():
     """板块数据采集主流程"""
@@ -106,8 +132,11 @@ def sectors_flow():
     logger.info("开始执行定时任务")
     logger.info(f"执行时间: {datetime.now()}")
 
-    today = '20260224'
-    collect_and_save_dc_daily(today)
+    today = '20260226'
+    # collect_and_save_dc_daily(today)
+    # collect_and_save_dc_index(today)
+    collect_and_save_dc_member(today)
+
 
 
 if __name__ == "__main__":

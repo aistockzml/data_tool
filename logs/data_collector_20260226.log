@@ -113,3 +113,79 @@
 [2026-02-26 01:41:15] [INFO] [tushare-collect] [dc_daily_地域板块] 采集完成,共 31 条数据, 去重后 31 条
 [2026-02-26 01:41:15] [INFO] [tushare-collect] upsert 受影响 31 行
 [2026-02-26 01:41:15] [INFO] [tushare-collect] 保存 31 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 22:32:17] [INFO] [tushare-collect] ==================================================
+[2026-02-26 22:32:17] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 22:32:17] [INFO] [tushare-collect] 执行时间: 2026-02-26 22:32:17.873773
+[2026-02-26 22:32:17] [INFO] [tushare-collect] [dc_daily] 开始采集 概念板块 数据
+[2026-02-26 22:32:17] [INFO] [tushare-collect] [dc_daily_概念板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260226', 'idx_type': '概念板块'}
+[2026-02-26 22:32:17] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 22:32:58] [INFO] [tushare-collect] 成功采集466条dc_daily数据
+[2026-02-26 22:32:58] [INFO] [tushare-collect] [dc_daily_概念板块] 第1页,获取 466 条数据
+[2026-02-26 22:32:58] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 22:32:59] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 22:32:59] [INFO] [tushare-collect] [dc_daily_概念板块] 采集完成,共 466 条数据, 去重后 466 条
+[2026-02-26 22:32:59] [INFO] [tushare-collect] upsert 受影响 466 行
+[2026-02-26 22:32:59] [INFO] [tushare-collect] 保存 466 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 22:32:59] [INFO] [tushare-collect] [dc_daily] 开始采集 行业板块 数据
+[2026-02-26 22:32:59] [INFO] [tushare-collect] [dc_daily_行业板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260226', 'idx_type': '行业板块'}
+[2026-02-26 22:32:59] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 22:33:07] [INFO] [tushare-collect] 成功采集497条dc_daily数据
+[2026-02-26 22:33:07] [INFO] [tushare-collect] [dc_daily_行业板块] 第1页,获取 497 条数据
+[2026-02-26 22:33:07] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 22:33:08] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 22:33:08] [INFO] [tushare-collect] [dc_daily_行业板块] 采集完成,共 497 条数据, 去重后 497 条
+[2026-02-26 22:33:08] [INFO] [tushare-collect] upsert 受影响 497 行
+[2026-02-26 22:33:08] [INFO] [tushare-collect] 保存 497 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 22:33:08] [INFO] [tushare-collect] [dc_daily] 开始采集 地域板块 数据
+[2026-02-26 22:33:08] [INFO] [tushare-collect] [dc_daily_地域板块] 采集参数: {'method': 'dc_daily', 'fields': '*', 'trade_date': '20260226', 'idx_type': '地域板块'}
+[2026-02-26 22:33:08] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 22:33:09] [INFO] [tushare-collect] 成功采集31条dc_daily数据
+[2026-02-26 22:33:09] [INFO] [tushare-collect] [dc_daily_地域板块] 第1页,获取 31 条数据
+[2026-02-26 22:33:09] [INFO] [tushare-collect] 开始采集Tushare数据: dc_daily
+[2026-02-26 22:33:09] [INFO] [tushare-collect] 成功采集dc_daily数据，数据为空
+[2026-02-26 22:33:09] [INFO] [tushare-collect] [dc_daily_地域板块] 采集完成,共 31 条数据, 去重后 31 条
+[2026-02-26 22:33:09] [INFO] [tushare-collect] upsert 受影响 31 行
+[2026-02-26 22:33:09] [INFO] [tushare-collect] 保存 31 条数据到aistockzml_tushare_dc_daily，模式: incremental
+[2026-02-26 22:59:31] [INFO] [tushare-collect] ==================================================
+[2026-02-26 22:59:31] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 22:59:31] [INFO] [tushare-collect] 执行时间: 2026-02-26 22:59:31.836377
+[2026-02-26 22:59:31] [INFO] [tushare-collect] [dc_index] 采集参数: {'method': 'dc_index', 'fields': '*', 'trade_date': '20260226'}
+[2026-02-26 22:59:31] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-26 22:59:42] [INFO] [tushare-collect] 成功采集994条dc_index数据
+[2026-02-26 22:59:42] [INFO] [tushare-collect] [dc_index] 第1页,获取 994 条数据
+[2026-02-26 22:59:42] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-26 22:59:44] [INFO] [tushare-collect] 成功采集dc_index数据，数据为空
+[2026-02-26 22:59:44] [INFO] [tushare-collect] [dc_index] 采集完成,共 994 条数据, 去重后 994 条
+[2026-02-26 22:59:44] [INFO] [tushare-collect] upsert 受影响 994 行
+[2026-02-26 22:59:44] [INFO] [tushare-collect] 保存 994 条数据到aistockzml_tushare_dc_index，模式: incremental
+[2026-02-26 23:05:17] [INFO] [tushare-collect] ==================================================
+[2026-02-26 23:05:17] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 23:05:17] [INFO] [tushare-collect] 执行时间: 2026-02-26 23:05:17.226740
+[2026-02-26 23:05:17] [INFO] [tushare-collect] [dc_index] 采集参数: {'method': 'dc_index', 'fields': '*', 'trade_date': '20260225'}
+[2026-02-26 23:05:17] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-26 23:05:28] [INFO] [tushare-collect] 成功采集995条dc_index数据
+[2026-02-26 23:05:28] [INFO] [tushare-collect] [dc_index] 第1页,获取 995 条数据
+[2026-02-26 23:05:28] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-26 23:05:30] [INFO] [tushare-collect] 成功采集dc_index数据，数据为空
+[2026-02-26 23:05:30] [INFO] [tushare-collect] [dc_index] 采集完成,共 995 条数据, 去重后 995 条
+[2026-02-26 23:05:30] [INFO] [tushare-collect] upsert 受影响 995 行
+[2026-02-26 23:05:30] [INFO] [tushare-collect] 保存 995 条数据到aistockzml_tushare_dc_index，模式: incremental
+[2026-02-26 23:37:49] [INFO] [tushare-collect] ==================================================
+[2026-02-26 23:37:49] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 23:37:49] [INFO] [tushare-collect] 执行时间: 2026-02-26 23:37:49.428534
+[2026-02-26 23:37:49] [INFO] [tushare-collect] [dc_index] 采集参数: {'method': 'dc_index', 'fields': '*', 'trade_date': '20260225'}
+[2026-02-26 23:37:49] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-26 23:37:55] [INFO] [tushare-collect] 成功采集995条dc_index数据
+[2026-02-26 23:37:55] [INFO] [tushare-collect] [dc_index] 第1页,获取 995 条数据
+[2026-02-26 23:37:55] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-26 23:37:55] [INFO] [tushare-collect] 成功采集dc_index数据，数据为空
+[2026-02-26 23:37:55] [INFO] [tushare-collect] [dc_index] 采集完成,共 995 条数据, 去重后 995 条
+[2026-02-26 23:37:55] [INFO] [tushare-collect] upsert 受影响 995 行
+[2026-02-26 23:37:55] [INFO] [tushare-collect] 保存 995 条数据到aistockzml_tushare_dc_index，模式: incremental
+[2026-02-26 23:38:26] [INFO] [tushare-collect] ==================================================
+[2026-02-26 23:38:26] [INFO] [tushare-collect] 开始执行定时任务
+[2026-02-26 23:38:26] [INFO] [tushare-collect] 执行时间: 2026-02-26 23:38:26.113542
+[2026-02-26 23:38:26] [INFO] [tushare-collect] [dc_index] 采集参数: {'method': 'dc_index', 'fields': '*', 'trade_date': '20260223'}
+[2026-02-26 23:38:26] [INFO] [tushare-collect] 开始采集Tushare数据: dc_index
+[2026-02-26 23:38:26] [INFO] [tushare-collect] 成功采集dc_index数据，数据为空
+[2026-02-26 23:38:26] [INFO] [tushare-collect] [dc_index] 无数据需要保存
